@@ -13,7 +13,7 @@ const notoSerifGujarati = Noto_Serif_Gujarati({
 
 const TopMenu: React.FC = () => {
     return (
-      <header className="fixed top-0 left-0 w-full z-10 items-center">
+      <header className="relative top-0 left-0 w-full z-10 items-center">
         <div className="flex text-black flex items-center mx-auto p-5">
           
           <h1 className={`${notoSerifDisplay.className} text-3xl font-extralight font-serif tracking-widest pr-6`}>ARTISTA MAREA</h1>
