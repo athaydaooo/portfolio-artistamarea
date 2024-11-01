@@ -1,59 +1,58 @@
 "use client"; 
 
-import React, { useState } from 'react';
+import React from 'react';
 import Image from 'next/image';
 
-interface GalleryProps {
-  images: string[];
-}
-
-const Gallery: React.FC<GalleryProps> = ({ images }) => {
-    const [selectedImage, setSelectedImage] = useState(images[0]);
+const Gallery: React.FC = () => {
+    //const [selectedImage, setSelectedImage] = useState(images[0]);
+    const imgs: string[] = [
+        '/gallery/1.jpg',
+        '/gallery/2.jpg',
+        '/gallery/3.jpg',
+        '/gallery/4.jpg',
+        '/gallery/5.jpg',
+        '/gallery/6.jpg',
+        '/gallery/7.jpg',
+        '/gallery/8.jpg',
+    ];
 
 return (
-    <div>
-        <div>
-            <div className="flex flex-col md:flex-row items-start">
-                {images.map((img, index) => (
-                    <Image
-                        key={index}
-                        src={img}
-                        alt={`Thumbnail ${index}`}
-                        width={96}
-                        height={96}
-                        className={`cursor-pointer w-24 h-24 object-cover ${
-                            img === selectedImage ? "border-2 border-black" : ""
-                        }`}
-                        onClick={() => setSelectedImage(img)}
-                    />
-                ))}
-            </div>
-            <Image
-                src={selectedImage}
-                alt="Selected"
-                width={800}
-                height={600}
-                className="object-cover w-full h-96 md:h-auto"
-            />
-        </div>
+    <>
+        <div className="grid grid-rows-2 grid-cols-2 grid-cols-[auto,1fr] w-[15vw]">
 
-        <div className="md:hidden flex overflow-x-scroll gap-2 p-2">
-            {images.map((img, index) => (
-                <Image
-                    key={index}
-                    src={img}
-                    width={96}
-                    height={96}
-                    alt={`Thumbnail ${index}`}
-                    className={`cursor-pointer w-24 h-24 object-cover ${
-                        img === selectedImage ? "border-2 border-black" : ""
-                    }`}
-                    onClick={() => setSelectedImage(img)}
-                />
-            ))}
+            <div className="flex flex-col w-[5vw] justify-between mr-2" >
+
+                {imgs.map((img, index) => {
+                    const marginClass = index == 0 ? 'mb-1': index == imgs.length-1 ? 'mt-1' : 'my-1';
+
+                    return (
+                        <div key={index} className={`relative w-auto h-[6vh] ${marginClass}`} >
+                            <Image src={img} layout="fill" alt={img} className="object-cover" />
+                        </div>
+                    )
+                })}
+            
+            </div>
+
+            <div className='flex relative w-[40vw] col-span-1' >
+                <Image src="/gallery/1.jpg" fill alt="1" className="object-cover" />
+            </div>
+
+            <div className='col-span-2 flex justify-between items-center mt-3 h-[6vh]' >
+                {imgs.map((img, index) => {
+                    return (
+                        <div key={index} className={`relative w-[5vw] h-[6vh]`} >
+                            <Image src={img} layout="fill" alt={img}  className="object-cover" />
+                        </div>
+                    )
+                })}
+            </div>
+            
+
+
         </div>
-    </div>
-);
-};
+    </>
+)
+}
 
 export default Gallery;
