@@ -19,7 +19,7 @@ export default function Home() {
       {src: '/gallery/10.jpg', ratio: AspectRatio.ModernLandscape},
       {src: '/gallery/11.jpg', ratio: AspectRatio.ModernLandscape},
       {src: '/gallery/9.jpg', ratio: AspectRatio.ModernLandscape},
-      {src: '/gallery/1.jpg', ratio: AspectRatio.ModernLandscape},
+      {src: '/gallery/1.jpg', ratio: AspectRatio.Square},
       {src: '/gallery/2.jpg', ratio: AspectRatio.ClassicLandscape},
       {src: '/gallery/3.jpg', ratio: AspectRatio.ModernLandscape},
       {src: '/gallery/4.jpg', ratio: AspectRatio.ClassicLandscape},

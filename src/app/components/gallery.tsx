@@ -31,7 +31,7 @@ return (
                     return (
                         <div 
                             key={index} 
-                            className={`relative w-[5vw] aspect-[4/3] min-h-[40px]${marginClass}`}  
+                            className={`relative w-[5vw] aspect-[${AspectRatio.ClassicLandscape}] min-h-[40px]${marginClass}`}  
                             onMouseEnter={() => setHoveredImage(img)}
                             onMouseLeave={() => setHoveredImage(null)}
                             onMouseDownCapture={() => setSelectedImage(img)}
@@ -49,7 +49,7 @@ return (
             
             </div>
 
-            <div className='flex relative w-full col-span-1 aspect-[4/3]'>
+            <div className={`}flex relative w-full col-span-1 aspect-[${AspectRatio.ClassicLandscape}]`}>
                 <Image 
                     src={hoveredImage ? hoveredImage.src : selectedImage.src} 
                     fill 
@@ -65,7 +65,7 @@ return (
 
                     if(index < maxImagesPerScroll) return;
                     return (
-                        <div key={index} className={`relative w-[5vw] aspect-[4/3] min-h-[40px] ${marginClass}`}	 
+                        <div key={index} className={`relative w-[5vw] aspect-[${AspectRatio.ClassicLandscape}] min-h-[40px] ${marginClass}`}	 
                             onMouseEnter={() => setHoveredImage(img)}
                             onMouseLeave={() => setHoveredImage(null)}
                             onMouseDownCapture={() => setSelectedImage(img)}
