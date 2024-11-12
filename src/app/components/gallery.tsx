@@ -1,0 +1,136 @@
+"use client"; 
+
+import React, { useState } from 'react';
+import Image from 'next/image';
+import { AspectRatio } from '../types/aspect-ratio';
+
+interface GalleryProps {
+    images: [ImageData, ImageData, ImageData, ImageData, ImageData, ImageData, ImageData, ImageData, ImageData, ImageData, ImageData, ImageData, ImageData, ImageData, ImageData, ImageData, ImageData, ImageData, ImageData, ImageData];
+}
+
+interface ImageData {
+    src: string;
+    ratio: AspectRatio;
+}
+
+const Gallery: React.FC<GalleryProps> = ({ images }) => {
+    
+    const maxImagesPerScroll = images.length / 2;
+    const [selectedImage, setSelectedImage] = useState<ImageData>(images[0]);
+    const [hoveredImage, setHoveredImage] = useState<ImageData | null>(null);
+
+return (
+    <>
+        <div className="hidden lg:grid grid-cols-[auto,1fr] justify-center grid-rows-[auto,1fr] w-[60vw] h-auto my-4">
+
+            <div className="flex flex-col w-[5vw] justify-between mr-5 items-center">
+
+                {images.map((img, index) => {
+                    const marginClass = index == 0 ? 'mb-1': index == images.length-1 ? 'mt-1' : 'my-1';
+                    if(index >= maxImagesPerScroll) return;
+                    return (
+                        <div 
+                            key={index} 
+                            className={`relative w-[5vw] aspect-[4/3] min-h-[40px]${marginClass}`}  
+                            onMouseEnter={() => setHoveredImage(img)}
+                            onMouseLeave={() => setHoveredImage(null)}
+                            onMouseDownCapture={() => setSelectedImage(img)}
+                        >
+                            <Image 
+                                src={img.src} 
+                                fill            
+                                sizes="auto"                 
+                                alt={img.src} 
+                                className="object-cover" 
+                            />
+                        </div>
+                    )
+                })}
+            
+            </div>
+
+            <div className='flex relative w-full col-span-1 aspect-[4/3]'>
+                <Image 
+                    src={hoveredImage ? hoveredImage.src : selectedImage.src} 
+                    fill 
+                    sizes="auto" 
+                    alt="1" 
+                    className="object-cover" 
+                />
+            </div>
+
+            <div className='col-span-2 flex justify-between mt-5 h-[6vh]'>
+                {images.map((img, index) => {
+                    const marginClass = index == maxImagesPerScroll ? 'mr-1': index == images.length - 1 ? 'ml-1' : 'mx-1';
+
+                    if(index < maxImagesPerScroll) return;
+                    return (
+                        <div key={index} className={`relative w-[5vw] aspect-[4/3] min-h-[40px] ${marginClass}`}	 
+                            onMouseEnter={() => setHoveredImage(img)}
+                            onMouseLeave={() => setHoveredImage(null)}
+                            onMouseDownCapture={() => setSelectedImage(img)}
+                        > 
+                            <Image 
+                                src={img.src} 
+                                fill 
+                                sizes="auto" 
+                                alt={img.src}  
+                                className="object-cover" 
+                            />
+                        </div>
+                    )
+                })}
+            </div>
+
+        </div>
+
+        <div className="lg:hidden grid grid-cols-2 grid-auto-rows-[auto] m-2 gap-1">
+
+            <div className="flex flex-col gap-1">
+                {images.map((img, index) => {
+                    if(index >= maxImagesPerScroll) return;
+                    const aspectClass = `aspect-[${img.ratio}]`; 
+
+                    return (
+                        <div key={index} className={`relative xs:w-[45vw] w-[48vw] ${aspectClass}`}>
+                            <Image
+                            src={img.src}
+                            alt={`mobile ${index}`}
+                            sizes="auto"
+                            fill
+                            className="object-cover" 
+                            />
+                        </div>
+                    );
+                })}
+            </div>
+ 
+            <div className="flex flex-col gap-1">
+                {images.map((img, index) => {
+                    if(index < maxImagesPerScroll) return;
+                    const aspectClass = `aspect-[${img.ratio}]`; 
+
+                    return (
+                        <div key={index} className={`relative xs:w-[45vw] w-[48vw] ${aspectClass}`}>
+                            <Image
+                                src={img.src}
+                                alt={`mobile ${index}`}
+                                sizes="auto"
+                                fill
+                                className="object-cover" 
+                            />
+                        </div>
+                    );
+                })}
+            </div>
+            
+        </div>
+    </>
+)
+}
+
+export default Gallery;
+
+/*
+
+*/
