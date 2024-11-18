@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
     "allowImportingTsExtensions": true,
+    "types": [
+      "jest",
+      "@testing-library/react"
+    ],
     "target": "ES2017",
     "lib": [
       "dom",
@@ -33,7 +37,9 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "**/*.test.tsx",
+    "**/*.test.ts"
   ],
   "exclude": [
     "node_modules"

@@ -1,8 +1,1 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
-# Verificar alterações no código com ESLint
-npx next lint
-
-# Rodar Lint-Staged (opcional, apenas em arquivos modificados)
-npx lint-staged
+npx --no-install commitlint --edit $1
