@@ -24,7 +24,7 @@ const TopMenu: React.FC<TopMenuProps> = ({ sections }) => {
   };
 
     return (
-      <header className="relative top-0 left-0 w-full z-10 items-center">
+      <header className="relative top-0 left-0 w-screen z-10 items-center">
         <nav> 
           <div className="flex text-black flex-wrap items-center mx-auto p-5 justify-center">
             
