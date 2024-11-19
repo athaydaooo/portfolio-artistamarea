@@ -4,7 +4,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import AspectRatio from "../types/aspect-ratio.ts";
+import AspectRatio from "@/types/aspect-ratio.ts";
 
 interface ImageData {
   src: string;
