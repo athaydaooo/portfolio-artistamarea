@@ -12,6 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        'xs': {'max': '325px'}, // Dispositivos menores que 325px
+      },
     },
   },
   plugins: [],

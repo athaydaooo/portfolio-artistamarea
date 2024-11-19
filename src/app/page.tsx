@@ -1,10 +1,39 @@
+import Footer from "./components/footer";
+import Gallery from "./components/gallery";
 import TopMenu from "./components/top-menu";
+import { AspectRatio } from "./types/aspect-ratio";
 
 export default function Home() {
   return (
-    <div>
-      <TopMenu />
-      {/* <Gallery images={['/gallery/1.png','/gallery/1.png', '/gallery/2.png', '/gallery/3.png', '/gallery/4.png', '/gallery/5.png', '/gallery/6.png', '/gallery/7.png', '/gallery/8.png', '/gallery/9.png', '/gallery/10.png', '/gallery/11.png', '/gallery/12.png', '/gallery/13.png']} /> */}
-    </div>
+    <>
+      <TopMenu sections={["galeria", "videos", "o ultimo frame", "sobre mim"]} />
+      
+      <div className="flex flex-col w-screen h-screen items-center">
+        
+        <Gallery images={[
+        {src: '/gallery/1.jpg', ratio: AspectRatio.Square},
+        {src: '/gallery/2.jpg', ratio: AspectRatio.ModernLandscape},
+        {src: '/gallery/3.jpg', ratio: AspectRatio.ModernLandscape},
+        {src: '/gallery/4.jpg', ratio: AspectRatio.ModernLandscape},
+        {src: '/gallery/5.jpg', ratio: AspectRatio.ModernLandscape},
+        {src: '/gallery/9.jpg', ratio: AspectRatio.ModernPortrait},
+        {src: '/gallery/7.jpg', ratio: AspectRatio.ModernLandscape},
+        {src: '/gallery/8.jpg', ratio: AspectRatio.ClassicLandscape},
+        {src: '/gallery/9.jpg', ratio: AspectRatio.ClassicLandscape},
+        {src: '/gallery/10.jpg', ratio: AspectRatio.ModernLandscape},
+        {src: '/gallery/11.jpg', ratio: AspectRatio.ModernLandscape},
+        {src: '/gallery/9.jpg', ratio: AspectRatio.ModernLandscape},
+        {src: '/gallery/1.jpg', ratio: AspectRatio.Square},
+        {src: '/gallery/2.jpg', ratio: AspectRatio.ClassicLandscape},
+        {src: '/gallery/3.jpg', ratio: AspectRatio.ModernLandscape},
+        {src: '/gallery/4.jpg', ratio: AspectRatio.ClassicLandscape},
+        {src: '/gallery/9.jpg', ratio: AspectRatio.ModernPortrait},
+        {src: '/gallery/2.jpg', ratio: AspectRatio.ModernLandscape},
+        {src: '/gallery/4.jpg', ratio: AspectRatio.ModernLandscape},
+        {src: '/gallery/4.jpg', ratio: AspectRatio.ModernPortrait},
+      ]} />
+      </div>
+      <Footer />
+    </>
   );
 }
