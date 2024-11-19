@@ -1,10 +1,10 @@
-/* eslint-disable consistent-return */
-
 "use client";
 
 import React, { useState } from "react";
 import Image from "next/image";
 import AspectRatio from "@/types/aspect-ratio.ts";
+import aspectToRatio from "@/utils/aspectToRatio.ts";
+import ImageWrapper from "@/components/atoms/image-wrapper/ImageWrapper";
 
 interface ImageData {
   src: string;
@@ -41,39 +41,32 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
   const [selectedImage, setSelectedImage] = useState<ImageData>(images[0]);
   const [hoveredImage, setHoveredImage] = useState<ImageData | null>(null);
 
-  const picSelectorWidth = "5vw";
-  const picSelectorMaxHeight = "40px";
+  const selectorWidth = "5vw";
+  const selectorMinHeight = "40px";
+  const selectorAspectRatio = AspectRatio.ClassicLandscape;
 
   return (
     <>
       <div className="hidden lg:grid grid-cols-[auto,1fr] grid-rows-[auto,1fr] w-auto h-auto my-4 justify-center ">
         <div
-          className={`flex flex-col w-[${picSelectorWidth}] mr-5 justify-between items-center`}
+          className={`flex flex-col w-[${selectorWidth}] mr-5 gap-1 justify-between items-center`}
         >
           {images.map((img, index) => {
-            let marginClass = "my-1";
-            if (index === 0) {
-              marginClass = "mb-1";
-            } else if (index === images.length - 1) {
-              marginClass = "mt-1";
-            }
             if (index >= maxImagesPerScroll) return;
+            const minHeigthClass = `min-h-[${selectorMinHeight}]`;
+
             return (
-              <div
-                key={index}
-                className={`relative w-[${picSelectorWidth}] aspect-[${AspectRatio.ClassicLandscape}] min-h-[${picSelectorMaxHeight}]${marginClass}`}
+              <ImageWrapper
+                key={`desktop-${index}`}
+                src={img.src}
+                alt={`${index}`}
+                aspectRatio={AspectRatio.ClassicLandscape}
+                width={selectorWidth}
+                className={minHeigthClass}
                 onMouseEnter={() => setHoveredImage(img)}
                 onMouseLeave={() => setHoveredImage(null)}
                 onMouseDownCapture={() => setSelectedImage(img)}
-              >
-                <Image
-                  src={img.src}
-                  fill
-                  sizes="auto"
-                  alt={img.src}
-                  className="object-cover"
-                />
-              </div>
+              />
             );
           })}
         </div>
@@ -90,32 +83,24 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
           />
         </div>
 
-        <div className="col-span-2 flex justify-between mt-5">
+        <div className="col-span-2 flex justify-between mt-5 gap-1">
           {images.map((img, index) => {
-            let marginClass = "mx-1";
-            if (index === maxImagesPerScroll) {
-              marginClass = "mr-1";
-            } else if (index === images.length - 1) {
-              marginClass = "ml-1";
-            }
-
             if (index < maxImagesPerScroll) return;
+
+            const minHeigthClass = `min-h-[${selectorMinHeight}]`;
+
             return (
-              <div
-                key={index}
-                className={`relative w-[${picSelectorWidth}] aspect-[${AspectRatio.ClassicLandscape}] min-h-[${picSelectorMaxHeight}] ${marginClass}`}
+              <ImageWrapper
+                key={`desktop-${index}`}
+                src={img.src}
+                alt={`${index}`}
+                aspectRatio={AspectRatio.ClassicLandscape}
+                width={selectorWidth}
+                className={minHeigthClass}
                 onMouseEnter={() => setHoveredImage(img)}
                 onMouseLeave={() => setHoveredImage(null)}
                 onMouseDownCapture={() => setSelectedImage(img)}
-              >
-                <Image
-                  src={img.src}
-                  fill
-                  sizes="auto"
-                  alt={img.src}
-                  className="object-cover"
-                />
-              </div>
+              />
             );
           })}
         </div>
@@ -126,20 +111,17 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
           {images.map((img, index) => {
             if (index >= maxImagesPerScroll) return;
             const aspectClass = `aspect-[${img.ratio}]`;
-
+            const numRatio = aspectToRatio(img.ratio);
             return (
-              <div
+              <Image
                 key={index}
-                className={`relative xs:w-[45vw] w-[48vw] ${aspectClass}`}
-              >
-                <Image
-                  src={img.src}
-                  alt={`mobile ${index}`}
-                  sizes="auto"
-                  fill
-                  className="object-cover"
-                />
-              </div>
+                src={img.src}
+                alt={`mobile ${index}`}
+                sizes="(max-width: 325px) 45vw, 48vw"
+                width={500}
+                height={325 / numRatio}
+                className={`relative xs:w-[45vw] w-[48vw] ${aspectClass} object-cover`}
+              />
             );
           })}
         </div>
@@ -148,20 +130,19 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
           {images.map((img, index) => {
             if (index < maxImagesPerScroll) return;
             const aspectClass = `aspect-[${img.ratio}]`;
+            const [numerator, denominator] = img.ratio.split("/").map(Number);
+            const numRatio = numerator / denominator;
 
             return (
-              <div
+              <Image
                 key={index}
+                src={img.src}
+                alt={`mobile ${index}`}
+                sizes="(max-width: 325px) 45vw, 48vw"
+                width={500}
+                height={325 / numRatio}
                 className={`relative xs:w-[45vw] w-[48vw] ${aspectClass}`}
-              >
-                <Image
-                  src={img.src}
-                  alt={`mobile ${index}`}
-                  sizes="auto"
-                  fill
-                  className="object-cover"
-                />
-              </div>
+              />
             );
           })}
         </div>
