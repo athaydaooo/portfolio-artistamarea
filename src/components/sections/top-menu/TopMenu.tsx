@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 // eslint-disable-next-line camelcase
-import { Noto_Serif_Display, Noto_Serif_Gujarati } from "@next/font/google";
+import { Noto_Serif_Display, Noto_Serif_Gujarati } from "next/font/google";
 
 const notoSerifDisplay = Noto_Serif_Display({
   variable: "--font-noto-serif-display",
