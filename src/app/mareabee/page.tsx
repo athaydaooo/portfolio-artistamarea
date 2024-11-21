@@ -10,7 +10,7 @@ export default function Mareabee() {
             { src: "/mareabee/1.jpg", ratio: AspectRatio.ClassicLandscape },
             { src: "/mareabee/2.jpg", ratio: AspectRatio.ClassicPortrait },
             { src: "/mareabee/3.jpg", ratio: AspectRatio.ClassicPortrait },
-            { src: "/mareabee/4.jpg", ratio: AspectRatio.ClassicPortrait },
+            { src: "/mareabee/4.jpg", ratio: AspectRatio.ModernPortrait },
             { src: "/mareabee/5.jpg", ratio: AspectRatio.ClassicLandscape },
             { src: "/mareabee/6.jpg", ratio: AspectRatio.ClassicPortrait },
             { src: "/mareabee/7.jpg", ratio: AspectRatio.ModernLandscape },

@@ -39,6 +39,7 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
   const maxImagesPerScroll = images.length / 2;
   const [selectedImage, setSelectedImage] = useState<ImageData>(images[0]);
   const [hoveredImage, setHoveredImage] = useState<ImageData | null>(null);
+  const [capturedImage, setCapturedImage] = useState<ImageData | null>(null);
 
   const [verticalItens, horizontalItens] = [
     images.slice(0, maxImagesPerScroll),
@@ -68,7 +69,7 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
                 alt={`${index}`}
                 aspectRatio={selectorAspectRatio}
                 sizes={selectorWidth}
-                className={clsx(minHeigthClass, widthClass)}
+                className={clsx(minHeigthClass, widthClass, "cursor-pointer")}
                 onMouseEnter={() => setHoveredImage(img)}
                 onMouseLeave={() => setHoveredImage(null)}
                 onMouseDownCapture={() => setSelectedImage(img)}
@@ -84,7 +85,14 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
           aspectRatio={selectorAspectRatio}
           src={hoveredImage ? hoveredImage.src : selectedImage.src}
           sizes="auto"
-          className={`flex w-full col-span-1 aspect-[${selectorAspectRatio}]`}
+          className={clsx(
+            "flex",
+            "w-full",
+            "col-span-1",
+            "cursor-pointer",
+            `aspect-[${AspectRatio.ModernLandscape}]`
+          )}
+          onMouseDownCapture={() => setCapturedImage(selectedImage)}
         />
 
         {/* horizontal selector itens */}
@@ -100,7 +108,7 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
                 alt={`${index}`}
                 aspectRatio={selectorAspectRatio}
                 sizes={selectorWidth}
-                className={clsx(minHeigthClass, widthClass)}
+                className={clsx(minHeigthClass, widthClass, "cursor-pointer")}
                 onMouseEnter={() => setHoveredImage(img)}
                 onMouseLeave={() => setHoveredImage(null)}
                 onMouseDownCapture={() => setSelectedImage(img)}
@@ -120,9 +128,29 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
             aspectRatio={img.ratio}
             sizes="(max-width: 325px) 45vw, 48vw"
             className="xs:w-[45vw] w-[48vw] gap-1 min-h-full"
+            onMouseDownCapture={() => setCapturedImage(img)}
           />
         ))}
       </div>
+      {capturedImage && (
+        <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
+          <button
+            className="absolute top-2 right-2 text-2xl text-gray-400"
+            onMouseDownCapture={() => setCapturedImage(null)}
+          >
+            <span>X</span>
+          </button>
+
+          <ImageWrapper
+            key="captured-image"
+            src={capturedImage.src}
+            alt="captured Image"
+            aspectRatio={capturedImage.ratio}
+            sizes="auto"
+            className="w-[80vw] h-auto lg:w-auto lg:h-[80vh ]"
+          />
+        </div>
+      )}
     </>
   );
 };
