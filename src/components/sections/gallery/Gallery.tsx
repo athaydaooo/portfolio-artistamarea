@@ -147,7 +147,7 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
             alt="captured Image"
             aspectRatio={capturedImage.ratio}
             sizes="auto"
-            className="w-[80vw] h-auto lg:w-auto lg:h-[80vh ]"
+            className="w-[80vw] h-auto lg:w-auto lg:h-[80vh]"
           />
         </div>
       )}
