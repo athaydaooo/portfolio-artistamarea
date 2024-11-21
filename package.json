@@ -16,7 +16,6 @@
     "@next/codemod": "^15.0.3",
     "@prisma/client": "^5.22.0",
     "axios": "^1.7.7",
-    "clsx": "^2.1.1",
     "dotenv": "^16.4.5",
     "gsap": "^3.12.5",
     "husky-init": "^8.0.0",
