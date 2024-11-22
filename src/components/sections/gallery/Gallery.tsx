@@ -133,7 +133,7 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
         ))}
       </div>
       {capturedImage && (
-        <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
+        <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-10">
           <button
             className="absolute top-2 right-2 text-2xl text-gray-400"
             onMouseDownCapture={() => setCapturedImage(null)}

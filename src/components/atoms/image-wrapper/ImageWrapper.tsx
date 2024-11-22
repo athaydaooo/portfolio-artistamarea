@@ -1,7 +1,7 @@
 "use client";
 
 import AspectRatio from "@/types/aspect-ratio.ts";
-import clsx from "@/utils/clsx";
+import clsx from "@/utils/clsx.ts";
 import Image from "next/image";
 import React from "react";
 
@@ -30,11 +30,7 @@ const ImageWrapper: React.FC<ImageWrapperProps> = ({
   onMouseLeave,
 }) => {
   const aspectClass = `aspect-[${aspectRatio}]`;
-  const classNames = clsx(
-    "relative",
-    className ? className : null,
-    aspectClass
-  );
+  const classNames = clsx("relative", className || null, aspectClass);
 
   return (
     <div

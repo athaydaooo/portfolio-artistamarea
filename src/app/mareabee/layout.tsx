@@ -1,3 +1,4 @@
+import Footer from "@/components/sections/footer/Footer.tsx";
 import TopMenu from "@/components/sections/top-menu/TopMenu.tsx";
 import { Metadata } from "next";
 import React from "react";
@@ -19,6 +20,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       />
 
       {children}
+
+      <Footer />
     </>
   );
 };
