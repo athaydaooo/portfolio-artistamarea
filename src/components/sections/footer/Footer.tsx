@@ -3,59 +3,71 @@ import { Noto_Serif_Display } from "next/font/google";
 import React from "react";
 import IconReferenced from "@/components/atoms/icon-referenced/IconReferenced.tsx";
 import TextReferenced from "@/components/atoms/text-referenced/TextReferenced.tsx";
+import clsx from "@/utils/clsx.ts";
 
 const notoSerifDisplay = Noto_Serif_Display({
   variable: "--font-noto-serif-display",
   weight: "300",
 });
 
-const Footer: React.FC = () => {
+interface FooterProps {
+  className: string;
+}
+
+const Footer: React.FC<FooterProps> = ({ className }) => {
   return (
-    <footer className="flex flex-col w-screen items-center text-center text-surface">
-      <div
-        className={`container p-10 text-center text-4xl md:text-6xl ${notoSerifDisplay.className} `}
-      >
-        <h1>ARTISTA MAREA</h1>
-      </div>
-      <div className="flex flex-row justify-center gap-4 p-6">
-        <IconReferenced
-          name="instagram"
-          invertColor={false}
-          size={40}
-          url="/icons/black-instagram.svg"
-          targetUrl="https://www.instagram.com/artistamarea/"
-          className="cursor-pointer"
-        />
+    <section
+      className={clsx(
+        className || null,
+        "relative flex items-center justify-center w-full",
+      )}
+    >
+      <footer className="flex flex-col w-full items-center text-center text-surface bg-gray-950 p-10">
+        <div
+          className={`container p-10 text-center text-white text-4xl ${notoSerifDisplay.className} `}
+        >
+          <h1>ARTISTA MAREA</h1>
+        </div>
+        <div className="flex flex-row justify-center gap-4 p-6">
+          <IconReferenced
+            name="instagram"
+            invertColor={true}
+            size={30}
+            url="/icons/black-instagram.svg"
+            targetUrl="https://www.instagram.com/artistamarea/"
+            className="cursor-pointer"
+          />
 
-        <IconReferenced
-          name="linkedin"
-          invertColor={false}
-          size={40}
-          url="/icons/black-linkedin.svg"
-          targetUrl="https://www.linkedin.com/in/maria-claudia-oliva-3a8179312/"
-          className="cursor-pointer"
-        />
+          <IconReferenced
+            name="linkedin"
+            invertColor={true}
+            size={30}
+            url="/icons/black-linkedin.svg"
+            targetUrl="https://www.linkedin.com/in/maria-claudia-oliva-3a8179312/"
+            className="cursor-pointer"
+          />
 
-        <IconReferenced
-          name="email"
-          invertColor={false}
-          size={40}
-          url="/icons/black-email.svg"
-          targetUrl="mailto:taymana@outlook.com"
-          className="cursor-pointer"
-        />
-      </div>
+          <IconReferenced
+            name="email"
+            invertColor={true}
+            size={30}
+            url="/icons/black-email.svg"
+            targetUrl="mailto:taymana@outlook.com"
+            className="cursor-pointer"
+          />
+        </div>
 
-      <div className="w-full p-4 text-center">
-        © 2024 Copyright:
-        <TextReferenced
-          linkedText=" Athayde Labs"
-          targetUrl="https://www.athaydelabs.com"
-          className="cursor-pointer"
-          name="Athayde Labs Link"
-        />
-      </div>
-    </footer>
+        <div className="w-full text-center text-white">
+          © 2024 Copyright:
+          <TextReferenced
+            linkedText=" Athayde Labs"
+            targetUrl="https://www.athaydelabs.com"
+            className="cursor-pointer"
+            name="Athayde Labs Link"
+          />
+        </div>
+      </footer>
+    </section>
   );
 };
 

@@ -1,5 +1,3 @@
-import Footer from "@/components/sections/footer/Footer.tsx";
-import TopMenu from "@/components/sections/top-menu/TopMenu.tsx";
 import { Metadata } from "next";
 import React from "react";
 
@@ -13,17 +11,7 @@ export const metadata: Metadata = {
 };
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
-  return (
-    <>
-      <TopMenu
-        sections={["galeria", "videos", "o ultimo frame", "sobre mim"]}
-      />
-
-      {children}
-
-      <Footer />
-    </>
-  );
+  return <>{children}</>;
 };
 
 export default Layout;

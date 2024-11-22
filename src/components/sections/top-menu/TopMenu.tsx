@@ -26,15 +26,35 @@ const TopMenu: React.FC<TopMenuProps> = ({ sections }) => {
   };
 
   return (
-    <header className="relative top-0 left-0 w-screen z-10 items-center">
+    <header className="relative top-0 left-0 w-full z-10 items-center">
       <nav>
         <div className="flex text-black flex-wrap items-center mx-auto p-5 justify-center">
+          {/* desktop and mobile logo */}
           <h1
-            className={`${notoSerifDisplay.className} text-2xl md:text-3xl font-extralight font-serif tracking-widest pr-4 whitespace-nowrap`}
+            className={`${notoSerifDisplay.className} text-2xl lg:text-3xl 2k:text-7xl font-extralight font-serif tracking-widest pr-4 whitespace-nowrap`}
           >
             ARTISTA MAREA
           </h1>
 
+          {/* desktop navitems */}
+          <div
+            className={`hidden lg:block w-full lg:w-auto lg:max-h-full`}
+            id="navbar-hamburger"
+          >
+            <ul
+              className={`flex flex-col items-center mt-8 lg:mt-0 lg:flex-row lg:space-x-4 lg:text-xs 2k:text-2xl ${notoSerifGujarati.className}`}
+            >
+              {sections.map((section, index) => (
+                <li key={index}>
+                  <a href="#" className="hover:underline">
+                    {section.toUpperCase()}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* mobile navitems */}
           <button
             data-collapse-toggle="navbar-hamburger"
             type="button"
@@ -67,23 +87,6 @@ const TopMenu: React.FC<TopMenuProps> = ({ sections }) => {
           >
             <ul
               className={`flex flex-col items-center mt-8 lg:mt-0 lg:flex-row lg:space-x-4 lg:text-xl ${notoSerifGujarati.className}`}
-            >
-              {sections.map((section, index) => (
-                <li key={index}>
-                  <a href="#" className="hover:underline">
-                    {section.toUpperCase()}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div
-            className={`hidden lg:block w-full lg:w-auto lg:max-h-full`}
-            id="navbar-hamburger"
-          >
-            <ul
-              className={`flex flex-col items-center mt-8 lg:mt-0 lg:flex-row lg:space-x-4 lg:text-md ${notoSerifGujarati.className}`}
             >
               {sections.map((section, index) => (
                 <li key={index}>

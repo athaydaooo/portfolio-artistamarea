@@ -1,10 +1,14 @@
+import Footer from "@/components/sections/footer/Footer.tsx";
 import Gallery from "@/components/sections/gallery/Gallery.tsx";
+import TopMenu from "@/components/sections/top-menu/TopMenu.tsx";
 import AspectRatio from "@/types/aspect-ratio.ts";
 
 export default function Mareabee() {
   return (
     <>
-      <div className="flex flex-col w-screen h-[100h] items-center">
+      <div className="flex flex-col items-center h-screen">
+        <TopMenu sections={["galeria", "videos", "sobre mim"]} />
+
         <Gallery
           images={[
             { src: "/mareabee/1.jpg", ratio: AspectRatio.ClassicLandscape },
@@ -29,7 +33,9 @@ export default function Mareabee() {
             { src: "/mareabee/20.jpg", ratio: AspectRatio.ClassicLandscape },
           ]}
         />
+        <Footer className="block lg:hidden" />
       </div>
+      <Footer className="hidden lg:block" />
     </>
   );
 }

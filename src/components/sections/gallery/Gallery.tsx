@@ -46,17 +46,17 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
     images.slice(maxImagesPerScroll),
   ];
 
-  const selectorWidth = "5vw";
+  const selectorWidth = "4vw";
   const selectorMinHeight = "40px";
   const selectorAspectRatio = AspectRatio.ClassicLandscape;
 
   return (
-    <>
+    <section className="relative flex items-center justify-center lg:h-full">
       {/* desktop component */}
-      <div className="hidden lg:grid grid-cols-[auto,1fr] grid-rows-[auto,1fr] w-auto h-auto my-4 justify-center ">
+      <div className="hidden lg:grid grid-cols-auto grid-rows-auto">
         {/* vertical selector itens */}
         <div
-          className={`flex flex-col w-[${selectorWidth}] mr-5 gap-1 justify-between items-center`}
+          className={`flex flex-col justify-between items-center w-[${selectorWidth}] mr-5 gap-1`}
         >
           {verticalItens.map((img, index) => {
             const minHeigthClass = `min-h-[${selectorMinHeight}]`;
@@ -119,7 +119,7 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
       </div>
 
       {/* mobile component */}
-      <div className="lg:hidden grid grid-cols-2 gap-1">
+      <div className="lg:hidden grid grid-cols-2 gap-1 my-1">
         {images.map((img, index) => (
           <ImageWrapper
             key={`mobile-${index}`}
@@ -132,6 +132,8 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
           />
         ))}
       </div>
+
+      {/* full image viewer */}
       {capturedImage && (
         <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-10">
           <button
@@ -151,7 +153,7 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
           />
         </div>
       )}
-    </>
+    </section>
   );
 };
 

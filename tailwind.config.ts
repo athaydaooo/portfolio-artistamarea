@@ -13,6 +13,7 @@ const config: Config = {
     `aspect-[16/9]`,
     `aspect-[9/16]`,
     `w-[5vw]`,
+    `w-[4vw]`,
   ],
   theme: {
     extend: {
@@ -22,6 +23,8 @@ const config: Config = {
       },
       screens: {
         xs: { max: "325px" }, // Dispositivos menores que 325px
+        "2k": { min: "2560px" },
+        "4k": { min: "3840px" },
       },
     },
   },
