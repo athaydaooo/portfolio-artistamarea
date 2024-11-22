@@ -11,7 +11,7 @@ interface IconProps {
   className?: string;
 }
 
-const IconWrapper: React.FC<IconProps> = ({
+const IconReferenced: React.FC<IconProps> = ({
   name,
   size,
   url,
@@ -33,4 +33,4 @@ const IconWrapper: React.FC<IconProps> = ({
   );
 };
 
-export default IconWrapper;
+export default IconReferenced;

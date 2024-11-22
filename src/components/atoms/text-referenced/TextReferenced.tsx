@@ -1,0 +1,24 @@
+import clsx from "@/utils/clsx.ts";
+import React from "react";
+
+interface TextProps {
+  name: string;
+  linkedText: string;
+  targetUrl: string;
+  className?: string;
+}
+
+const TextReferenced: React.FC<TextProps> = ({
+  name,
+  linkedText,
+  targetUrl,
+  className,
+}) => {
+  return (
+    <a key={name} className={clsx(className || null)} href={targetUrl}>
+      {linkedText}
+    </a>
+  );
+};
+
+export default TextReferenced;

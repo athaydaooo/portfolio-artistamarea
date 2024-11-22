@@ -1,7 +1,8 @@
 // eslint-disable-next-line camelcase
 import { Noto_Serif_Display } from "next/font/google";
 import React from "react";
-import IconWrapper from "@/components/atoms/icon/IconWrapper.tsx";
+import IconReferenced from "@/components/atoms/icon-referenced/IconReferenced.tsx";
+import TextReferenced from "@/components/atoms/text-referenced/TextReferenced.tsx";
 
 const notoSerifDisplay = Noto_Serif_Display({
   variable: "--font-noto-serif-display",
@@ -17,7 +18,7 @@ const Footer: React.FC = () => {
         <h1>ARTISTA MAREA</h1>
       </div>
       <div className="flex flex-row justify-center gap-4 p-6">
-        <IconWrapper
+        <IconReferenced
           name="instagram"
           invertColor={false}
           size={40}
@@ -26,7 +27,7 @@ const Footer: React.FC = () => {
           className="cursor-pointer"
         />
 
-        <IconWrapper
+        <IconReferenced
           name="linkedin"
           invertColor={false}
           size={40}
@@ -35,7 +36,7 @@ const Footer: React.FC = () => {
           className="cursor-pointer"
         />
 
-        <IconWrapper
+        <IconReferenced
           name="email"
           invertColor={false}
           size={40}
@@ -47,7 +48,12 @@ const Footer: React.FC = () => {
 
       <div className="w-full p-4 text-center">
         © 2024 Copyright:
-        <a href="https://athaydelabs.com/"> Athayde Labs</a>
+        <TextReferenced
+          linkedText=" Athayde Labs"
+          targetUrl="https://www.athaydelabs.com"
+          className="cursor-pointer"
+          name="Athayde Labs Link"
+        />
       </div>
     </footer>
   );

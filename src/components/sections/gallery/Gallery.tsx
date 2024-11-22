@@ -90,7 +90,7 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
             "w-full",
             "col-span-1",
             "cursor-pointer",
-            `aspect-[${AspectRatio.ModernLandscape}]`
+            `aspect-[${AspectRatio.ModernLandscape}]`,
           )}
           onMouseDownCapture={() => setCapturedImage(selectedImage)}
         />
