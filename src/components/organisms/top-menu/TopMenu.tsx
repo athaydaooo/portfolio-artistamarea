@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 // eslint-disable-next-line camelcase
 import { Noto_Serif_Display, Noto_Serif_Gujarati } from "next/font/google";
+import Link from "next/link";
 
 const notoSerifDisplay = Noto_Serif_Display({
   variable: "--font-noto-serif-display",
@@ -15,7 +16,7 @@ const notoSerifGujarati = Noto_Serif_Gujarati({
 });
 
 interface TopMenuProps {
-  sections: string[];
+  sections: { name: string; slug: string }[];
 }
 
 const TopMenu: React.FC<TopMenuProps> = ({ sections }) => {
@@ -46,9 +47,12 @@ const TopMenu: React.FC<TopMenuProps> = ({ sections }) => {
             >
               {sections.map((section, index) => (
                 <li key={index}>
-                  <a href="#" className="hover:underline">
-                    {section.toUpperCase()}
-                  </a>
+                  <Link
+                    href={`/mareabee/${section.slug}`}
+                    className="hover:underline"
+                  >
+                    {section.name.toUpperCase()}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -90,9 +94,12 @@ const TopMenu: React.FC<TopMenuProps> = ({ sections }) => {
             >
               {sections.map((section, index) => (
                 <li key={index}>
-                  <a href="#" className="hover:underline">
-                    {section.toUpperCase()}
-                  </a>
+                  <Link
+                    href={`/mareabee/${section.slug}`}
+                    className="hover:underline"
+                  >
+                    {section.name.toUpperCase()}
+                  </Link>
                 </li>
               ))}
             </ul>

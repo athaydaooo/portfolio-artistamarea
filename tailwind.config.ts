@@ -17,6 +17,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        notoSerif: ["Noto Serif", "serif"], // Noto Serif (Fonte padrão)
+        notoSerifGujarati: ["Noto Serif Gujarati", "serif"], // Noto Serif Gujarati
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

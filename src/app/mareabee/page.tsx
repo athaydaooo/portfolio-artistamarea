@@ -1,13 +1,19 @@
 import Footer from "@/components/sections/footer/Footer.tsx";
 import Gallery from "@/components/sections/gallery/Gallery.tsx";
-import TopMenu from "@/components/sections/top-menu/TopMenu.tsx";
+import TopMenu from "@/components/organisms/top-menu/TopMenu.tsx";
 import AspectRatio from "@/types/aspect-ratio.ts";
 
 export default function Mareabee() {
   return (
     <>
       <div className="flex flex-col items-center h-screen">
-        <TopMenu sections={["galeria", "videos", "sobre mim"]} />
+        <TopMenu
+          sections={[
+            { name: "galeria", slug: "/" },
+            { name: "videos", slug: "/videos" },
+            { name: "sobre mim", slug: "/sobre-mim" },
+          ]}
+        />
 
         <Gallery
           images={[
