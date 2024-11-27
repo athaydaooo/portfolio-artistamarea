@@ -32,6 +32,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         sections={[
           { name: "galeria", slug: "/" },
           { name: "videos", slug: "/videos" },
+          { name: "o último frame", slug: "/o-ultimo-frame" },
           { name: "sobre mim", slug: "/sobre-mim" },
         ]}
       />
