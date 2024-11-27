@@ -1,19 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-// eslint-disable-next-line camelcase
-import { Noto_Serif_Display, Noto_Serif_Gujarati } from "next/font/google";
 import Link from "next/link";
-
-const notoSerifDisplay = Noto_Serif_Display({
-  variable: "--font-noto-serif-display",
-  weight: "300",
-});
-
-const notoSerifGujarati = Noto_Serif_Gujarati({
-  variable: "--font-noto-serif-display",
-  weight: "500",
-});
 
 interface TopMenuProps {
   sections: { name: string; slug: string }[];
@@ -31,9 +19,7 @@ const TopMenu: React.FC<TopMenuProps> = ({ sections }) => {
       <nav>
         <div className="flex text-black flex-wrap items-center mx-auto p-5 justify-center">
           {/* desktop and mobile logo */}
-          <h1
-            className={`${notoSerifDisplay.className} text-2xl lg:text-3xl 2k:text-7xl font-extralight font-serif tracking-widest pr-4 whitespace-nowrap`}
-          >
+          <h1 className="text-2xl lg:text-3xl 2k:text-7xl font-extralight tracking-widest pr-4 whitespace-nowrap">
             ARTISTA MAREA
           </h1>
 
@@ -42,9 +28,7 @@ const TopMenu: React.FC<TopMenuProps> = ({ sections }) => {
             className={`hidden lg:block w-full lg:w-auto lg:max-h-full`}
             id="navbar-hamburger"
           >
-            <ul
-              className={`flex flex-col items-center mt-8 lg:mt-0 lg:flex-row lg:space-x-4 lg:text-xs 2k:text-2xl ${notoSerifGujarati.className}`}
-            >
+            <ul className="flex flex-col items-center mt-8 lg:mt-0 lg:flex-row lg:space-x-4 lg:text-xs 2k:text-2xl">
               {sections.map((section, index) => (
                 <li key={index}>
                   <Link
@@ -89,9 +73,7 @@ const TopMenu: React.FC<TopMenuProps> = ({ sections }) => {
             className={`lg:hidden overflow-hidden transition-all duration-500 ease-in-out ${isMenuOpen ? "max-h-40 opacity-100" : "max-h-0 opacity-0"} w-full `}
             id="navbar-hamburger"
           >
-            <ul
-              className={`flex flex-col items-center mt-8 lg:mt-0 lg:flex-row lg:space-x-4 lg:text-xl ${notoSerifGujarati.className}`}
-            >
+            <ul className="flex flex-col items-center mt-8 lg:mt-0 lg:flex-row lg:space-x-4 lg:text-xl">
               {sections.map((section, index) => (
                 <li key={index}>
                   <Link

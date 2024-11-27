@@ -1,17 +1,11 @@
 // eslint-disable-next-line camelcase
-import { Noto_Serif_Display } from "next/font/google";
 import React from "react";
 import IconReferenced from "@/components/atoms/icon-referenced/IconReferenced.tsx";
 import TextReferenced from "@/components/atoms/text-referenced/TextReferenced.tsx";
 import clsx from "@/utils/clsx.ts";
 
-const notoSerifDisplay = Noto_Serif_Display({
-  variable: "--font-noto-serif-display",
-  weight: "300",
-});
-
 interface FooterProps {
-  className: string;
+  className?: string;
 }
 
 const Footer: React.FC<FooterProps> = ({ className }) => {
@@ -23,9 +17,7 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
       )}
     >
       <footer className="flex flex-col w-full items-center text-center text-surface bg-gray-950 p-10">
-        <div
-          className={`container p-10 text-center text-white text-4xl ${notoSerifDisplay.className} `}
-        >
+        <div className="container p-10 text-center text-white text-4xl">
           <h1>ARTISTA MAREA</h1>
         </div>
         <div className="flex flex-row justify-center gap-4 p-6">

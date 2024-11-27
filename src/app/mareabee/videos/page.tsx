@@ -1,17 +1,9 @@
-import TopMenu from "@/components/organisms/top-menu/TopMenu.tsx";
 import VideoSection from "@/components/sections/video/Video.tsx";
 
 export default function Videos() {
   return (
     <>
       <div className="flex flex-col items-center h-screen">
-        <TopMenu
-          sections={[
-            { name: "galeria", slug: "/" },
-            { name: "videos", slug: "/videos" },
-            { name: "sobre mim", slug: "/sobre-mim" },
-          ]}
-        />
         <VideoSection
           title="Lorem ipsum"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate luctus malesuada. Nam tempus diam odio, ut sollicitudin risus iaculis a. "

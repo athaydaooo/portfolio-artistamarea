@@ -1,5 +1,6 @@
 import VideoWrapper from "@/components/atoms/video-wrapper/VideoWrapper.tsx";
 import TitleWithDescription from "@/components/molecules/text-with-description/TitleWithDescription.tsx";
+import AspectRatio from "@/types/aspect-ratio.ts";
 import clsx from "@/utils/clsx.ts";
 import React from "react";
 
@@ -18,8 +19,6 @@ const VideoWithText: React.FC<VideoWithTextProps> = ({
   title,
   description,
   videoUrl,
-  videoHeight,
-  videoWidht,
   reverseOrder,
   videoPosterUrl,
   className,
@@ -39,10 +38,9 @@ const VideoWithText: React.FC<VideoWithTextProps> = ({
       />
       <VideoWrapper
         src={videoUrl}
-        height={videoHeight}
-        width={videoWidht}
+        aspectRatio={AspectRatio.ModernLandscape}
         poster={videoPosterUrl || undefined}
-        className="rounded-xl"
+        className="rounded-xl w-[50vw]"
       />
     </div>
   );
