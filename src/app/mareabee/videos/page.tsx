@@ -1,4 +1,5 @@
 import VideoSection from "@/components/sections/video/Video.tsx";
+import AspectRatio from "@/types/aspect-ratio.ts";
 
 export default function Videos() {
   return (
@@ -8,9 +9,8 @@ export default function Videos() {
           title="Lorem ipsum"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate luctus malesuada. Nam tempus diam odio, ut sollicitudin risus iaculis a. "
           reverseOrder
-          videoHeight={1200}
+          aspectRatio={AspectRatio.ClassicLandscape}
           videoUrl="/mareabee/doutora.mp4"
-          videoWidht={800}
         />
       </div>
 
@@ -19,9 +19,8 @@ export default function Videos() {
           title="Lorem ipsum"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate luctus malesuada. Nam tempus diam odio, ut sollicitudin risus iaculis a. "
           reverseOrder={false}
-          videoHeight={1200}
+          aspectRatio={AspectRatio.ClassicLandscape}
           videoUrl="/mareabee/doutora.mp4"
-          videoWidht={800}
         />
       </div>
       <div className="flex flex-col items-center h-screen">
@@ -29,9 +28,8 @@ export default function Videos() {
           title="Lorem ipsum"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate luctus malesuada. Nam tempus diam odio, ut sollicitudin risus iaculis a. "
           reverseOrder={true}
-          videoHeight={1200}
+          aspectRatio={AspectRatio.ClassicLandscape}
           videoUrl="/mareabee/doutora.mp4"
-          videoWidht={800}
         />
       </div>
     </>
