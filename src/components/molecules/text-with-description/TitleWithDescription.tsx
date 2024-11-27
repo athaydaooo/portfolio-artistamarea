@@ -7,15 +7,23 @@ interface TitleWithDescriptionProps {
   title: string;
   description: string;
   flexAlignment?: string;
+  className?: string;
 }
 
 const TitleWithDescription: React.FC<TitleWithDescriptionProps> = ({
   title,
   description,
   flexAlignment,
+  className,
 }) => {
   return (
-    <div className={clsx("flex flex-col", flexAlignment || null)}>
+    <div
+      className={clsx(
+        "flex flex-col",
+        flexAlignment || null,
+        className || null,
+      )}
+    >
       <TextTitle text={title} />
       <TextDescrition text={description} />
     </div>

@@ -3,10 +3,11 @@ import React from "react";
 
 interface TextDescritionProps {
   text: string;
+  className?: string;
 }
 
-const TextDescrition: React.FC<TextDescritionProps> = ({ text }) => {
-  return <p className={clsx("text-sm")}>{text}</p>;
+const TextDescrition: React.FC<TextDescritionProps> = ({ text, className }) => {
+  return <p className={clsx("text-sm", className || null)}>{text}</p>;
 };
 
 export default TextDescrition;
