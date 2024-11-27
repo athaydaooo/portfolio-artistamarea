@@ -38,7 +38,7 @@ const VideoWithText: React.FC<VideoWithTextProps> = ({
           title={title}
           description={description}
           flexAlignment="text-center"
-          className="hidden lg:block gap-16 w-[30vw]"
+          className="hidden lg:flex gap-16 w-[30vw]"
         />
 
         <TextTitle text={title} className="block lg:hidden text-center" />
