@@ -3,30 +3,32 @@ import AspectRatio from "@/types/aspect-ratio.ts";
 import React from "react";
 
 interface VideoSectionProps {
+  key: string;
   videoUrl: string;
-  title: string;
-  description: string;
   aspectRatio: AspectRatio;
+  details?: {
+    title: string;
+    description: string;
+  };
   reverseOrder?: boolean;
   videoPosterUrl?: string;
 }
 
 const VideoSection: React.FC<VideoSectionProps> = ({
+  key,
   videoUrl,
   aspectRatio,
-  title,
-  description,
+  details,
   reverseOrder,
   videoPosterUrl,
 }) => {
   return (
     <section className="relative flex items-center justify-center h-full w-full">
       <VideoWithText
-        title={title}
-        description={description}
+        details={details}
         videoUrl={videoUrl}
         aspectRatio={aspectRatio}
-        key={title}
+        key={details?.title ? details.title : key}
         reverseOrder={reverseOrder}
         videoPosterUrl={videoPosterUrl || undefined}
         className="justify-center items-center gap-16"

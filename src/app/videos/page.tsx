@@ -6,8 +6,12 @@ export default function Videos() {
     <>
       <div className="flex flex-col items-center h-screen">
         <VideoSection
-          title="Lorem ipsum"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate luctus malesuada. Nam tempus diam odio, ut sollicitudin risus iaculis a. "
+          key="doutora1"
+          details={{
+            title: "Lorem ipsum",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate luctus malesuada. Nam tempus diam odio, ut sollicitudin risus iaculis a. ",
+          }}
           reverseOrder
           aspectRatio={AspectRatio.ClassicLandscape}
           videoUrl="/videos/doutora.mp4"
@@ -16,8 +20,12 @@ export default function Videos() {
 
       <div className="flex flex-col items-center h-screen">
         <VideoSection
-          title="Lorem ipsum"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate luctus malesuada. Nam tempus diam odio, ut sollicitudin risus iaculis a. "
+          key="doutora2"
+          details={{
+            title: "Lorem ipsum",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate luctus malesuada. Nam tempus diam odio, ut sollicitudin risus iaculis a. ",
+          }}
           reverseOrder={false}
           aspectRatio={AspectRatio.ClassicLandscape}
           videoUrl="/videos/doutora.mp4"
@@ -25,8 +33,12 @@ export default function Videos() {
       </div>
       <div className="flex flex-col items-center h-screen">
         <VideoSection
-          title="Lorem ipsum"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate luctus malesuada. Nam tempus diam odio, ut sollicitudin risus iaculis a. "
+          key="doutora3"
+          details={{
+            title: "Lorem ipsum",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate luctus malesuada. Nam tempus diam odio, ut sollicitudin risus iaculis a. ",
+          }}
           reverseOrder
           aspectRatio={AspectRatio.ClassicLandscape}
           videoUrl="/videos/doutora.mp4"

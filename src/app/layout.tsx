@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${notoSerif.className} ${notoSerifGujarati.className} dark:bg-black dark:text-white`}
+        className={`${notoSerif.className} ${notoSerifGujarati.className} bg-white text-black dark:bg-black dark:text-white`}
       >
         <ThemeProvider>
           <main>

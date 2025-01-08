@@ -1,28 +1,29 @@
+import ImageWrapper from "@/components/atoms/image-wrapper/ImageWrapper.tsx";
 import TextDescrition from "@/components/atoms/text-description/text-description.tsx";
 import TextTitle from "@/components/atoms/text-title/text-title.tsx";
-import VideoWrapper from "@/components/atoms/video-wrapper/VideoWrapper.tsx";
 import TitleWithDescription from "@/components/molecules/text-with-description/TitleWithDescription.tsx";
 import AspectRatio from "@/types/aspect-ratio.ts";
-import MediaDetails from "@/types/media-details.ts";
 import clsx from "@/utils/clsx.ts";
 import React from "react";
+import MediaDetails from "@/types/media-details.ts";
 
-interface VideoWithTextProps {
-  videoUrl: string;
+interface ImageWithTextProps {
+  url: string;
   aspectRatio: AspectRatio;
+  alt: string;
+  key: string;
   details?: MediaDetails;
-  description?: string;
-  videoPosterUrl?: string;
   reverseOrder?: boolean;
   className?: string;
 }
 
-const VideoWithText: React.FC<VideoWithTextProps> = ({
+const ImageWithText: React.FC<ImageWithTextProps> = ({
   details,
-  videoUrl,
+  url,
   aspectRatio,
+  alt,
+  key,
   reverseOrder,
-  videoPosterUrl,
   className,
 }) => {
   return (
@@ -37,8 +38,8 @@ const VideoWithText: React.FC<VideoWithTextProps> = ({
         >
           <TitleWithDescription
             details={details}
-            className="hidden lg:flex gap-16 w-[30vw]"
             flexAlignment="text-center"
+            className="hidden lg:flex gap-16 w-[30vw]"
           />
 
           <TextTitle
@@ -46,10 +47,12 @@ const VideoWithText: React.FC<VideoWithTextProps> = ({
             className="block lg:hidden text-center"
           />
 
-          <VideoWrapper
-            src={videoUrl}
+          <ImageWrapper
+            alt={alt}
+            key={key}
+            sizes="auto"
+            src={url}
             aspectRatio={aspectRatio}
-            poster={videoPosterUrl || undefined}
             className="flex items-center rounded-xl w-[90vw] md:w-[50vw]"
           />
 
@@ -59,10 +62,12 @@ const VideoWithText: React.FC<VideoWithTextProps> = ({
           />
         </div>
       ) : (
-        <VideoWrapper
-          src={videoUrl}
+        <ImageWrapper
+          alt={alt}
+          key={key}
+          sizes="auto"
+          src={url}
           aspectRatio={aspectRatio}
-          poster={videoPosterUrl || undefined}
           className="flex items-center rounded-xl w-[90vw] md:w-[50vw]"
         />
       )}
@@ -70,4 +75,4 @@ const VideoWithText: React.FC<VideoWithTextProps> = ({
   );
 };
 
-export default VideoWithText;
+export default ImageWithText;

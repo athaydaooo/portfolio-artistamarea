@@ -1,18 +1,17 @@
 import TextDescrition from "@/components/atoms/text-description/text-description.tsx";
 import TextTitle from "@/components/atoms/text-title/text-title.tsx";
+import MediaDetails from "@/types/media-details.ts";
 import clsx from "@/utils/clsx.ts";
 import React from "react";
 
 interface TitleWithDescriptionProps {
-  title: string;
-  description: string;
+  details: MediaDetails;
   flexAlignment?: string;
   className?: string;
 }
 
 const TitleWithDescription: React.FC<TitleWithDescriptionProps> = ({
-  title,
-  description,
+  details,
   flexAlignment,
   className,
 }) => {
@@ -24,8 +23,8 @@ const TitleWithDescription: React.FC<TitleWithDescriptionProps> = ({
         className || null,
       )}
     >
-      <TextTitle text={title} />
-      <TextDescrition text={description} />
+      <TextTitle text={details.title} />
+      <TextDescrition text={details.description} />
     </div>
   );
 };
