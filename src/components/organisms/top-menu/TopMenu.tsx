@@ -24,10 +24,7 @@ const TopMenu: React.FC<TopMenuProps> = ({ sections }) => {
           </h1>
 
           {/* desktop navitems */}
-          <div
-            className={`hidden lg:block w-full lg:w-auto lg:max-h-full`}
-            id="navbar-hamburger"
-          >
+          <div className={`hidden lg:block w-full lg:w-auto lg:max-h-full`}>
             <ul className="flex flex-col items-center mt-8 lg:mt-0 lg:flex-row lg:space-x-4 lg:text-xs 2k:text-2xl">
               {sections.map((section, index) => (
                 <li key={index}>
@@ -43,7 +40,7 @@ const TopMenu: React.FC<TopMenuProps> = ({ sections }) => {
           <button
             data-collapse-toggle="navbar-hamburger"
             type="button"
-            className="lg:hidden inline-flex items-center justify-center p-2 w-10 h-10 text-sm text-gray-500 rounded-lg focus:outline-none dark:text-gray-400"
+            className="lg:hidden inline-flex items-center justify-center p-2 w-10 h-10 text-sm rounded-lg focus:outline-none "
             aria-controls="navbar-hamburger"
             aria-expanded={isMenuOpen}
             onClick={toggleMenu}
@@ -73,10 +70,7 @@ const TopMenu: React.FC<TopMenuProps> = ({ sections }) => {
             <ul className="flex flex-col items-center mt-8 lg:mt-0 lg:flex-row lg:space-x-4 lg:text-xl">
               {sections.map((section, index) => (
                 <li key={index}>
-                  <Link
-                    href={`/mareabee/${section.slug}`}
-                    className="hover:underline"
-                  >
+                  <Link href={section.slug} className="hover:underline">
                     {section.name.toUpperCase()}
                   </Link>
                 </li>

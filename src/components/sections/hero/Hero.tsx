@@ -1,8 +1,28 @@
+import clsx from "@/utils/clsx.ts";
+import Image from "next/image";
 import React from "react";
 
-const Hero: React.FC = () => {
+interface HeroProps {
+  url: string;
+  alt: string;
+  key: string;
+  className?: string;
+}
+
+const Hero: React.FC<HeroProps> = ({ url, alt, key, className }) => {
   return (
-    <div className="flex flex-col items-center h-screen bg-[url('/o-ultimo-frame/hero.jpg')] bg-cover bg-center"></div>
+    <div
+      className={clsx("flex flex-col items-center h-screen", className || null)}
+    >
+      <Image
+        className={"object-cover"}
+        src={url}
+        alt={alt}
+        key={key}
+        fill
+        sizes="auto"
+      />
+    </div>
   );
 };
 

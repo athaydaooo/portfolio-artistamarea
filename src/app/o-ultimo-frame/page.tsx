@@ -6,7 +6,19 @@ import AspectRatio from "@/types/aspect-ratio.ts";
 export default function OUltimoFrame() {
   return (
     <>
-      <Hero />
+      <Hero
+        alt="Gravacao curta"
+        key="hero-curta-desktop"
+        url="/o-ultimo-frame/hero.jpg"
+        className="hidden lg:block"
+      />
+
+      <Hero
+        alt="Gravacao curta"
+        key="hero-curta-mobile"
+        url="/o-ultimo-frame/1.jpg"
+        className="block lg:hidden"
+      />
 
       <div className="flex flex-col items-center h-screen">
         <ImageSection
