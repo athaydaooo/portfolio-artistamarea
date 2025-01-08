@@ -6,6 +6,7 @@ import ImageWrapper from "@/components/atoms/image-wrapper/ImageWrapper.tsx";
 import clsx from "@/utils/clsx.ts";
 
 interface ImageData {
+  alt: string;
   src: string;
   ratio: AspectRatio;
 }
@@ -64,9 +65,9 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
 
             return (
               <ImageWrapper
-                key={`desktop-${index}`}
+                key={`desktop=gallery-image-${index}`}
                 src={img.src}
-                alt={`${index}`}
+                alt={img.alt}
                 aspectRatio={selectorAspectRatio}
                 sizes={selectorWidth}
                 className={clsx(minHeigthClass, widthClass, "cursor-pointer")}
@@ -80,8 +81,8 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
 
         {/* selected image */}
         <ImageWrapper
-          key="desktop-selected-image"
-          alt="Selected Image"
+          key="gallery-selected-image"
+          alt={selectedImage.alt}
           aspectRatio={selectorAspectRatio}
           src={hoveredImage ? hoveredImage.src : selectedImage.src}
           sizes="auto"
@@ -103,9 +104,9 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
 
             return (
               <ImageWrapper
-                key={`desktop-${index}`}
+                key={`gallery-image-${index}`}
                 src={img.src}
-                alt={`${index}`}
+                alt={img.alt}
                 aspectRatio={selectorAspectRatio}
                 sizes={selectorWidth}
                 className={clsx(minHeigthClass, widthClass, "cursor-pointer")}
@@ -122,9 +123,9 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
       <div className="lg:hidden grid grid-cols-2 gap-1 my-1">
         {images.map((img, index) => (
           <ImageWrapper
-            key={`mobile-${index}`}
+            key={`mobile-gallery-image-${index}`}
             src={img.src}
-            alt={`mobile ${index}`}
+            alt={img.alt}
             aspectRatio={img.ratio}
             sizes="(max-width: 325px) 45vw, 48vw"
             className="xs:w-[45vw] w-[48vw] gap-1 min-h-full"
@@ -146,7 +147,7 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
           <ImageWrapper
             key="captured-image"
             src={capturedImage.src}
-            alt="captured Image"
+            alt={capturedImage.alt}
             aspectRatio={capturedImage.ratio}
             sizes="auto"
             className="w-[80vw] h-auto lg:w-auto lg:h-[80vh]"

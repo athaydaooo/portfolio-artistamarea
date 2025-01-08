@@ -53,7 +53,7 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
           © 2024 Copyright:
           <TextReferenced
             linkedText=" Athayde Labs"
-            targetUrl="https://www.athaydelabs.com"
+            targetUrl="https://linkedin.com/in/athaydaooo"
             className="cursor-pointer"
             name="Athayde Labs Link"
           />

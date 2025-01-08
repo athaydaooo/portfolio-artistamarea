@@ -7,77 +7,103 @@ export default function Home() {
       <Gallery
         images={[
           {
-            src: "/galeria/1.jpg",
+            src: "/galeria/athayde-1.jpg",
+            alt: "Athayde 1",
+            ratio: "ClassicLandscape",
+          },
+          {
+            src: "/galeria/athayde-2.jpg",
+            alt: "Athayde 2",
+            ratio: AspectRatio.ClassicPortrait,
+          },
+          {
+            src: "/galeria/capivaras.jpg",
+            alt: "Capivaras",
+            ratio: AspectRatio.ClassicPortrait,
+          },
+          {
+            src: "/galeria/decoracao.jpg",
+            alt: "Decoração",
+            ratio: AspectRatio.ModernPortrait,
+          },
+          {
+            src: "/galeria/holambra-1.jpg",
+            alt: "Holambra 1",
             ratio: AspectRatio.ClassicLandscape,
           },
           {
-            src: "/galeria/2.jpg",
+            src: "/galeria/holambra-2.jpg",
+            alt: "Holambra 2",
             ratio: AspectRatio.ClassicPortrait,
           },
           {
-            src: "/galeria/3.jpg",
-            ratio: AspectRatio.ClassicPortrait,
-          },
-          { src: "/galeria/4.jpg", ratio: AspectRatio.ModernPortrait },
-          {
-            src: "/galeria/5.jpg",
-            ratio: AspectRatio.ClassicLandscape,
-          },
-          {
-            src: "/galeria/6.jpg",
-            ratio: AspectRatio.ClassicPortrait,
-          },
-          {
-            src: "/galeria/7.jpg",
+            src: "/galeria/livro-casamento.jpg",
+            alt: "Livro Casamento",
             ratio: AspectRatio.ModernLandscape,
           },
           {
-            src: "/galeria/8.jpg",
+            src: "/galeria/mastrobiso-1.jpg",
+            alt: "Mastrobiso 1",
             ratio: AspectRatio.ClassicLandscape,
           },
           {
-            src: "/galeria/9.jpg",
+            src: "/galeria/mastrobiso-2.jpg",
+            alt: "Mastrobiso 2",
             ratio: AspectRatio.ClassicPortrait,
           },
           {
-            src: "/galeria/10.jpg",
+            src: "/galeria/noronha-1.jpg",
+            alt: "Noronha 1",
             ratio: AspectRatio.ClassicLandscape,
           },
           {
-            src: "/galeria/11.jpg",
+            src: "/galeria/noronha-2.jpg",
+            alt: "Noronha 2",
             ratio: AspectRatio.ClassicLandscape,
           },
           {
-            src: "/galeria/12.jpg",
-            ratio: AspectRatio.ClassicLandscape,
-          },
-          { src: "/galeria/13.jpg", ratio: AspectRatio.Square },
-          {
-            src: "/galeria/14.jpg",
+            src: "/galeria/noronha-3.jpg",
+            alt: "Noronha 3",
             ratio: AspectRatio.ClassicLandscape,
           },
           {
-            src: "/galeria/15.jpg",
+            src: "/galeria/noronha-4.jpg",
+            alt: "Noronha 4",
+            ratio: AspectRatio.Square,
+          },
+          {
+            src: "/galeria/noronha-5.jpg",
+            alt: "Noronha 5",
             ratio: AspectRatio.ClassicLandscape,
           },
           {
-            src: "/galeria/16.jpg",
+            src: "/galeria/noronha-6.jpg",
+            alt: "Noronha 6",
             ratio: AspectRatio.ClassicLandscape,
           },
           {
-            src: "/galeria/17.jpg",
+            src: "/galeria/pagode.jpg",
+            alt: "Pagode",
             ratio: AspectRatio.ClassicLandscape,
           },
           {
-            src: "/galeria/18.jpg",
+            src: "/galeria/passarinhos.jpg",
+            alt: "Passarinhos",
             ratio: AspectRatio.ClassicLandscape,
           },
           {
-            src: "/galeria/19.jpg",
+            src: "/galeria/passaros-ninho.jpg",
+            alt: "Pássaros no Ninho",
             ratio: AspectRatio.ClassicLandscape,
           },
           {
-            src: "/galeria/20.jpg",
+            src: "/galeria/passaros.jpg",
+            alt: "Pássaros",
+            ratio: AspectRatio.ClassicLandscape,
+          },
+          {
+            src: "/galeria/praia-de-noronha.jpg",
+            alt: "Praia de Noronha",
             ratio: AspectRatio.ClassicLandscape,
           },
         ]}

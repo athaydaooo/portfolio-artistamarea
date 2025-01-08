@@ -16,7 +16,7 @@ export default function OUltimoFrame() {
       <Hero
         alt="Gravacao curta"
         key="hero-curta-mobile"
-        url="/o-ultimo-frame/1.jpg"
+        url="/o-ultimo-frame/mobile-hero.jpg"
         className="block lg:hidden"
       />
 
