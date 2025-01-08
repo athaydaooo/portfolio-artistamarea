@@ -1,14 +1,39 @@
-export default function Videos() {
+import Hero from "@/components/sections/hero/Hero.tsx";
+import VideoSection from "@/components/sections/video/Video.tsx";
+import AspectRatio from "@/types/aspect-ratio.ts";
+
+export default function OUltimoFrame() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center h-screen">
-        section 1
+      <Hero />
+
+      <div className="flex flex-col items-center h-screen">
+        <VideoSection
+          title="Lorem ipsum"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate luctus malesuada. Nam tempus diam odio, ut sollicitudin risus iaculis a. "
+          reverseOrder
+          aspectRatio={AspectRatio.ClassicLandscape}
+          videoUrl="/videos/doutora.mp4"
+        />
       </div>
-      <div className="flex flex-col items-center justify-center h-screen">
-        section 2
+
+      <div className="flex flex-col items-center h-screen">
+        <VideoSection
+          title="Lorem ipsum"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate luctus malesuada. Nam tempus diam odio, ut sollicitudin risus iaculis a. "
+          reverseOrder={false}
+          aspectRatio={AspectRatio.ClassicLandscape}
+          videoUrl="/videos/doutora.mp4"
+        />
       </div>
-      <div className="flex flex-col items-center justify-center h-screen">
-        section 3
+      <div className="flex flex-col items-center h-screen">
+        <VideoSection
+          title="Lorem ipsum"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate luctus malesuada. Nam tempus diam odio, ut sollicitudin risus iaculis a. "
+          reverseOrder={true}
+          aspectRatio={AspectRatio.ClassicLandscape}
+          videoUrl="/videos/doutora.mp4"
+        />
       </div>
     </>
   );

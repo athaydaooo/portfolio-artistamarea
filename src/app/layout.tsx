@@ -8,6 +8,7 @@ import {
 import React from "react";
 import TopMenu from "@/components/organisms/top-menu/TopMenu.tsx";
 import Footer from "@/components/sections/footer/Footer.tsx";
+import { ThemeProvider } from "@/components/providers/ThemeProvider.tsx";
 
 const notoSerif = NotoSerif({
   weight: "300",
@@ -28,19 +29,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={`${notoSerif.className} ${notoSerifGujarati.className}`}>
-        <main>
-          <TopMenu
-            sections={[
-              { name: "galeria", slug: "/" },
-              { name: "videos", slug: "/videos" },
-              { name: "o último frame", slug: "/o-ultimo-frame" },
-              { name: "sobre mim", slug: "/sobre-mim" },
-            ]}
-          />
-          <div>{children}</div>
-          <Footer />
-        </main>
+      <body
+        className={`${notoSerif.className} ${notoSerifGujarati.className} dark:bg-black dark:text-white`}
+      >
+        <ThemeProvider>
+          <main>
+            <TopMenu
+              sections={[
+                { name: "galeria", slug: "/" },
+                { name: "videos", slug: "/videos" },
+                { name: "o último frame", slug: "/o-ultimo-frame" },
+                { name: "sobre mim", slug: "/sobre-mim" },
+              ]}
+            />
+            {children}
+            <Footer />
+          </main>
+        </ThemeProvider>
       </body>
     </html>
   );

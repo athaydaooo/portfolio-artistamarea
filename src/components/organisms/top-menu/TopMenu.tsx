@@ -15,9 +15,9 @@ const TopMenu: React.FC<TopMenuProps> = ({ sections }) => {
   };
 
   return (
-    <header className="relative lg:absolute top-0 left-0 w-full z-10 items-center">
+    <header className="relative lg:absolute top-0 left-0 w-full z-10 items-center bg-inherit">
       <nav>
-        <div className="flex text-black flex-wrap items-center mx-auto p-5 justify-center">
+        <div className="flex  flex-wrap items-center mx-auto p-5 justify-center">
           {/* desktop and mobile logo */}
           <h1 className="text-2xl lg:text-3xl 2k:text-7xl font-extralight tracking-widest pr-4 whitespace-nowrap">
             ARTISTA MAREA
