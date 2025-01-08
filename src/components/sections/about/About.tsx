@@ -13,7 +13,7 @@ const About: React.FC = () => {
             aspectRatio={AspectRatio.Square}
             key="maria-claudia"
             sizes="auto"
-            src="/mareabee/mariaicon.jpg"
+            src="/sobre mim/mariaicon.jpg"
           />
         </div>
 

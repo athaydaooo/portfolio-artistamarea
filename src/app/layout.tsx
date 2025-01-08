@@ -1,18 +1,19 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./style.css";
+import {
+  Noto_Serif_Gujarati as NotoSerifGujarati,
+  Noto_Serif as NotoSerif,
+} from "next/font/google";
 
 import React from "react";
+import TopMenu from "@/components/organisms/top-menu/TopMenu.tsx";
+import Footer from "@/components/sections/footer/Footer.tsx";
 
-const geistSans = localFont({
-  src: "../fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+const notoSerif = NotoSerif({
+  weight: "300",
 });
-const geistMono = localFont({
-  src: "../fonts/GeistVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+const notoSerifGujarati = NotoSerifGujarati({
+  weight: "300",
 });
 
 export const metadata: Metadata = {
@@ -27,10 +28,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <main>{children}</main>
+      <body className={`${notoSerif.className} ${notoSerifGujarati.className}`}>
+        <main>
+          <TopMenu
+            sections={[
+              { name: "galeria", slug: "/" },
+              { name: "videos", slug: "/videos" },
+              { name: "o último frame", slug: "/o-ultimo-frame" },
+              { name: "sobre mim", slug: "/sobre-mim" },
+            ]}
+          />
+          <div>{children}</div>
+          <Footer />
+        </main>
       </body>
     </html>
   );

@@ -31,10 +31,7 @@ const TopMenu: React.FC<TopMenuProps> = ({ sections }) => {
             <ul className="flex flex-col items-center mt-8 lg:mt-0 lg:flex-row lg:space-x-4 lg:text-xs 2k:text-2xl">
               {sections.map((section, index) => (
                 <li key={index}>
-                  <Link
-                    href={`/mareabee/${section.slug}`}
-                    className="hover:underline"
-                  >
+                  <Link href={`${section.slug}`} className="hover:underline">
                     {section.name.toUpperCase()}
                   </Link>
                 </li>
