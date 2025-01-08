@@ -10,7 +10,7 @@ export default function Videos() {
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate luctus malesuada. Nam tempus diam odio, ut sollicitudin risus iaculis a. "
           reverseOrder
           aspectRatio={AspectRatio.ClassicLandscape}
-          videoUrl="/mareabee/doutora.mp4"
+          videoUrl="/mareabee/videos/doutora.mp4"
         />
       </div>
 
@@ -20,7 +20,7 @@ export default function Videos() {
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate luctus malesuada. Nam tempus diam odio, ut sollicitudin risus iaculis a. "
           reverseOrder={false}
           aspectRatio={AspectRatio.ClassicLandscape}
-          videoUrl="/mareabee/doutora.mp4"
+          videoUrl="/mareabee/videos/doutora.mp4"
         />
       </div>
       <div className="flex flex-col items-center h-screen">
@@ -29,7 +29,7 @@ export default function Videos() {
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate luctus malesuada. Nam tempus diam odio, ut sollicitudin risus iaculis a. "
           reverseOrder={true}
           aspectRatio={AspectRatio.ClassicLandscape}
-          videoUrl="/mareabee/doutora.mp4"
+          videoUrl="/mareabee/videos/doutora.mp4"
         />
       </div>
     </>
