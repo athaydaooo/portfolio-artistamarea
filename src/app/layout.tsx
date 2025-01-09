@@ -9,6 +9,7 @@ import React from "react";
 import TopMenu from "@/components/organisms/top-menu/TopMenu.tsx";
 import Footer from "@/components/sections/footer/Footer.tsx";
 import { ThemeProvider } from "@/components/providers/ThemeProvider.tsx";
+import CmsButton from "@/components/organisms/cms-button/CmsButton";
 
 const notoSerif = NotoSerif({
   weight: "300",
@@ -33,6 +34,7 @@ export default function RootLayout({
         className={`${notoSerif.className} ${notoSerifGujarati.className} bg-white text-black dark:bg-black dark:text-white`}
       >
         <ThemeProvider>
+        <CmsButton />
           <main>
             <TopMenu
               sections={[
