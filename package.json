@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@eslint/create-config": "^1.4.0",
-    "@next/font": "^14.2.15",
+    "@next/codemod": "^15.0.3",
     "@prisma/client": "^5.22.0",
     "axios": "^1.7.7",
     "dotenv": "^16.4.5",
