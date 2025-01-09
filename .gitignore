@@ -43,5 +43,3 @@ next-env.d.ts
 
 # public
 /public/**/*.mp4
-node_modules
-.env
