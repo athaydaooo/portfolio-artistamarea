@@ -12,9 +12,11 @@ import { ThemeProvider } from "@/components/providers/ThemeProvider.tsx";
 
 const notoSerif = NotoSerif({
   weight: "300",
+  preload: false,
 });
 const notoSerifGujarati = NotoSerifGujarati({
   weight: "300",
+  preload: false,
 });
 
 export const metadata: Metadata = {

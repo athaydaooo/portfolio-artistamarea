@@ -1,12 +1,12 @@
 {
-  "name": "unipage",
+  "name": "portfolio-artistamarea",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "test": "jest",
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
+    "dev": "tinacms dev -c \"next dev\"",
+    "build": "tinacms build && next build",
+    "start": "tinacms build && next start",
     "prepare": "husky install",
     "lint": "next lint",
     "lint:fix": "next lint --fix"
@@ -22,7 +22,8 @@
     "next": "15.0.2",
     "prisma": "^5.22.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "tinacms": "^2.6.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
@@ -31,8 +32,9 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.0.1",
     "@testing-library/user-event": "^14.5.2",
+    "@tinacms/cli": "^1.8.0",
     "@types/jest": "^29.5.14",
-    "@types/node": "^20",
+    "@types/node": "^20.17.12",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "babel-jest": "^29.7.0",
