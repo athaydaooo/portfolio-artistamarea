@@ -1,5 +1,5 @@
-import VideoSection from "@/components/sections/video/Video.tsx";
 import AspectRatio from "@/types/aspect-ratio.ts";
+import VideoSection from "@/components/sections/video/index.tsx";
 
 export default function Videos() {
   return (

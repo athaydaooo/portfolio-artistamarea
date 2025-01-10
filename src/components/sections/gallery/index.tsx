@@ -11,7 +11,7 @@ interface ImageData {
   ratio: AspectRatio;
 }
 
-interface GalleryProps {
+interface GallerySectionProps {
   images: [
     ImageData,
     ImageData,
@@ -36,7 +36,7 @@ interface GalleryProps {
   ];
 }
 
-const Gallery: React.FC<GalleryProps> = ({ images }) => {
+const GallerySection: React.FC<GallerySectionProps> = ({ images }) => {
   const maxImagesPerScroll = images.length / 2;
   const [selectedImage, setSelectedImage] = useState<ImageData>(images[0]);
   const [hoveredImage, setHoveredImage] = useState<ImageData | null>(null);
@@ -158,4 +158,4 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
   );
 };
 
-export default Gallery;
+export default GallerySection;

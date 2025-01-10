@@ -2,14 +2,19 @@ import clsx from "@/utils/clsx.ts";
 import Image from "next/image";
 import React from "react";
 
-interface HeroProps {
+interface HeroSectionProps {
   url: string;
   alt: string;
   key: string;
   className?: string;
 }
 
-const Hero: React.FC<HeroProps> = ({ url, alt, key, className }) => {
+const HeroSection: React.FC<HeroSectionProps> = ({
+  url,
+  alt,
+  key,
+  className,
+}) => {
   return (
     <div
       className={clsx("flex flex-col items-center h-screen", className || null)}
@@ -26,4 +31,4 @@ const Hero: React.FC<HeroProps> = ({ url, alt, key, className }) => {
   );
 };
 
-export default Hero;
+export default HeroSection;

@@ -1,15 +1,15 @@
-import Gallery from "@/components/sections/gallery/Gallery.tsx";
+import GallerySection from "@/components/sections/gallery/index.tsx";
 import AspectRatio from "@/types/aspect-ratio.ts";
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center lg:h-screen">
-      <Gallery
+      <GallerySection
         images={[
           {
             src: "/galeria/athayde-1.jpg",
             alt: "Athayde 1",
-            ratio: "ClassicLandscape",
+            ratio: AspectRatio.ClassicPortrait,
           },
           {
             src: "/galeria/athayde-2.jpg",

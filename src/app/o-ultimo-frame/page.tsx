@@ -1,19 +1,19 @@
-import Hero from "@/components/sections/hero/Hero.tsx";
-import ImageSection from "@/components/sections/image/Image.tsx";
-import VideoSection from "@/components/sections/video/Video.tsx";
+import HeroSection from "@/components/sections/hero/index.tsx";
+import ImageSection from "@/components/sections/image/index.tsx";
 import AspectRatio from "@/types/aspect-ratio.ts";
+import VideoSection from "@/components/sections/video/index.tsx";
 
 export default function OUltimoFrame() {
   return (
     <>
-      <Hero
+      <HeroSection
         alt="Gravacao curta"
         key="hero-curta-desktop"
         url="/o-ultimo-frame/hero.jpg"
         className="hidden lg:block"
       />
 
-      <Hero
+      <HeroSection
         alt="Gravacao curta"
         key="hero-curta-mobile"
         url="/o-ultimo-frame/mobile-hero.jpg"
