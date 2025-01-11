@@ -1,7 +1,7 @@
 ---
 title: index
-desktopHero: /o-ultimo-frame/hero.jpg
-mobileHero: /o-ultimo-frame/mobile-hero.jpg
+desktopHero: /galeria/noronha-2.jpg
+mobileHero: /galeria/decoracao.jpg
 images:
   - title: imagem 2
     body: |
