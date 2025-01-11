@@ -3,20 +3,14 @@
 import ImageWrapper from "@/components/atoms/image-wrapper/ImageWrapper.tsx";
 import AspectRatio from "@/types/aspect-ratio.ts";
 import React from "react";
-import { TinaMarkdown } from "tinacms/dist/rich-text";
-import { useTina } from "tinacms/dist/react";
-import { AboutQuery } from "../../../../tina/__generated__/types.ts";
+import { TinaMarkdown, TinaMarkdownContent } from "tinacms/dist/rich-text";
 
 interface AboutSectionProps {
-  data: AboutQuery;
-  variables: {
-    relativePath: string;
-  };
-  query: string;
+  details: TinaMarkdownContent;
+  imageUrl: string;
 }
 
 const AboutSection: React.FC<AboutSectionProps> = (props) => {
-  const { data } = useTina(props);
   return (
     <section className="relative flex items-center justify-center lg:h-full w-full">
       <div className="relative grid grid-cols-1 lg:grid-cols-2 items-center justify-center h-full w-full">
@@ -27,14 +21,12 @@ const AboutSection: React.FC<AboutSectionProps> = (props) => {
             aspectRatio={AspectRatio.Square}
             key="maria-claudia"
             sizes="auto"
-            src={data.about.aboutImage}
+            src={props.imageUrl}
           />
         </div>
 
         <div className="relative flex flex-col w-[90vw] lg:w-[30vw] mx-auto my-10 lg:m-10">
-          <h1 className="text-2xl text-start">{data.about.title}</h1>
-          <br />
-          <TinaMarkdown content={data.about.body} />
+          <TinaMarkdown content={props.details} />
         </div>
       </div>
     </section>

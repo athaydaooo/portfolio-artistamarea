@@ -2,12 +2,12 @@ import AspectRatio from "@/types/aspect-ratio.ts";
 import enumToOptions from "@/utils/enum-to-options.ts";
 import { TinaField } from "tinacms";
 
-export const videosCollection = {
-  name: "videos",
-  label: "Videos",
-  path: "content/videos",
+export const oUltimoFrameCollection = {
+  name: "oultimoframe",
+  label: "O Ultimo Frame",
+  path: "content/oultimoframe",
   ui: {
-    router: () => `/videos`,
+    router: () => `/o-ultimo-frame`,
   },
   fields: [
     {
@@ -18,9 +18,21 @@ export const videosCollection = {
       required: true,
     },
     {
+      type: "image",
+      name: "desktopHero",
+      label: "Hero Desktop",
+      required: true,
+    },
+    {
+      type: "image",
+      name: "mobileHero",
+      label: "Hero Mobile",
+      required: true,
+    },
+    {
       type: "object",
-      name: "videos",
-      label: "Videos",
+      name: "images",
+      label: "Imagens",
       list: true,
       ui: {
         itemProps: (item) => {
@@ -47,14 +59,9 @@ export const videosCollection = {
         },
         {
           type: "image",
-          name: "videoUrl",
-          label: "Video",
+          name: "imageUrl",
+          label: "Imagem",
           required: true,
-        },
-        {
-          type: "image",
-          name: "posterUrl",
-          label: "Poster do Video",
         },
         {
           type: "string",
@@ -71,6 +78,17 @@ export const videosCollection = {
         },
       ] as TinaField[],
       required: true,
+    },
+    {
+      type: "image",
+      name: "filmUrl",
+      label: "O Ultimo Frame",
+      required: true,
+    },
+    {
+      type: "image",
+      name: "filmPosterUrl",
+      label: "Poster do Filme",
     },
   ] as TinaField[],
 };

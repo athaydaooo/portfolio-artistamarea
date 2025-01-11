@@ -6,7 +6,6 @@ import Image from "next/image";
 import React from "react";
 
 interface ImageWrapperProps {
-  key: string;
   src: string;
   alt: string;
   aspectRatio: AspectRatio;

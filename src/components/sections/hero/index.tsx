@@ -5,28 +5,15 @@ import React from "react";
 interface HeroSectionProps {
   url: string;
   alt: string;
-  key: string;
   className?: string;
 }
 
-const HeroSection: React.FC<HeroSectionProps> = ({
-  url,
-  alt,
-  key,
-  className,
-}) => {
+const HeroSection: React.FC<HeroSectionProps> = ({ url, alt, className }) => {
   return (
     <div
       className={clsx("flex flex-col items-center h-screen", className || null)}
     >
-      <Image
-        className={"object-cover"}
-        src={url}
-        alt={alt}
-        key={key}
-        fill
-        sizes="auto"
-      />
+      <Image className={"object-cover"} src={url} alt={alt} fill sizes="auto" />
     </div>
   );
 };

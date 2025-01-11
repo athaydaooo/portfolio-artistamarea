@@ -1,21 +1,17 @@
 import VideoWithText from "@/components/organisms/video-with-text/VideoWithText.tsx";
 import AspectRatio from "@/types/aspect-ratio.ts";
+import { MediaDetails } from "@/types/media-details.ts";
 import React from "react";
 
 interface VideoSectionProps {
-  key: string;
   videoUrl: string;
   aspectRatio: AspectRatio;
-  details?: {
-    title: string;
-    description: string;
-  };
+  details?: MediaDetails;
   reverseOrder?: boolean;
   videoPosterUrl?: string;
 }
 
 const VideoSection: React.FC<VideoSectionProps> = ({
-  key,
   videoUrl,
   aspectRatio,
   details,
@@ -23,12 +19,11 @@ const VideoSection: React.FC<VideoSectionProps> = ({
   videoPosterUrl,
 }) => {
   return (
-    <section className="relative flex items-center justify-center h-full w-full">
+    <section className="relative flex flex-col items-center justify-center h-screen w-full">
       <VideoWithText
         details={details}
         videoUrl={videoUrl}
         aspectRatio={aspectRatio}
-        key={details?.title ? details.title : key}
         reverseOrder={reverseOrder}
         videoPosterUrl={videoPosterUrl || undefined}
         className="justify-center items-center gap-16"

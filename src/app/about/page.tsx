@@ -1,5 +1,5 @@
-import AboutSection from "@/components/sections/about/index.tsx";
 import { client } from "../../../tina/__generated__/client.ts";
+import AboutPageBuilder from "./builder.tsx";
 
 export default async function AboutPage() {
   const aboutData = await client.queries.about({
@@ -9,7 +9,7 @@ export default async function AboutPage() {
   return (
     <>
       <div className="flex flex-col items-center lg:h-screen">
-        <AboutSection {...aboutData} />
+        <AboutPageBuilder {...aboutData} />
       </div>
     </>
   );

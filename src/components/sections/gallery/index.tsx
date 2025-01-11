@@ -5,35 +5,14 @@ import AspectRatio from "@/types/aspect-ratio.ts";
 import ImageWrapper from "@/components/atoms/image-wrapper/ImageWrapper.tsx";
 import clsx from "@/utils/clsx.ts";
 
-interface ImageData {
-  alt: string;
+export interface ImageData {
   src: string;
+  alt: string;
   ratio: AspectRatio;
 }
 
 interface GallerySectionProps {
-  images: [
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-  ];
+  images: ImageData[];
 }
 
 const GallerySection: React.FC<GallerySectionProps> = ({ images }) => {

@@ -1,6 +1,8 @@
 import { defineConfig } from "tinacms";
 import { aboutCollection } from "./collections/about.ts";
 import { videosCollection } from "./collections/videos.ts";
+import { oUltimoFrameCollection } from "./collections/oultimoframe.ts";
+import { homeCollection } from "./collections/home.ts";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -29,6 +31,11 @@ export default defineConfig({
   },
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
   schema: {
-    collections: [aboutCollection, videosCollection],
+    collections: [
+      aboutCollection,
+      videosCollection,
+      oUltimoFrameCollection,
+      homeCollection,
+    ],
   },
 });

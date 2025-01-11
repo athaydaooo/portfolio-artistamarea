@@ -1,6 +1,6 @@
 import TextDescrition from "@/components/atoms/text-description/text-description.tsx";
 import TextTitle from "@/components/atoms/text-title/text-title.tsx";
-import MediaDetails from "@/types/media-details.ts";
+import { MediaDetails } from "@/types/media-details.ts";
 import clsx from "@/utils/clsx.ts";
 import React from "react";
 

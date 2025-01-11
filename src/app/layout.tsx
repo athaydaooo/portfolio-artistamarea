@@ -20,8 +20,8 @@ const notoSerifGujarati = NotoSerifGujarati({
 });
 
 export const metadata: Metadata = {
-  title: "Unipage",
-  description: "Universal page",
+  title: "Artista Marea",
+  description: "Portifoio da artista Marea",
 };
 
 export default function RootLayout({
