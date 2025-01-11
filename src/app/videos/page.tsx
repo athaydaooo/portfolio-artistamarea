@@ -1,49 +1,18 @@
-import VideoSection from "@/components/sections/video/Video.tsx";
-import AspectRatio from "@/types/aspect-ratio.ts";
+/* eslint-disable @next/next/no-async-client-component */
+/* eslint-disable unused-imports/no-unused-vars */
+/* eslint-disable react-hooks/rules-of-hooks */
 
-export default function Videos() {
+import { client } from "../../../tina/__generated__/client.ts";
+import VideosPageBuilder from "./builder.tsx";
+
+export default async function Videos() {
+  const videoData = await client.queries.videos({
+    relativePath: "index.md",
+  });
+
   return (
     <>
-      <div className="flex flex-col items-center h-screen">
-        <VideoSection
-          key="doutora1"
-          details={{
-            title: "Lorem ipsum",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate luctus malesuada. Nam tempus diam odio, ut sollicitudin risus iaculis a. ",
-          }}
-          reverseOrder
-          aspectRatio={AspectRatio.ClassicLandscape}
-          videoUrl="/videos/doutora.mp4"
-        />
-      </div>
-
-      <div className="flex flex-col items-center h-screen">
-        <VideoSection
-          key="doutora2"
-          details={{
-            title: "Lorem ipsum",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate luctus malesuada. Nam tempus diam odio, ut sollicitudin risus iaculis a. ",
-          }}
-          reverseOrder={false}
-          aspectRatio={AspectRatio.ClassicLandscape}
-          videoUrl="/videos/doutora.mp4"
-        />
-      </div>
-      <div className="flex flex-col items-center h-screen">
-        <VideoSection
-          key="doutora3"
-          details={{
-            title: "Lorem ipsum",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate luctus malesuada. Nam tempus diam odio, ut sollicitudin risus iaculis a. ",
-          }}
-          reverseOrder
-          aspectRatio={AspectRatio.ClassicLandscape}
-          videoUrl="/videos/doutora.mp4"
-        />
-      </div>
+      <VideosPageBuilder {...videoData} />
     </>
   );
 }

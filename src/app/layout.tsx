@@ -7,19 +7,21 @@ import {
 
 import React from "react";
 import TopMenu from "@/components/organisms/top-menu/TopMenu.tsx";
-import Footer from "@/components/sections/footer/Footer.tsx";
 import { ThemeProvider } from "@/components/providers/ThemeProvider.tsx";
+import FooterSection from "@/components/sections/footer/index.tsx";
 
 const notoSerif = NotoSerif({
   weight: "300",
+  preload: false,
 });
 const notoSerifGujarati = NotoSerifGujarati({
   weight: "300",
+  preload: false,
 });
 
 export const metadata: Metadata = {
-  title: "Unipage",
-  description: "Universal page",
+  title: "Artista Marea",
+  description: "Portifoio da artista Marea",
 };
 
 export default function RootLayout({
@@ -39,11 +41,11 @@ export default function RootLayout({
                 { name: "galeria", slug: "/" },
                 { name: "videos", slug: "/videos" },
                 { name: "o último frame", slug: "/o-ultimo-frame" },
-                { name: "sobre mim", slug: "/sobre-mim" },
+                { name: "sobre mim", slug: "/about" },
               ]}
             />
             {children}
-            <Footer />
+            <FooterSection />
           </main>
         </ThemeProvider>
       </body>

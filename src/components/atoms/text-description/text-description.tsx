@@ -1,13 +1,18 @@
 import clsx from "@/utils/clsx.ts";
 import React from "react";
+import { TinaMarkdown, TinaMarkdownContent } from "tinacms/dist/rich-text";
 
 interface TextDescritionProps {
-  text: string;
+  text: TinaMarkdownContent;
   className?: string;
 }
 
 const TextDescrition: React.FC<TextDescritionProps> = ({ text, className }) => {
-  return <p className={clsx("text-sm", className || null)}>{text}</p>;
+  return (
+    <div className={clsx("text-sm", className || null)}>
+      <TinaMarkdown content={text} />
+    </div>
+  );
 };
 
 export default TextDescrition;

@@ -5,38 +5,17 @@ import AspectRatio from "@/types/aspect-ratio.ts";
 import ImageWrapper from "@/components/atoms/image-wrapper/ImageWrapper.tsx";
 import clsx from "@/utils/clsx.ts";
 
-interface ImageData {
-  alt: string;
+export interface ImageData {
   src: string;
+  alt: string;
   ratio: AspectRatio;
 }
 
-interface GalleryProps {
-  images: [
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-    ImageData,
-  ];
+interface GallerySectionProps {
+  images: ImageData[];
 }
 
-const Gallery: React.FC<GalleryProps> = ({ images }) => {
+const GallerySection: React.FC<GallerySectionProps> = ({ images }) => {
   const maxImagesPerScroll = images.length / 2;
   const [selectedImage, setSelectedImage] = useState<ImageData>(images[0]);
   const [hoveredImage, setHoveredImage] = useState<ImageData | null>(null);
@@ -158,4 +137,4 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
   );
 };
 
-export default Gallery;
+export default GallerySection;

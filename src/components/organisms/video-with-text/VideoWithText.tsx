@@ -3,7 +3,7 @@ import TextTitle from "@/components/atoms/text-title/text-title.tsx";
 import VideoWrapper from "@/components/atoms/video-wrapper/VideoWrapper.tsx";
 import TitleWithDescription from "@/components/molecules/text-with-description/TitleWithDescription.tsx";
 import AspectRatio from "@/types/aspect-ratio.ts";
-import MediaDetails from "@/types/media-details.ts";
+import { MediaDetails } from "@/types/media-details.ts";
 import clsx from "@/utils/clsx.ts";
 import React from "react";
 

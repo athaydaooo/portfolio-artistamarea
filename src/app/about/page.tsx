@@ -1,15 +1,15 @@
 import { client } from "../../../tina/__generated__/client.ts";
-import HomePageBuilder from "./builder.tsx";
+import AboutPageBuilder from "./builder.tsx";
 
 export default async function AboutPage() {
-  const homeData = await client.queries.home({
+  const aboutData = await client.queries.about({
     relativePath: "index.md",
   });
 
   return (
     <>
       <div className="flex flex-col items-center lg:h-screen">
-        <HomePageBuilder {...homeData} />
+        <AboutPageBuilder {...aboutData} />
       </div>
     </>
   );

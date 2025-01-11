@@ -8,7 +8,7 @@ interface FooterProps {
   className?: string;
 }
 
-const Footer: React.FC<FooterProps> = ({ className }) => {
+const FooterSection: React.FC<FooterProps> = ({ className }) => {
   return (
     <section
       className={clsx(
@@ -63,4 +63,4 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
   );
 };
 
-export default Footer;
+export default FooterSection;

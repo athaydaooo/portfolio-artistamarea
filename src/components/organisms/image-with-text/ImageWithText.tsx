@@ -5,13 +5,12 @@ import TitleWithDescription from "@/components/molecules/text-with-description/T
 import AspectRatio from "@/types/aspect-ratio.ts";
 import clsx from "@/utils/clsx.ts";
 import React from "react";
-import MediaDetails from "@/types/media-details.ts";
+import { MediaDetails } from "@/types/media-details.ts";
 
 interface ImageWithTextProps {
   url: string;
   aspectRatio: AspectRatio;
   alt: string;
-  key: string;
   details?: MediaDetails;
   reverseOrder?: boolean;
   className?: string;
@@ -22,7 +21,6 @@ const ImageWithText: React.FC<ImageWithTextProps> = ({
   url,
   aspectRatio,
   alt,
-  key,
   reverseOrder,
   className,
 }) => {
@@ -49,7 +47,6 @@ const ImageWithText: React.FC<ImageWithTextProps> = ({
 
           <ImageWrapper
             alt={alt}
-            key={key}
             sizes="auto"
             src={url}
             aspectRatio={aspectRatio}
@@ -64,7 +61,6 @@ const ImageWithText: React.FC<ImageWithTextProps> = ({
       ) : (
         <ImageWrapper
           alt={alt}
-          key={key}
           sizes="auto"
           src={url}
           aspectRatio={aspectRatio}
