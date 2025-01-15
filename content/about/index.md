@@ -1,5 +1,6 @@
 ---
-aboutImage: /supply-chain-representation-still-life.jpg
+aboutImage: >-
+  https://res.cloudinary.com/dobazc4ii/image/upload/v1736974614/sobre%20mim/jjygy2ogkobklajr6tol.jpg
 title: index
 ---
 
