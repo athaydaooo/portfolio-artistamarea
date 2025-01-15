@@ -1,10 +1,6 @@
 ---
 title: index
 images:
-  - title: Praia em Nornha
-    imageUrl: /galeria/noronha-6.jpg
-    alt: Praia linda de fernando de noronha
-    aspectRatio: 16/9
   - title: DJ Thiago Martions
     imageUrl: /galeria/thiago-martins.jpg
     alt: Dj thiago martions tocando
@@ -13,6 +9,10 @@ images:
     imageUrl: /galeria/mastrobiso-2.jpg
     alt: dj mastrobiso tocando focada
     aspectRatio: 9/16
+  - title: Praia em Nornha
+    imageUrl: /galeria/noronha-6.jpg
+    alt: Praia linda de fernando de noronha
+    aspectRatio: 16/9
   - title: Praia em Noronha
     imageUrl: /galeria/noronha-5.jpg
     alt: Praia linda em fernando de noronha
