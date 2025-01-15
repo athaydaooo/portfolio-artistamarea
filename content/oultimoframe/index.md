@@ -19,5 +19,7 @@ images:
     aspectRatio: 16/9
 filmUrl: >-
   https://res.cloudinary.com/dobazc4ii/video/upload/v1736976845/o%20ultimo%20frame/qcby5czill2dwbf9gpbd.mp4
+filmPosterUrl: >-
+  https://res.cloudinary.com/dobazc4ii/image/upload/v1736974639/o%20ultimo%20frame/t9knwdaj9ioydgo9yc0c.jpg
 ---
 
