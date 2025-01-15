@@ -3,7 +3,8 @@
 import ImageWrapper from "@/components/atoms/image-wrapper/ImageWrapper.tsx";
 import AspectRatio from "@/types/aspect-ratio.ts";
 import React from "react";
-import { TinaMarkdown, TinaMarkdownContent } from "tinacms/dist/rich-text";
+import { TinaMarkdownContent } from "tinacms/dist/rich-text";
+import TextDescrition from "@/components/atoms/text-description/text-description.tsx";
 
 interface AboutSectionProps {
   details: TinaMarkdownContent;
@@ -26,7 +27,7 @@ const AboutSection: React.FC<AboutSectionProps> = (props) => {
         </div>
 
         <div className="relative flex flex-col w-[90vw] lg:w-[30vw] mx-auto my-10 lg:m-10">
-          <TinaMarkdown content={props.details} />
+          <TextDescrition text={props.details} />
         </div>
       </div>
     </section>
