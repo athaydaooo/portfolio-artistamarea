@@ -19,9 +19,9 @@ export default createMediaHandler({
 
       const user = await isAuthorized(req);
 
-      return user && user.verified;
+      return !!(user && user.verified);
     } catch {
-      return false;
+      return false as boolean;
     }
   },
 });
