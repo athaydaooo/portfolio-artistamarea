@@ -13,17 +13,22 @@ galleryImages:
   - {}
 title: index
 videos:
-  - title: Doutora 2
-    body: |
-      Eh a doutora krl
+  - title: Lorem Ipsum
+    body: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
     videoUrl: >-
       https://res.cloudinary.com/dobazc4ii/video/upload/v1736975974/videos/xrlysbrgfg9qnsnaagqx.mp4
     alt: Dj Doutora tocando um set de Funk
     aspectRatio: 16/9
-  - title: Doutora
+  - title: Lorem Ipsum
     body: >
-      Dj Doutora tocando um set de FunkDj Doutora tocando um set de FunkDj
-      Doutora tocando um set de FunkDj Doutora tocando um set de Funk
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
     videoUrl: >-
       https://res.cloudinary.com/dobazc4ii/video/upload/v1736975974/videos/xrlysbrgfg9qnsnaagqx.mp4
     posterUrl: ''
