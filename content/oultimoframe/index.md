@@ -17,6 +17,7 @@ images:
     imageUrl: /o-ultimo-frame/1.jpg
     alt: Radin
     aspectRatio: 16/9
-filmUrl: /o-ultimo-frame/curta.mp4
+filmUrl: >-
+  https://res.cloudinary.com/dobazc4ii/video/upload/v1736976845/o%20ultimo%20frame/qcby5czill2dwbf9gpbd.mp4
 ---
 
