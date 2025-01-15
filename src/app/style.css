@@ -1,3 +1,111 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.tina-markdown h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tina-markdown h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1.25rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .tina-markdown h3 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .tina-markdown h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .tina-markdown h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .tina-markdown h6 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  /* Estilos para parágrafos */
+  .tina-markdown p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Estilos para texto em negrito */
+  .tina-markdown strong {
+    font-weight: bold;
+  }
+  
+  /* Estilos para texto em itálico */
+  .tina-markdown em {
+    font-style: italic;
+  }
+  
+  /* Estilos para links */
+  .tina-markdown a {
+    color: #3182ce; /* Azul padrão */
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .tina-markdown a:hover {
+    color: #2c5282; /* Azul mais escuro ao passar o mouse */
+  }
+  
+  /* Estilos para listas */
+  .tina-markdown ul,
+  .tina-markdown ol {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+  }
+  
+  .tina-markdown li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Estilos para blocos de código */
+  .tina-markdown pre {
+    background-color: #f3f4f6;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    overflow-x: auto;
+  }
+  
+  .tina-markdown code {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #f3f4f6;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+  }
+  
+  /* Estilos para imagens */
+  .tina-markdown img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+  }
