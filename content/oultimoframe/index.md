@@ -5,17 +5,25 @@ desktopHero: >-
 mobileHero: >-
   https://res.cloudinary.com/dobazc4ii/image/upload/v1736974639/o%20ultimo%20frame/ruzmjbsivqn3fhdxkb4g.jpg
 images:
-  - title: imagem 2
-    body: |
-      camera script
+  - title: Lorem Ipsum
+    body: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. 
     imageUrl: /o-ultimo-frame/3.jpg
-    alt: camera script
+    alt: Camera cybershot em cima do script do curta
     aspectRatio: 16/9
-  - title: imagem 1
-    body: |
-      asdfdsfsdfsdfsd
+  - title: Lorem Ipsum
+    body: >+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+
+
     imageUrl: /o-ultimo-frame/1.jpg
-    alt: Radin
+    alt: Cenário de gravação do curta
     aspectRatio: 16/9
 filmUrl: >-
   https://res.cloudinary.com/dobazc4ii/video/upload/v1736976845/o%20ultimo%20frame/qcby5czill2dwbf9gpbd.mp4
