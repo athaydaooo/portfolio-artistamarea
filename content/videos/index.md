@@ -13,7 +13,7 @@ galleryImages:
   - {}
 title: index
 videos:
-  - title: Doutora2
+  - title: Doutora
     body: >
       Dj Doutora tocando um set de FunkDj Doutora tocando um set de FunkDj
       Doutora tocando um set de FunkDj Doutora tocando um set de Funk
