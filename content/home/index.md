@@ -2,7 +2,7 @@
 title: index
 images:
   - title: Praia em Nornha
-    imageUrl: /galeria/mastrobiso-1.jpg
+    imageUrl: /galeria/noronha-6.jpg
     alt: Praia linda de fernando de noronha
     aspectRatio: 16/9
   - title: DJ Thiago Martions
