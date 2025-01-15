@@ -30,7 +30,7 @@ videos:
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
       commodo consequat.
     videoUrl: >-
-      https://res.cloudinary.com/dobazc4ii/video/upload/v1736975974/videos/xrlysbrgfg9qnsnaagqx.mp4
+      https://res.cloudinary.com/dobazc4ii/video/upload/v1736983813/videos/awu9uddb5lfkybd1g5nh.mp4
     posterUrl: ''
     alt: Dj Doutora tocando um set de Funk
     aspectRatio: 4/3
