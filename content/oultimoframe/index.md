@@ -1,7 +1,9 @@
 ---
 title: index
-desktopHero: /galeria/noronha-2.jpg
-mobileHero: /galeria/decoracao.jpg
+desktopHero: >-
+  https://res.cloudinary.com/dobazc4ii/image/upload/v1736974636/o%20ultimo%20frame/p4foislghi76sgko9jlc.jpg
+mobileHero: >-
+  https://res.cloudinary.com/dobazc4ii/image/upload/v1736974639/o%20ultimo%20frame/ruzmjbsivqn3fhdxkb4g.jpg
 images:
   - title: imagem 2
     body: |
