@@ -21,9 +21,9 @@ images:
     imageUrl: /galeria/capivaras.jpg
     alt: Capibara
     aspectRatio: 16/9
-  - title: imagem 2
+  - title: Holambra campo de flores
     imageUrl: /galeria/holambra-2.jpg
-    alt: mato
+    alt: campo de flores
     aspectRatio: 16/9
   - title: Praia em Nornha
     imageUrl: /galeria/noronha-6.jpg
