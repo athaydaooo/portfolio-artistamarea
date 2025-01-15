@@ -4,7 +4,7 @@ aboutImage: >-
 title: index
 ---
 
-Oii Eu sou a Maria Claudia
+# **Oii Eu sou a Maria Claudia**
 
 Fotógrafa e produtora audiovisual em Santos, uma cidade que inspira meu olhar e alimenta minha criatividade. Minha paixão pela imagemvem de uma profunda admiração pela capacidade de capturar momentos únicos e contar histórias através de detalhes.
 
