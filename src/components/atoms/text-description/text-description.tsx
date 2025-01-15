@@ -9,7 +9,7 @@ interface TextDescritionProps {
 
 const TextDescrition: React.FC<TextDescritionProps> = ({ text, className }) => {
   return (
-    <div className={clsx("text-sm", className || null)}>
+    <div className={clsx("tina-markdown", "text-sm", className || null)}>
       <TinaMarkdown content={text} />
     </div>
   );
