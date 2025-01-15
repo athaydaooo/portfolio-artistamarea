@@ -5,7 +5,7 @@ images:
     imageUrl: /galeria/thiago-martins.jpg
     alt: Dj thiago martions tocando
     aspectRatio: 4/3
-  - title: Mastrobiso tocando
+  - title: 'DJ Mastrobiso '
     imageUrl: /galeria/mastrobiso-2.jpg
     alt: dj mastrobiso tocando focada
     aspectRatio: 9/16
@@ -41,7 +41,7 @@ images:
     imageUrl: /galeria/passaros-ninho.jpg
     alt: passaro de boa no ninho
     aspectRatio: 16/9
-  - title: Mastrobiso
+  - title: Dj Mastrobiso
     imageUrl: /galeria/mastrobiso-1.jpg
     alt: dj mastrobiso
     aspectRatio: 9/16
