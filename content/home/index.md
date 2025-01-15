@@ -13,6 +13,11 @@ images:
     imageUrl: /galeria/mastrobiso-1.jpg
     alt: dj mastrobiso
     aspectRatio: 9/16
+  - title: 'Tio Nacho '
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974628/galeria/cxdvbpvamhbywlu3wfvd.jpg
+    alt: Ensaio de fotos no parque de flores de holambra
+    aspectRatio: 16/9
   - title: tio nacho
     imageUrl: /galeria/athayde-1.jpg
     alt: 'Athaydao '
