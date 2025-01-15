@@ -25,7 +25,7 @@ images:
     imageUrl: /galeria/holambra-2.jpg
     alt: campo de flores
     aspectRatio: 16/9
-  - title: Praia em Nornha
+  - title: Praia em Noronha
     imageUrl: /galeria/noronha-6.jpg
     alt: Praia linda de fernando de noronha
     aspectRatio: 16/9
@@ -52,7 +52,7 @@ images:
   - title: Caderno Casamento
     imageUrl: /galeria/livro-casamento.jpg
     alt: Caderno de casamento
-    aspectRatio: 16/9
+    aspectRatio: 9/16
   - title: Passado domestico
     imageUrl: /galeria/passarinhos.jpg
     alt: Passarinho de boa na gaiola
