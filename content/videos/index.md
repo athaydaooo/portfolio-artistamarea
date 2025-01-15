@@ -22,20 +22,5 @@ videos:
     posterUrl: ''
     alt: Dj Doutora tocando um set de Funk
     aspectRatio: 4/3
-  - title: Pedro bala
-    body: >
-      Salve família!!!! a 4 edição da balakato dará início ao projeto baixada
-      santista takeover que visa levar a cultura e musicalidade periferica da
-      baixada santista para o mundo
-    videoUrl: /videos/pedrobala.mp4
-    posterUrl: /galeria/decoracao.jpg
-    alt: Dj Pedro Bala tocando um set de Funk
-    aspectRatio: 4/3
-  - title: Doutora
-    body: "PARI!!!! Finalmente posso falar que meu primeiro set gravado ao vivo lá na [@fpartysantos](https://www.instagram.com/fpartysantos/) tá disponível pra vocês ouvirem e dançarem em casa tanto em vídeo quanto em áudio. Mesmo com todas as adversidades e áudio revisado espero muito que consigam curtir e dançar bastante\U0001F496\n"
-    videoUrl: /videos/doutora.mp4
-    posterUrl: ''
-    alt: Dj Doutora tocando um set de Funk
-    aspectRatio: 4/3
 ---
 
