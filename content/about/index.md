@@ -1,5 +1,5 @@
 ---
-aboutImage: /sobre-mim/mariaicon.jpg
+aboutImage: /supply-chain-representation-still-life.jpg
 title: index
 ---
 
