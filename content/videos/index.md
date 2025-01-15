@@ -18,7 +18,7 @@ videos:
       Dj Doutora tocando um set de FunkDj Doutora tocando um set de FunkDj
       Doutora tocando um set de FunkDj Doutora tocando um set de Funk
     videoUrl: >-
-      https://res.cloudinary.com/dobazc4ii/video/upload/v1736975974/videos/xrlysbrgfg9qnsnaagqx.mp4
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974636/o%20ultimo%20frame/nfxg3uw3fzja9taxsyk5.jpg
     posterUrl: ''
     alt: Dj Doutora tocando um set de Funk
     aspectRatio: 4/3
