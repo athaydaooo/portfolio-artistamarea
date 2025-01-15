@@ -9,15 +9,11 @@ images:
     imageUrl: /galeria/mastrobiso-2.jpg
     alt: Dj mastrobiso tocando
     aspectRatio: 9/16
-  - title: Dj Mastrobiso
-    imageUrl: /galeria/mastrobiso-1.jpg
-    alt: dj mastrobiso
-    aspectRatio: 9/16
   - title: 'Tio Nacho '
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974628/galeria/cxdvbpvamhbywlu3wfvd.jpg
     alt: Ensaio de fotos no parque de flores de holambra
-    aspectRatio: 16/9
+    aspectRatio: 9/16
   - title: tio nacho
     imageUrl: /galeria/athayde-1.jpg
     alt: 'Athaydao '
@@ -57,7 +53,7 @@ images:
   - title: Caderno Casamento
     imageUrl: /galeria/livro-casamento.jpg
     alt: Caderno de casamento
-    aspectRatio: 9/16
+    aspectRatio: 3/4
   - title: Passado domestico
     imageUrl: /galeria/passarinhos.jpg
     alt: Passarinho de boa na gaiola
