@@ -4,9 +4,10 @@ aboutImage: >-
 title: index
 ---
 
-#### **Lorem Ipsum**
+#### Quem está por trás da lente?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Prazer, meu nome é Maria Claudia, sou uma jovem adulta multiartista estudante de Cinema e Audiovisual, explorando a fotografia e outras formas de expressão artística. Natural de Santos litoral sudeste de São Paulo, Brasil. 
 
+Encontrei no audiovisual uma maneira de expressar minha visão de mundo, a cada clique e cada frame têm sido uma oportunidade de explorar a beleza das pessoas e do mundo. Gosto de como a fotografia pode ser descritiva, detalhada, pode ser uma memória, lembrança e transmitir emoções.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Estou em constante aprendizado, descobrindo novas técnicas, novos softwares, experimentando diferentes formas de criar, me conhecendo em cada plano ou em cada cor. Através do meu trabalho, busco conectar as pessoas com o melhor delas e retratar o que é mais bonito no meu ponto de vista.
