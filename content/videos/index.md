@@ -18,7 +18,7 @@ videos:
       DJ Gabriel Oliveira mais conhecido como Doutora, é uma presença marcante
       nas pistas da Baixada Santista. Residente da festa FuckParty, festa de
       funk da periferia da região, Doutora leva ao público sets que mergulham
-      profundamente no universo do funk conhecido como Submundo. 
+      profundamente no universo do funk conhecido como Submundo.
 
 
       A energia de Doutora transforma cada apresentação em um espetáculo
@@ -36,8 +36,8 @@ videos:
       **DJ Pedro Bala 0800**, cuidador e residente do projeto **Balakato
       Records** que visa levar a cultura e musicalidade periférica da Baixada
       Santista e seus artistas independentes para seus arredores. Pedro Bala é
-      conhecido por soltar o **Rock**, o nome "Rock" aqui não tem relação com o
-      gênero musical rock, mas é uma gíria usada na cena do funk.
+      conhecido por soltar o ''**Rock**'', o nome "Rock" aqui não tem relação
+      com o gênero musical rock, mas é uma gíria usada na cena do funk.
 
 
       Com sua pegada ousada e autêntica, Pedro Bala continua a representar a
