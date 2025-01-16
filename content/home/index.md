@@ -17,7 +17,8 @@ images:
     alt: Ensaio de fotos no parque de flores de holambra
     aspectRatio: 9/16
   - title: tio nacho
-    imageUrl: /galeria/athayde-1.jpg
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974633/galeria/awrclvgyhfkznszd0uev.jpg
     alt: 'Athaydao '
     aspectRatio: 3/4
   - title: Capivara
