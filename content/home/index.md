@@ -11,10 +11,10 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065626/galeria/IMG_2678-2_b1txko.jpg
     alt: Dj mastrobiso tocando
     aspectRatio: 9/16
-  - title: 'Tio Nacho '
+  - title: DALI
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065656/galeria/IMG_2681_u5ao5x.jpg
-    alt: Ensaio de fotos no parque de flores de holambra
+    alt: DALI DE BONÉ AMARELO
     aspectRatio: 9/16
   - title: THIAGO FDP
     imageUrl: >-
