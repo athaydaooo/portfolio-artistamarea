@@ -23,12 +23,34 @@ images:
     imageUrl: /o-ultimo-frame/3.jpg
     alt: Camera cybershot em cima do script do curta
     aspectRatio: 16/9
-  - title: Lorem Ipsum
+  - title: Processo criativo
     body: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+      Participar desse projeto foi uma experiência transformadora e desafiadora,
+      especialmente por ter desempenhado três papéis distintos: Diretora de
+      Arte, Assistente de Montagem e Operadora de Câmera. Cada função trouxe
+      aprendizados únicos que contribuiu para o meu crescimento.
+
+
+      Como Operadora de Câmera, vivi o desafio de traduzir a visão do diretor em
+      quadros que fossem, ao mesmo tempo, expressivos e tecnicamente precisos.
+
+
+      Na pós-produção, como Assistente de Montagem, mergulhei no processo de
+      construção da história por meio da edição. Essa função reforça o impacto
+      da edição no storytelling e principalmente minha atenção aos detalhes.
+
+
+      Como Diretora de Arte, meu principal desafio foi criar uma estética visual
+      que amplificasse o clima de tensão e mistério do curta. Trabalhar com a
+      criação do visual me ensinou a importância de unir criatividade e
+      funcionalidade, garantindo que cada elemento tivesse um propósito
+      narrativo.
+
+
+      No final, "O Último Frame" não foi apenas um projeto acadêmico, mas um
+      marco na minha jornada criativa. Acredito que essa vivência me preparou
+      para desafios futuros, e espero que a obra inspire outros a explorarem o
+      cinema e suas infinitas possibilidades.
     imageUrl: /o-ultimo-frame/1.jpg
     alt: Cenário de gravação do curta
     aspectRatio: 16/9
