@@ -66,8 +66,9 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974629/galeria/uwysvbt1nxzpb2hw8q38.jpg
     alt: Caderno de casamento
     aspectRatio: 3/4
-  - title: Passado domestico
-    imageUrl: /galeria/passarinhos.jpg
+  - title: 'Passado '
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/es3catepaaws13mbadpi.jpg
     alt: Passarinho de boa na gaiola
     aspectRatio: 16/9
   - title: quadro passarinho
