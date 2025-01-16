@@ -31,11 +31,6 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974630/galeria/zs1jvyvxbhxzzoamh3y8.jpg
     alt: MASTRO DANÇANDO
     aspectRatio: 16/9
-  - title: Lindinhos
-    imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974633/galeria/zdwlujoi0weivy1iqas1.jpg
-    alt: Banda Lindinhos
-    aspectRatio: 16/9
   - title: 'Chico dos Discos '
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065642/galeria/IMG_2746-2_mt0jzx.jpg
@@ -71,15 +66,20 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/es3catepaaws13mbadpi.jpg
     alt: Passarinho de boa na gaiola
     aspectRatio: 16/9
+  - title: CAMPO DE LAVANDA
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974642/galeria/j4sbmwmct4xyvbpzthss.jpg
+    alt: Roda de Pagode
+    aspectRatio: 16/9
   - title: BELA PRAIA
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/d6dt6ytsucoxyofms6fb.jpg
     alt: quadro passarinho
     aspectRatio: 16/9
-  - title: CAMPO DE LAVANDA
+  - title: AMOR
     imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974642/galeria/j4sbmwmct4xyvbpzthss.jpg
-    alt: Roda de Pagode
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974629/galeria/fzsvmzt3qc6me5jjd39x.jpg
+    alt: Banda Lindinhos
     aspectRatio: 16/9
 ---
 
