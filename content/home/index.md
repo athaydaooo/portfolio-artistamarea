@@ -71,8 +71,9 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/es3catepaaws13mbadpi.jpg
     alt: Passarinho de boa na gaiola
     aspectRatio: 16/9
-  - title: quadro passarinho
-    imageUrl: /galeria/decoracao.jpg
+  - title: BELA PRAIA
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/d6dt6ytsucoxyofms6fb.jpg
     alt: quadro passarinho
     aspectRatio: 16/9
   - title: Pagode
