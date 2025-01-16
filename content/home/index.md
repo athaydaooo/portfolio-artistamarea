@@ -26,10 +26,10 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/bgb6sw99egwrfuwfl7ma.jpg
     alt: Capibara
     aspectRatio: 16/9
-  - title: Holambra campo de flores
+  - title: MASTROBISO
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974630/galeria/zs1jvyvxbhxzzoamh3y8.jpg
-    alt: campo de flores
+    alt: MASTRO DANÇANDO
     aspectRatio: 16/9
   - title: Lindinhos
     imageUrl: >-
