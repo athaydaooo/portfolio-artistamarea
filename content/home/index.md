@@ -27,7 +27,8 @@ images:
     alt: Capibara
     aspectRatio: 16/9
   - title: Holambra campo de flores
-    imageUrl: /galeria/holambra-2.jpg
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974630/galeria/zs1jvyvxbhxzzoamh3y8.jpg
     alt: campo de flores
     aspectRatio: 16/9
   - title: Praia em Noronha
