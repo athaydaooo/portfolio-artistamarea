@@ -36,10 +36,10 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974633/galeria/zdwlujoi0weivy1iqas1.jpg
     alt: Praia linda de fernando de noronha
     aspectRatio: 16/9
-  - title: Praia em Noronha
+  - title: 'Chico dos Discos '
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065642/galeria/IMG_2746-2_mt0jzx.jpg
-    alt: Praia linda em fernando de noronha
+    alt: Chico analisando o disco
     aspectRatio: 16/9
   - title: Noronha
     imageUrl: /galeria/noronha-2.jpg
