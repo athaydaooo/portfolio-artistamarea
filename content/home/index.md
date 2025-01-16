@@ -1,8 +1,9 @@
 ---
 title: index
 images:
-  - title: DJ Thiago Martions
-    imageUrl: /galeria/thiago-martins.jpg
+  - title: TheDalíMusic
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1737065621/galeria/IMG_2675_zccpto.jpg
     alt: Dj thiago martions tocando
     aspectRatio: 4/3
   - title: 'DJ Mastrobiso '
