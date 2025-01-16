@@ -13,12 +13,20 @@ galleryImages:
   - {}
 title: index
 videos:
-  - title: Lorem Ipsum
+  - title: DJ Gabriel Oliveira
     body: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+      DJ Gabriel Oliveira mais conhecido como Doutora, é uma presença marcante
+      nas pistas da Baixada Santista. Residente da festa FuckParty, festa de
+      funk da periferia da região, Doutora leva ao público sets que mergulham
+      profundamente no universo do funk conhecido como Submundo. 
+
+
+      A energia de Doutora transforma cada apresentação em um espetáculo
+      vibrante, consolidando seu nome como uma referência da cena alternativa da
+      Baixada.
+
+
+      (vídeo sem áudio por motivos de censura)
     videoUrl: >-
       https://res.cloudinary.com/dobazc4ii/video/upload/v1736975974/videos/xrlysbrgfg9qnsnaagqx.mp4
     alt: Dj Doutora tocando um set de Funk
