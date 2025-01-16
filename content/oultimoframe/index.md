@@ -55,7 +55,8 @@ images:
       marco na minha jornada criativa. Acredito que essa vivência me preparou
       para desafios futuros, e espero que a obra inspire outros a explorarem o
       cinema e suas infinitas possibilidades.
-    imageUrl: /o-ultimo-frame/1.jpg
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974635/o%20ultimo%20frame/caivqqyvwbltjtspimzi.jpg
     alt: Cenário de gravação do curta
     aspectRatio: 16/9
 filmUrl: >-
