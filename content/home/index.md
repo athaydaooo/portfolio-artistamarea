@@ -37,7 +37,8 @@ images:
     alt: Praia linda de fernando de noronha
     aspectRatio: 16/9
   - title: Praia em Noronha
-    imageUrl: /galeria/noronha-5.jpg
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1737065642/galeria/IMG_2746-2_mt0jzx.jpg
     alt: Praia linda em fernando de noronha
     aspectRatio: 16/9
   - title: Noronha
