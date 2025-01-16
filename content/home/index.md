@@ -51,8 +51,9 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065631/galeria/IMG_2742_p4gfo9.jpg
     alt: passaro de boa no ninho
     aspectRatio: 16/9
-  - title: Passarinhos no ninho
-    imageUrl: /galeria/passaros.jpg
+  - title: CHICO 2/3
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1737065636/galeria/IMG_2743_oyhtjx.jpg
     alt: Passadinho de boa na arvore
     aspectRatio: 16/9
   - title: Praia do porto
