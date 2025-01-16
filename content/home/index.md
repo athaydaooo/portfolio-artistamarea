@@ -32,7 +32,8 @@ images:
     alt: campo de flores
     aspectRatio: 16/9
   - title: Praia em Noronha
-    imageUrl: /galeria/noronha-6.jpg
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974633/galeria/zdwlujoi0weivy1iqas1.jpg
     alt: Praia linda de fernando de noronha
     aspectRatio: 16/9
   - title: Praia em Noronha
