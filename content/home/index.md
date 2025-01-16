@@ -56,12 +56,14 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065636/galeria/IMG_2743_oyhtjx.jpg
     alt: Passadinho de boa na arvore
     aspectRatio: 16/9
-  - title: Praia do porto
-    imageUrl: /galeria/praia-de-noronha.jpg
+  - title: CHICO 3/3
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1737065662/galeria/IMG_2738-2_gfrxod.jpg
     alt: Praia do porto em fernando de noronha
     aspectRatio: 16/9
-  - title: Caderno Casamento
-    imageUrl: /galeria/livro-casamento.jpg
+  - title: ABELHA EM FLORES
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974629/galeria/uwysvbt1nxzpb2hw8q38.jpg
     alt: Caderno de casamento
     aspectRatio: 3/4
   - title: Passado domestico
