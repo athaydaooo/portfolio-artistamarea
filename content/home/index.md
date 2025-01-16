@@ -76,8 +76,9 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/d6dt6ytsucoxyofms6fb.jpg
     alt: quadro passarinho
     aspectRatio: 16/9
-  - title: Pagode
-    imageUrl: /galeria/pagode.jpg
+  - title: CAMPO DE LAVANDA
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974642/galeria/j4sbmwmct4xyvbpzthss.jpg
     alt: Roda de Pagode
     aspectRatio: 16/9
 ---
