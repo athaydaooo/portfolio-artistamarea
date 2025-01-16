@@ -41,9 +41,10 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065642/galeria/IMG_2746-2_mt0jzx.jpg
     alt: Chico analisando o disco
     aspectRatio: 16/9
-  - title: Noronha
-    imageUrl: /galeria/noronha-2.jpg
-    alt: paisagem noronha
+  - title: BANCA PAULISTA
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1737065652/galeria/IMG_2754-2_hi8ipt.jpg
+    alt: paisagem BANCA
     aspectRatio: 16/9
   - title: Passaro
     imageUrl: /galeria/passaros-ninho.jpg
