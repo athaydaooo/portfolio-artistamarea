@@ -16,10 +16,10 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065656/galeria/IMG_2681_u5ao5x.jpg
     alt: Ensaio de fotos no parque de flores de holambra
     aspectRatio: 9/16
-  - title: tio nacho
+  - title: THIAGO FDP
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974633/galeria/awrclvgyhfkznszd0uev.jpg
-    alt: 'Athaydao '
+    alt: Athaydao de canto
     aspectRatio: 3/4
   - title: 'MASTROBISO '
     imageUrl: >-
