@@ -7,19 +7,22 @@ mobileHero: >-
 images:
   - title: 'O Último Frame '
     body: >
-      Inspirado em elementos clássicos do terror, como o Tabuleiro Ouija (1890),
-      Bodies Bodies Bodies (2022), Fall (2022), Blink Twice (2021), O Último
-      Frame é um curta-metragem criado a partir de um desafio proposto pela
-      Universidade Católica de Santos. O projeto tem como objetivo praticar
-      todas as etapas de produção cinematográfica, desde a pré-produção até a
-      pós-produção, enquanto homenageia e se inspira em contos de terror
-      famosos.
+      **O Último Frame** é um curta-metragem criado a partir de um desafio
+      proposto pela **Universidade Católica de Santos**. O projeto tem como
+      objetivo praticar todas as etapas de produção cinematográfica, desde a
+      pré-produção até a pós-produção, enquanto homenageia e se inspira em
+      contos de terror famosos.
 
 
       Através da história envolvente e misteriosa, o curta busca criar uma
       atmosfera tensa e arrepiante, levando o público a questionar o limite
       entre o real e o sobrenatural. Uma verdadeira imersão no universo das
       lendas urbanas e das forças desconhecidas.
+
+
+      Inspirado em elementos clássicos do terror, como o ***Tabuleiro Ouija**
+      (1890), **Bodies Bodies Bodies** (2022), **Fall** (2022), **Blink Twice**
+      (2021)*
     imageUrl: /o-ultimo-frame/3.jpg
     alt: Camera cybershot em cima do script do curta
     aspectRatio: 16/9
