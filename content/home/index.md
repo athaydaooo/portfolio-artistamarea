@@ -12,7 +12,7 @@ images:
     aspectRatio: 9/16
   - title: 'Tio Nacho '
     imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974628/galeria/cxdvbpvamhbywlu3wfvd.jpg
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/bgb6sw99egwrfuwfl7ma.jpg
     alt: Ensaio de fotos no parque de flores de holambra
     aspectRatio: 9/16
   - title: tio nacho
