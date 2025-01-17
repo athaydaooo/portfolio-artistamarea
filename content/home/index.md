@@ -16,11 +16,11 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065656/galeria/IMG_2681_u5ao5x.jpg
     alt: Dalí na kombi da UrbanSession
     aspectRatio: 3/4
-  - title: THIAGO FDP
+  - title: DJ Thiago Martins
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974633/galeria/awrclvgyhfkznszd0uev.jpg
-    alt: Athaydao de canto
-    aspectRatio: 3/4
+    alt: 'Mestre de merda nenhuma '
+    aspectRatio: 16/9
   - title: 'MASTROBISO '
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/bgb6sw99egwrfuwfl7ma.jpg
