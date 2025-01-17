@@ -49,8 +49,8 @@ images:
   - title: CHICO 2/3
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065636/galeria/IMG_2743_oyhtjx.jpg
-    alt: Passadinho de boa na arvore
-    aspectRatio: 16/9
+    alt: 'Chico sério '
+    aspectRatio: 4/3
   - title: CHICO 3/3
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065662/galeria/IMG_2738-2_gfrxod.jpg
