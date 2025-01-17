@@ -35,7 +35,7 @@ images:
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065642/galeria/IMG_2746-2_mt0jzx.jpg
     alt: Chico analisando o disco
-    aspectRatio: 16/9
+    aspectRatio: 4/3
   - title: BANCA PAULISTA
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065652/galeria/IMG_2754-2_hi8ipt.jpg
