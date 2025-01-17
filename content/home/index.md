@@ -54,8 +54,8 @@ images:
   - title: CHICO 3/3
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065662/galeria/IMG_2738-2_gfrxod.jpg
-    alt: Praia do porto em fernando de noronha
-    aspectRatio: 16/9
+    alt: 'Chico se tu me quiseres, sou dessas mulheres'
+    aspectRatio: 4/3
   - title: ABELHA EM FLORES
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974629/galeria/uwysvbt1nxzpb2hw8q38.jpg
