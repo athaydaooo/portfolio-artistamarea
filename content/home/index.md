@@ -30,7 +30,7 @@ images:
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974630/galeria/zs1jvyvxbhxzzoamh3y8.jpg
     alt: MASTRO DANÇANDO
-    aspectRatio: 16/9
+    aspectRatio: 9/16
   - title: 'Chico dos Discos '
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065642/galeria/IMG_2746-2_mt0jzx.jpg
