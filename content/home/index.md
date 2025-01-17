@@ -4,8 +4,8 @@ images:
   - title: TheDalíMusic
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065621/galeria/IMG_2675_zccpto.jpg
-    alt: Dj thiago martions tocando
-    aspectRatio: 4/3
+    alt: 'Dalí tocando '
+    aspectRatio: 9/16
   - title: DALI CHAPLIN
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065626/galeria/IMG_2678-2_b1txko.jpg
