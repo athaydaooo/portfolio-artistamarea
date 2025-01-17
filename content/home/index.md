@@ -45,7 +45,7 @@ images:
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065631/galeria/IMG_2742_p4gfo9.jpg
     alt: Mulher cheia de marra passando na frente do chiquinho
-    aspectRatio: 16/9
+    aspectRatio: 4/3
   - title: CHICO 2/3
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065636/galeria/IMG_2743_oyhtjx.jpg
