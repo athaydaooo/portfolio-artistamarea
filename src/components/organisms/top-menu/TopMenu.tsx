@@ -19,20 +19,37 @@ const TopMenu: React.FC<TopMenuProps> = ({ sections }) => {
       <nav>
         <div className="flex  flex-wrap items-center mx-auto p-5 justify-center">
           {/* desktop and mobile logo */}
-          <h1 className="text-2xl lg:text-3xl 2k:text-7xl font-extralight tracking-widest pr-4 whitespace-nowrap">
-            ARTISTA MAREA
-          </h1>
 
           {/* desktop navitems */}
           <div className={`hidden lg:block w-full lg:w-auto lg:max-h-full`}>
-            <ul className="flex flex-col items-center mt-8 lg:mt-0 lg:flex-row lg:space-x-4 lg:text-xs 2k:text-2xl">
-              {sections.map((section, index) => (
-                <li key={index}>
-                  <Link href={`${section.slug}`} className="hover:underline">
-                    {section.name.toUpperCase()}
-                  </Link>
-                </li>
-              ))}
+            <ul className="flex flex-col items-center mt-8 lg:mt-0 lg:flex-row lg:space-x-4 lg:text-xs 2k:text-2xl gap-2">
+              {sections.map((section, index) => {
+                if (index === Math.floor(sections.length / 2)) {
+                  return (
+                    <>
+                      <h1 className="text-2xl lg:text-3xl 2k:text-7xl font-extralight px-2">
+                        ARTISTA MAREA
+                      </h1>
+                      <li key={index} className="text-center">
+                        <Link
+                          href={`${section.slug}`}
+                          className="hover:underline"
+                        >
+                          {section.name.toUpperCase()}
+                        </Link>
+                      </li>
+                    </>
+                  );
+                }
+
+                return (
+                  <li key={index}>
+                    <Link href={`${section.slug}`} className="hover:underline">
+                      {section.name.toUpperCase()}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
 
