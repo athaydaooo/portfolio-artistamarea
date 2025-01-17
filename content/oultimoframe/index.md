@@ -64,41 +64,43 @@ images:
     aspectRatio: 16/9
   - title: Elenco
     body: |
-      ATORES
+      **ATORES**
 
-      ÍRIS Heloísa de Oliveira Dias
+      **ÍRIS **Heloísa de Oliveira Dias
 
-      SOFIA Nicole Moraes Borges
+      **SOFIA **Nicole Moraes Borges
 
-      JÚLIA Joana Lopes de Sá
+      **JÚLIA **Joana Lopes de Sá
 
-      LUCAS João Victor Souza Pereira
+      **LUCAS **João Victor Souza Pereira
 
-      DIREÇÃO Amanda Sara Guimarães Silva
+      **DIREÇÃO** 
 
-      DIREÇÃO DE ARTE
+      Amanda Sara Guimarães Silva
+
+      **DIREÇÃO DE ARTE**
 
       Maria Claudia Oliva de Almeida
 
-      DIREÇÃO DE FOTOGRAFIA
+      **DIREÇÃO DE FOTOGRAFIA**
 
       Giovana Simões Silva
 
-      ROTEIRO
+      **ROTEIRO**
 
       Camila de Almeida Lopes
 
-      PRODUÇÃO
+      **PRODUÇÃO**
 
       Maria Eduarda Dos Santos
 
-      MONTAGEM
+      **MONTAGEM**
 
       Maria Claudia Oliva de Almeida
 
       Tainá Moura dos Santos
 
-      ÁUDIO
+      **ÁUDIO**
 
       Giulia Tamaki Medina
 
