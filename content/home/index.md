@@ -11,10 +11,10 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065626/galeria/IMG_2678-2_b1txko.jpg
     alt: Dalí de cosplay de Charlie Chaplin
     aspectRatio: 4/3
-  - title: DALI
+  - title: Dalí com boné amarelo mostarda
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065656/galeria/IMG_2681_u5ao5x.jpg
-    alt: DALI DE BONÉ AMARELO
+    alt: Dalí na kombi da UrbanSession
     aspectRatio: 3/4
   - title: THIAGO FDP
     imageUrl: >-
