@@ -76,10 +76,10 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/d6dt6ytsucoxyofms6fb.jpg
     alt: 'Praia mais linda que já fui '
     aspectRatio: 4/3
-  - title: AMOR
+  - title: 'Lucas Athayde '
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974629/galeria/fzsvmzt3qc6me5jjd39x.jpg
-    alt: Banda Lindinhos
-    aspectRatio: 16/9
+    alt: 'Athaydao veste Adidas e Lacoste ao lado do tio Nacho '
+    aspectRatio: 3/4
 ---
 
