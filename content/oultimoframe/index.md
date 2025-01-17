@@ -59,6 +59,13 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974635/o%20ultimo%20frame/caivqqyvwbltjtspimzi.jpg
     alt: Cenário de gravação do curta
     aspectRatio: 16/9
+  - title: Elenco
+    body: |
+      DDD
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1737074006/o%20ultimo%20frame/b2g08pfircadx22krwrw.jpg
+    alt: DDD
+    aspectRatio: 9/16
 filmUrl: >-
   https://res.cloudinary.com/dobazc4ii/video/upload/v1736976845/o%20ultimo%20frame/qcby5czill2dwbf9gpbd.mp4
 filmPosterUrl: >-
