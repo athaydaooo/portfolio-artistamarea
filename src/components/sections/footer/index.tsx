@@ -35,7 +35,7 @@ const FooterSection: React.FC<FooterProps> = ({ className }) => {
             invertColor={true}
             size={30}
             url="/icons/black-linkedin.svg"
-            targetUrl="https://www.linkedin.com/in/maria-claudia-oliva-3a8179312/"
+            targetUrl="https://www.linkedin.com/in/artistamarea/"
             className="cursor-pointer"
           />
 
