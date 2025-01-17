@@ -71,11 +71,11 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974642/galeria/j4sbmwmct4xyvbpzthss.jpg
     alt: Campo de Lavanda da cidade de Holambra
     aspectRatio: 4/3
-  - title: BELA PRAIA
+  - title: 'Praia do Porto, Noronha PE'
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/d6dt6ytsucoxyofms6fb.jpg
-    alt: quadro passarinho
-    aspectRatio: 16/9
+    alt: 'Praia mais linda que já fui '
+    aspectRatio: 4/3
   - title: AMOR
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974629/galeria/fzsvmzt3qc6me5jjd39x.jpg
