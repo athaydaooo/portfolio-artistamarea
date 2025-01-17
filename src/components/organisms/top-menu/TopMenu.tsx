@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { Fragment, useState } from "react";
 import Link from "next/link";
 
 interface TopMenuProps {
@@ -26,10 +26,13 @@ const TopMenu: React.FC<TopMenuProps> = ({ sections }) => {
               {sections.map((section, index) => {
                 if (index === Math.floor(sections.length / 2)) {
                   return (
-                    <>
-                      <h1 className="text-2xl lg:text-5xl 2k:text-6xl font-extralight px-2 p-4">
-                        ARTISTA MAREA
-                      </h1>
+                    <Fragment key={`fragment-${index}`}>
+                      <li key="desktopLogo" className="flex text-center">
+                        <h1 className="text-2xl lg:text-5xl 2k:text-6xl font-extralight px-2 p-4">
+                          ARTISTA MAREA
+                        </h1>
+                      </li>
+
                       <li key={index} className="flex text-center">
                         <Link
                           href={`${section.slug}`}
@@ -38,7 +41,7 @@ const TopMenu: React.FC<TopMenuProps> = ({ sections }) => {
                           {section.name.toUpperCase()}
                         </Link>
                       </li>
-                    </>
+                    </Fragment>
                   );
                 }
 
