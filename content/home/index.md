@@ -60,7 +60,7 @@ images:
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974629/galeria/uwysvbt1nxzpb2hw8q38.jpg
     alt: Abelha miniatura no meio de varios bud de maconha roxa
-    aspectRatio: 3/4
+    aspectRatio: 4/3
   - title: 'Passado '
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/es3catepaaws13mbadpi.jpg
