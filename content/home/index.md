@@ -66,11 +66,11 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/es3catepaaws13mbadpi.jpg
     alt: 'Passarinho no ninho, nativo de Noronha'
     aspectRatio: 4/3
-  - title: CAMPO DE LAVANDA
+  - title: Campo de Lavanda
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974642/galeria/j4sbmwmct4xyvbpzthss.jpg
-    alt: Roda de Pagode
-    aspectRatio: 16/9
+    alt: Campo de Lavanda da cidade de Holambra
+    aspectRatio: 4/3
   - title: BELA PRAIA
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/d6dt6ytsucoxyofms6fb.jpg
