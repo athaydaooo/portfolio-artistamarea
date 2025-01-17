@@ -20,7 +20,7 @@ images:
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974633/galeria/awrclvgyhfkznszd0uev.jpg
     alt: 'Mestre de merda nenhuma '
-    aspectRatio: 16/9
+    aspectRatio: 4/3
   - title: 'MASTROBISO '
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/bgb6sw99egwrfuwfl7ma.jpg
