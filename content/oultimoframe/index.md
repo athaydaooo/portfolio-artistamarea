@@ -71,9 +71,7 @@ images:
 
       LUCAS João Victor Souza Pereira 
 
-      DIREÇÃO
-
-      Amanda Sara Guimarães Silva
+      DIREÇÃO Amanda Sara Guimarães Silva
 
       DIREÇÃO DE ARTE
 
