@@ -16,7 +16,7 @@ interface GallerySectionProps {
 }
 
 const GallerySection: React.FC<GallerySectionProps> = ({ images }) => {
-  const maxImagesPerScroll = images.length / 2;
+  const maxImagesPerScroll = Math.floor(images.length / 2);
   const [selectedImage, setSelectedImage] = useState<ImageData>(images[0]);
   const [hoveredImage, setHoveredImage] = useState<ImageData | null>(null);
   const [capturedImage, setCapturedImage] = useState<ImageData | null>(null);
