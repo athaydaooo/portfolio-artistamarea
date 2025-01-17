@@ -44,7 +44,7 @@ images:
   - title: CHICO 1/3
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065631/galeria/IMG_2742_p4gfo9.jpg
-    alt: passaro de boa no ninho
+    alt: Mulher cheia de marra passando na frente do chiquinho
     aspectRatio: 16/9
   - title: CHICO 2/3
     imageUrl: >-
