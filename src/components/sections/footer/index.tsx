@@ -22,6 +22,15 @@ const FooterSection: React.FC<FooterProps> = ({ className }) => {
         </div>
         <div className="flex flex-row justify-center gap-4 p-6">
           <IconReferenced
+            name="youtube"
+            invertColor={true}
+            size={30}
+            url="/icons/black-youtube.svg"
+            targetUrl="https://www.youtube.com/@ArtistaMarea"
+            className="cursor-pointer"
+          />
+
+          <IconReferenced
             name="instagram"
             invertColor={true}
             size={30}
@@ -31,11 +40,20 @@ const FooterSection: React.FC<FooterProps> = ({ className }) => {
           />
 
           <IconReferenced
+            name="tiktok"
+            invertColor={true}
+            size={30}
+            url="/icons/black-tiktok.svg"
+            targetUrl="https://www.tiktok.com/@artistamarea"
+            className="cursor-pointer"
+          />
+
+          <IconReferenced
             name="linkedin"
             invertColor={true}
             size={30}
             url="/icons/black-linkedin.svg"
-            targetUrl="https://www.linkedin.com/in/maria-claudia-oliva-3a8179312/"
+            targetUrl="https://www.linkedin.com/in/artistamarea/"
             className="cursor-pointer"
           />
 
@@ -44,7 +62,7 @@ const FooterSection: React.FC<FooterProps> = ({ className }) => {
             invertColor={true}
             size={30}
             url="/icons/black-email.svg"
-            targetUrl="mailto:taymana@outlook.com"
+            targetUrl="mailto:artistamarea@hotmail.com"
             className="cursor-pointer"
           />
         </div>

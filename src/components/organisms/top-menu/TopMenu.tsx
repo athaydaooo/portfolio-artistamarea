@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { Fragment, useState } from "react";
 import Link from "next/link";
 
 interface TopMenuProps {
@@ -17,26 +17,49 @@ const TopMenu: React.FC<TopMenuProps> = ({ sections }) => {
   return (
     <header className="relative lg:absolute top-0 left-0 w-full z-10 items-center bg-inherit">
       <nav>
-        <div className="flex  flex-wrap items-center mx-auto p-5 justify-center">
+        <div className="flex flex-wrap items-center mx-auto p-5 justify-center">
           {/* desktop and mobile logo */}
-          <h1 className="text-2xl lg:text-3xl 2k:text-7xl font-extralight tracking-widest pr-4 whitespace-nowrap">
-            ARTISTA MAREA
-          </h1>
 
           {/* desktop navitems */}
-          <div className={`hidden lg:block w-full lg:w-auto lg:max-h-full`}>
-            <ul className="flex flex-col items-center mt-8 lg:mt-0 lg:flex-row lg:space-x-4 lg:text-xs 2k:text-2xl">
-              {sections.map((section, index) => (
-                <li key={index}>
-                  <Link href={`${section.slug}`} className="hover:underline">
-                    {section.name.toUpperCase()}
-                  </Link>
-                </li>
-              ))}
+          <div className="hidden lg:block w-full lg:w-auto lg:max-h-full">
+            <ul className="flex flex-col items-center mt-8 lg:mt-0 lg:flex-row lg:space-x-4 lg:text-md 2k:text-2xl  ">
+              {sections.map((section, index) => {
+                if (index === Math.floor(sections.length / 2)) {
+                  return (
+                    <Fragment key={`fragment-${index}`}>
+                      <li key="desktopLogo" className="flex text-center">
+                        <h1 className="text-2xl lg:text-5xl 2k:text-6xl font-extralight px-2 p-4">
+                          ARTISTA MAREA
+                        </h1>
+                      </li>
+
+                      <li key={index} className="flex text-center">
+                        <Link
+                          href={`${section.slug}`}
+                          className="hover:underline"
+                        >
+                          {section.name.toUpperCase()}
+                        </Link>
+                      </li>
+                    </Fragment>
+                  );
+                }
+
+                return (
+                  <li key={index}>
+                    <Link href={`${section.slug}`} className="hover:underline">
+                      {section.name.toUpperCase()}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
 
           {/* mobile navitems */}
+          <h1 className="lg:hidden text-2xl lg:text-5xl 2k:text-6xl font-extralight px-2">
+            ARTISTA MAREA
+          </h1>
           <button
             data-collapse-toggle="navbar-hamburger"
             type="button"

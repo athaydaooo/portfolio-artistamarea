@@ -12,8 +12,11 @@ const config: Config = {
     `aspect-[3/4]`,
     `aspect-[16/9]`,
     `aspect-[9/16]`,
+    `w-[7vw]`,
+    `w-[6vw]`,
     `w-[5vw]`,
     `w-[4vw]`,
+    `max-w-[120px]`,
   ],
   theme: {
     extend: {

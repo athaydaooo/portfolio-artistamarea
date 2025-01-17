@@ -15,7 +15,12 @@ const TextReferenced: React.FC<TextProps> = ({
   className,
 }) => {
   return (
-    <a key={name} className={clsx(className || null)} href={targetUrl}>
+    <a
+      key={name}
+      target="_blank"
+      className={clsx(className || null)}
+      href={targetUrl}
+    >
       {linkedText}
     </a>
   );

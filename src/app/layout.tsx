@@ -22,6 +22,9 @@ const notoSerifGujarati = NotoSerifGujarati({
 export const metadata: Metadata = {
   title: "Artista Marea",
   description: "Portifoio da artista Marea",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({

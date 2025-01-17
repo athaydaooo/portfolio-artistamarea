@@ -16,7 +16,7 @@ interface GallerySectionProps {
 }
 
 const GallerySection: React.FC<GallerySectionProps> = ({ images }) => {
-  const maxImagesPerScroll = images.length / 2;
+  const maxImagesPerScroll = Math.floor(images.length / 2);
   const [selectedImage, setSelectedImage] = useState<ImageData>(images[0]);
   const [hoveredImage, setHoveredImage] = useState<ImageData | null>(null);
   const [capturedImage, setCapturedImage] = useState<ImageData | null>(null);
@@ -26,7 +26,8 @@ const GallerySection: React.FC<GallerySectionProps> = ({ images }) => {
     images.slice(maxImagesPerScroll),
   ];
 
-  const selectorWidth = "4vw";
+  const selectorWidth = "6vw";
+  const selectorMaxWidth = "120px";
   const selectorMinHeight = "40px";
   const selectorAspectRatio = AspectRatio.ClassicLandscape;
 
@@ -40,6 +41,7 @@ const GallerySection: React.FC<GallerySectionProps> = ({ images }) => {
         >
           {verticalItens.map((img, index) => {
             const minHeigthClass = `min-h-[${selectorMinHeight}]`;
+            const maxWidthClass = `max-w-[${selectorMaxWidth}]`;
             const widthClass = `w-[${selectorWidth}]`;
 
             return (
@@ -49,7 +51,12 @@ const GallerySection: React.FC<GallerySectionProps> = ({ images }) => {
                 alt={img.alt}
                 aspectRatio={selectorAspectRatio}
                 sizes={selectorWidth}
-                className={clsx(minHeigthClass, widthClass, "cursor-pointer")}
+                className={clsx(
+                  minHeigthClass,
+                  maxWidthClass,
+                  widthClass,
+                  "cursor-pointer",
+                )}
                 onMouseEnter={() => setHoveredImage(img)}
                 onMouseLeave={() => setHoveredImage(null)}
                 onMouseDownCapture={() => setSelectedImage(img)}
@@ -79,6 +86,7 @@ const GallerySection: React.FC<GallerySectionProps> = ({ images }) => {
         <div className="col-span-2 flex justify-between mt-5 gap-1">
           {horizontalItens.map((img, index) => {
             const minHeigthClass = `min-h-[${selectorMinHeight}]`;
+            const maxWidthClass = `max-w-[${selectorMaxWidth}]`;
             const widthClass = `w-[${selectorWidth}]`;
 
             return (
@@ -88,7 +96,12 @@ const GallerySection: React.FC<GallerySectionProps> = ({ images }) => {
                 alt={img.alt}
                 aspectRatio={selectorAspectRatio}
                 sizes={selectorWidth}
-                className={clsx(minHeigthClass, widthClass, "cursor-pointer")}
+                className={clsx(
+                  minHeigthClass,
+                  maxWidthClass,
+                  widthClass,
+                  "cursor-pointer",
+                )}
                 onMouseEnter={() => setHoveredImage(img)}
                 onMouseLeave={() => setHoveredImage(null)}
                 onMouseDownCapture={() => setSelectedImage(img)}
