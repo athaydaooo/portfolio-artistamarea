@@ -22,11 +22,29 @@ const FooterSection: React.FC<FooterProps> = ({ className }) => {
         </div>
         <div className="flex flex-row justify-center gap-4 p-6">
           <IconReferenced
+            name="youtube"
+            invertColor={true}
+            size={30}
+            url="/icons/black-youtube.svg"
+            targetUrl="https://www.youtube.com/@ArtistaMarea"
+            className="cursor-pointer"
+          />
+
+          <IconReferenced
             name="instagram"
             invertColor={true}
             size={30}
             url="/icons/black-instagram.svg"
             targetUrl="https://www.instagram.com/artistamarea/"
+            className="cursor-pointer"
+          />
+
+          <IconReferenced
+            name="tiktok"
+            invertColor={true}
+            size={30}
+            url="/icons/black-tiktok.svg"
+            targetUrl="https://www.tiktok.com/@artistamarea"
             className="cursor-pointer"
           />
 
