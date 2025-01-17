@@ -6,11 +6,11 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065621/galeria/IMG_2675_zccpto.jpg
     alt: 'Dalí tocando '
     aspectRatio: 16/9
-  - title: DALI CHAPLIN
+  - title: Dalí Chaplin
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065626/galeria/IMG_2678-2_b1txko.jpg
-    alt: CHARLIE CHAPLIN
-    aspectRatio: 9/16
+    alt: Dalí de cosplay de Charlie Chaplin
+    aspectRatio: 4/3
   - title: DALI
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065656/galeria/IMG_2681_u5ao5x.jpg
