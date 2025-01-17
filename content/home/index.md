@@ -39,7 +39,7 @@ images:
   - title: Banda da Av.Paulista
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065652/galeria/IMG_2754-2_hi8ipt.jpg
-    alt: 'Paisagem brasileira, com muitos detalhes brasileiros.'
+    alt: 'Paisagem brasileira, com muitos detalhes da cultura brasileiros.'
     aspectRatio: 16/9
   - title: CHICO 1/3
     imageUrl: >-
