@@ -22,7 +22,7 @@ images:
 
       Inspirado em elementos clássicos do terror, como o ***Tabuleiro Ouija**
       (1890), **Bodies Bodies Bodies** (2022), **Fall** (2022), **Blink Twice**
-      (2021)*
+      (2021).*
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974636/o%20ultimo%20frame/nfxg3uw3fzja9taxsyk5.jpg
     alt: Camera cybershot em cima do script do curta
@@ -63,13 +63,13 @@ images:
     body: |
       ATORES
 
-      ÍRIS Heloísa de Oliveira Dias   
+      ÍRIS Heloísa de Oliveira Dias
 
-      SOFIA Nicole Moraes Borges     
+      SOFIA Nicole Moraes Borges
 
-      JÚLIA Joana Lopes de Sá          
+      JÚLIA Joana Lopes de Sá
 
-      LUCAS João Victor Souza Pereira 
+      LUCAS João Victor Souza Pereira
 
       DIREÇÃO Amanda Sara Guimarães Silva
 
