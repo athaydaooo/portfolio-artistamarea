@@ -44,7 +44,7 @@ const FooterSection: React.FC<FooterProps> = ({ className }) => {
             invertColor={true}
             size={30}
             url="/icons/black-email.svg"
-            targetUrl="mailto:taymana@outlook.com"
+            targetUrl="mailto:artistamarea@hotmail.com"
             className="cursor-pointer"
           />
         </div>
