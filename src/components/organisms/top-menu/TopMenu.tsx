@@ -27,7 +27,7 @@ const TopMenu: React.FC<TopMenuProps> = ({ sections }) => {
                 if (index === Math.floor(sections.length / 2)) {
                   return (
                     <>
-                      <h1 className="text-2xl lg:text-5xl 2k:text-6xl font-extralight px-2">
+                      <h1 className="text-2xl lg:text-5xl 2k:text-6xl font-extralight px-2 p-4">
                         ARTISTA MAREA
                       </h1>
                       <li key={index} className="flex text-center">
