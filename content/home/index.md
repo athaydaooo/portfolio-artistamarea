@@ -36,10 +36,10 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065642/galeria/IMG_2746-2_mt0jzx.jpg
     alt: Chico analisando o disco
     aspectRatio: 4/3
-  - title: BANCA PAULISTA
+  - title: Banda da Av.Paulista
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065652/galeria/IMG_2754-2_hi8ipt.jpg
-    alt: paisagem BANCA
+    alt: 'Paisagem brasileira, com muitos detalhes brasileiros.'
     aspectRatio: 16/9
   - title: CHICO 1/3
     imageUrl: >-
