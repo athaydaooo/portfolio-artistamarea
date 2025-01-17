@@ -56,10 +56,10 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065662/galeria/IMG_2738-2_gfrxod.jpg
     alt: 'Chico se tu me quiseres, sou dessas mulheres'
     aspectRatio: 4/3
-  - title: ABELHA EM FLORES
+  - title: Abelha no meio do roxo perolado das lavandas
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974629/galeria/uwysvbt1nxzpb2hw8q38.jpg
-    alt: Caderno de casamento
+    alt: Abelha miniatura no meio de varios bud de maconha roxa
     aspectRatio: 3/4
   - title: 'Passado '
     imageUrl: >-
