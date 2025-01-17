@@ -61,11 +61,11 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974629/galeria/uwysvbt1nxzpb2hw8q38.jpg
     alt: Abelha miniatura no meio de varios bud de maconha roxa
     aspectRatio: 4/3
-  - title: 'Passado '
+  - title: Passáro Noronhe-se
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/es3catepaaws13mbadpi.jpg
-    alt: Passarinho de boa na gaiola
-    aspectRatio: 16/9
+    alt: 'Passarinho no ninho, nativo de Noronha'
+    aspectRatio: 4/3
   - title: CAMPO DE LAVANDA
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974642/galeria/j4sbmwmct4xyvbpzthss.jpg
