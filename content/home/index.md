@@ -21,11 +21,11 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974633/galeria/awrclvgyhfkznszd0uev.jpg
     alt: 'Mestre de merda nenhuma '
     aspectRatio: 4/3
-  - title: 'MASTROBISO '
+  - title: 'DJ Mastrobiso '
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/bgb6sw99egwrfuwfl7ma.jpg
-    alt: MASTROBISO TROCANDO FAIXA
-    aspectRatio: 16/9
+    alt: Nath trocando a faixa
+    aspectRatio: 3/4
   - title: MASTROBISO
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974630/galeria/zs1jvyvxbhxzzoamh3y8.jpg
