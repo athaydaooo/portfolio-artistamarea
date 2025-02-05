@@ -16,7 +16,10 @@ const config: Config = {
     `w-[6vw]`,
     `w-[5vw]`,
     `w-[4vw]`,
+    `w-[5em]`,
+    `w-[8vh]`,
     `max-w-[120px]`,
+    `max-w-[80px]`,
   ],
   theme: {
     extend: {
