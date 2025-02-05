@@ -78,7 +78,7 @@ images:
     aspectRatio: 4/3
   - title: 'Lucas Athayde '
     imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974629/galeria/fzsvmzt3qc6me5jjd39x.jpg
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1738766626/galeria/IMG_3023_ve5ode.jpg
     alt: 'Athaydao veste Adidas e Lacoste ao lado do tio Nacho '
     aspectRatio: 3/4
 ---
