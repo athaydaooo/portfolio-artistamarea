@@ -26,7 +26,7 @@ const GallerySection: React.FC<GallerySectionProps> = ({ images }) => {
     images.slice(maxImagesPerScroll),
   ];
 
-  const selectorWidth = "8vh";
+  const selectorWidth = "10vh";
 
   const selectorWidthClass = `w-[${selectorWidth}]`;
   const selectorMaxWidthClass = `max-w-[120px]`;
@@ -35,7 +35,7 @@ const GallerySection: React.FC<GallerySectionProps> = ({ images }) => {
   const selectorAspectRatio = AspectRatio.ClassicLandscape;
 
   return (
-    <section className="relative flex items-center justify-center lg:h-full">
+    <section className="relative flex flex-col items-center justify-center py-[10vh] lg:h-full">
       {/* desktop component */}
       <div className="hidden lg:grid grid-cols-auto grid-rows-auto">
         {/* vertical selector itens */}
@@ -54,7 +54,7 @@ const GallerySection: React.FC<GallerySectionProps> = ({ images }) => {
                   selectorMinHeightClass,
                   selectorMaxWidthClass,
                   selectorWidthClass,
-                  "cursor-pointer",
+                  "cursor-pointer"
                 )}
                 onMouseEnter={() => setHoveredImage(img)}
                 onMouseLeave={() => setHoveredImage(null)}
@@ -76,7 +76,7 @@ const GallerySection: React.FC<GallerySectionProps> = ({ images }) => {
             "w-full",
             "col-span-1",
             "cursor-pointer",
-            `aspect-[${AspectRatio.ModernLandscape}]`,
+            `aspect-[${AspectRatio.ModernLandscape}]`
           )}
           onMouseDownCapture={() => setCapturedImage(selectedImage)}
         />
@@ -95,7 +95,7 @@ const GallerySection: React.FC<GallerySectionProps> = ({ images }) => {
                   selectorMinHeightClass,
                   selectorMaxWidthClass,
                   selectorWidthClass,
-                  "cursor-pointer",
+                  "cursor-pointer"
                 )}
                 onMouseEnter={() => setHoveredImage(img)}
                 onMouseLeave={() => setHoveredImage(null)}
