@@ -15,9 +15,9 @@ const TopMenu: React.FC<TopMenuProps> = ({ sections }) => {
   };
 
   return (
-    <header className="relative top-0 left-0 w-full z-10 items-center bg-inherit ">
+    <header className="relative lg:absolute top-0 left-0 w-full z-10 items-center bg-inherit">
       <nav>
-        <div className="flex flex-wrap items-center mx-auto pt-5 justify-center">
+        <div className="flex flex-wrap items-center mx-auto p-5 justify-center">
           {/* desktop and mobile logo */}
 
           {/* desktop navitems */}

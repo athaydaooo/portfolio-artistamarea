@@ -8,7 +8,7 @@ export default async function AboutPage() {
 
   return (
     <>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center lg:h-screen">
         <HomePageBuilder {...homeData} />
       </div>
     </>
