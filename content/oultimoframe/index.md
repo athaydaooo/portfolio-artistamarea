@@ -5,7 +5,7 @@ desktopHero: >-
 mobileHero: >-
   https://res.cloudinary.com/dobazc4ii/image/upload/v1736974639/o%20ultimo%20frame/ruzmjbsivqn3fhdxkb4g.jpg
 images:
-  - title: 'O Último Frame '
+  - title: "O Último Frame "
     body: >
       **O Último Frame** é um curta-metragem criado a partir de um desafio
       proposto pela **Universidade Católica de Santos**. O projeto tem como
@@ -105,4 +105,3 @@ filmUrl: >-
 filmPosterUrl: >-
   https://res.cloudinary.com/dobazc4ii/image/upload/v1736974639/o%20ultimo%20frame/t9knwdaj9ioydgo9yc0c.jpg
 ---
-
