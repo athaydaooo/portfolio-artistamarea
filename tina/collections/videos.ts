@@ -46,15 +46,15 @@ export const videosCollection = {
           required: true,
         },
         {
-          type: "image",
+          type: "string",
           name: "videoUrl",
           label: "Video",
           required: true,
         },
         {
-          type: "image",
-          name: "posterUrl",
-          label: "Poster do Video",
+          type: "boolean",
+          name: "isExplicit",
+          label: "Conteudo explicito",
         },
         {
           type: "string",

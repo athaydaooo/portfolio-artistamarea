@@ -10,6 +10,7 @@ import React from "react";
 interface VideoWithTextProps {
   videoUrl: string;
   aspectRatio: AspectRatio;
+  isExplicit?: boolean;
   details?: MediaDetails;
   description?: string;
   videoPosterUrl?: string;
@@ -22,7 +23,7 @@ const VideoWithText: React.FC<VideoWithTextProps> = ({
   videoUrl,
   aspectRatio,
   reverseOrder,
-  videoPosterUrl,
+  isExplicit,
   className,
 }) => {
   return (
@@ -47,9 +48,9 @@ const VideoWithText: React.FC<VideoWithTextProps> = ({
           />
 
           <VideoWrapper
-            src={videoUrl}
+            youtubeUrl={videoUrl}
             aspectRatio={aspectRatio}
-            poster={videoPosterUrl || undefined}
+            isExplicit={isExplicit}
             className="flex items-center rounded-xl w-[90vw] md:w-[50vw]"
           />
 
@@ -60,9 +61,9 @@ const VideoWithText: React.FC<VideoWithTextProps> = ({
         </div>
       ) : (
         <VideoWrapper
-          src={videoUrl}
+          youtubeUrl={videoUrl}
           aspectRatio={aspectRatio}
-          poster={videoPosterUrl || undefined}
+          isExplicit={isExplicit}
           className="flex items-center rounded-xl w-[90vw] md:w-[50vw]"
         />
       )}

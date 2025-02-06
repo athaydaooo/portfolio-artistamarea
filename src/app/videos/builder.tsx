@@ -25,7 +25,7 @@ const VideosPageBuilder: React.FC<VideosPageBuilderProps> = (props) => {
           videoUrl={element.videoUrl}
           aspectRatio={element.aspectRatio as AspectRatio}
           reverseOrder={!(index % 2)}
-          videoPosterUrl={element.posterUrl || undefined}
+          isExplicit={element.isExplicit || undefined}
         />
       ))}
     </>

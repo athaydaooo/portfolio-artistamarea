@@ -1,11 +1,13 @@
 ---
+filmPosterUrl: >-
+  https://res.cloudinary.com/dobazc4ii/image/upload/v1736974639/o%20ultimo%20frame/t9knwdaj9ioydgo9yc0c.jpg
 title: index
 desktopHero: >-
   https://res.cloudinary.com/dobazc4ii/image/upload/v1736974636/o%20ultimo%20frame/p4foislghi76sgko9jlc.jpg
 mobileHero: >-
   https://res.cloudinary.com/dobazc4ii/image/upload/v1736974639/o%20ultimo%20frame/ruzmjbsivqn3fhdxkb4g.jpg
 images:
-  - title: "O Último Frame "
+  - title: 'O Último Frame '
     body: >
       **O Último Frame** é um curta-metragem criado a partir de um desafio
       proposto pela **Universidade Católica de Santos**. O projeto tem como
@@ -100,8 +102,6 @@ roles:
     members:
       - name: Tainá Moura dos Santos
       - name: Giulia Tamaki Medina
-filmUrl: >-
-  https://res.cloudinary.com/dobazc4ii/video/upload/v1736976845/o%20ultimo%20frame/qcby5czill2dwbf9gpbd.mp4
-filmPosterUrl: >-
-  https://res.cloudinary.com/dobazc4ii/image/upload/v1736974639/o%20ultimo%20frame/t9knwdaj9ioydgo9yc0c.jpg
+filmUrl: 'https://www.youtube.com/embed/_QA_qJiYkog?si=NwFnalAXphr8JnSu'
 ---
+
