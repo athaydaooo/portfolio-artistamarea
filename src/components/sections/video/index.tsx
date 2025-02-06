@@ -6,6 +6,7 @@ import React from "react";
 interface VideoSectionProps {
   videoUrl: string;
   aspectRatio: AspectRatio;
+  isExplicit?: boolean;
   details?: MediaDetails;
   reverseOrder?: boolean;
   videoPosterUrl?: string;
@@ -17,6 +18,7 @@ const VideoSection: React.FC<VideoSectionProps> = ({
   details,
   reverseOrder,
   videoPosterUrl,
+  isExplicit,
 }) => {
   return (
     <section className="relative flex flex-col items-center justify-center h-screen w-full">
@@ -26,6 +28,7 @@ const VideoSection: React.FC<VideoSectionProps> = ({
         aspectRatio={aspectRatio}
         reverseOrder={reverseOrder}
         videoPosterUrl={videoPosterUrl || undefined}
+        isExplicit={isExplicit}
         className="justify-center items-center gap-16"
       />
     </section>

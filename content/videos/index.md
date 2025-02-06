@@ -27,8 +27,8 @@ videos:
 
 
       (vídeo sem áudio por motivos de censura)
-    videoUrl: >-
-      https://res.cloudinary.com/dobazc4ii/video/upload/v1736975974/videos/xrlysbrgfg9qnsnaagqx.mp4
+    videoUrl: 'https://www.youtube.com/embed/wHogY213Nls?si=NmXLbAUN6J4j-XUU'
+    isExplicit: true
     alt: Dj Doutora tocando um set de Funk
     aspectRatio: 16/9
   - title: DJ Pedro Bala 0800
@@ -43,10 +43,9 @@ videos:
       Com sua pegada ousada e autêntica, Pedro Bala continua a representar a
       força da Baixada Santista e a destacar os artistas que estão criando,
       moldando e redefinindo a música local.
-    videoUrl: >-
-      https://res.cloudinary.com/dobazc4ii/video/upload/v1736983813/videos/awu9uddb5lfkybd1g5nh.mp4
-    posterUrl: ''
+    videoUrl: 'https://www.youtube.com/embed/vvpVf8oJLXo?si=AExKeP7mXs1dqq4x'
+    isExplicit: true
     alt: Dj Doutora tocando um set de Funk
-    aspectRatio: 4/3
+    aspectRatio: 16/9
 ---
 

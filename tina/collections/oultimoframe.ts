@@ -138,15 +138,15 @@ export const oUltimoFrameCollection = {
       required: true,
     },
     {
-      type: "image",
+      type: "string",
       name: "filmUrl",
       label: "O Ultimo Frame",
       required: true,
     },
     {
-      type: "image",
-      name: "filmPosterUrl",
-      label: "Poster do Filme",
+      type: "boolean",
+      name: "isExplicit",
+      label: "Conteudo explicito",
     },
   ] as TinaField[],
 };
