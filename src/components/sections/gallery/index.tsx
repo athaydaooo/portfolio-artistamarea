@@ -54,7 +54,7 @@ const GallerySection: React.FC<GallerySectionProps> = ({ images }) => {
                   selectorMinHeightClass,
                   selectorMaxWidthClass,
                   selectorWidthClass,
-                  "cursor-pointer"
+                  "cursor-pointer",
                 )}
                 onMouseEnter={() => setHoveredImage(img)}
                 onMouseLeave={() => setHoveredImage(null)}
@@ -76,7 +76,7 @@ const GallerySection: React.FC<GallerySectionProps> = ({ images }) => {
             "w-full",
             "col-span-1",
             "cursor-pointer",
-            `aspect-[${AspectRatio.ModernLandscape}]`
+            `aspect-[${AspectRatio.ModernLandscape}]`,
           )}
           onMouseDownCapture={() => setCapturedImage(selectedImage)}
         />
@@ -95,7 +95,7 @@ const GallerySection: React.FC<GallerySectionProps> = ({ images }) => {
                   selectorMinHeightClass,
                   selectorMaxWidthClass,
                   selectorWidthClass,
-                  "cursor-pointer"
+                  "cursor-pointer",
                 )}
                 onMouseEnter={() => setHoveredImage(img)}
                 onMouseLeave={() => setHoveredImage(null)}
