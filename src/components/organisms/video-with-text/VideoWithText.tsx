@@ -33,7 +33,7 @@ const VideoWithText: React.FC<VideoWithTextProps> = ({
           className={clsx(
             "flex flex-col lg:flex-row w-[90vw]",
             reverseOrder ? "lg:flex-row-reverse" : null,
-            className || null
+            className || null,
           )}
         >
           <TitleWithDescription
