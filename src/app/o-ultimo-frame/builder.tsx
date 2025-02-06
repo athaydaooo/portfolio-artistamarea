@@ -6,6 +6,7 @@ import HeroSection from "@/components/sections/hero/index.tsx";
 import ImageSection from "@/components/sections/image/index.tsx";
 import AspectRatio from "@/types/aspect-ratio.ts";
 import VideoSection from "@/components/sections/video/index.tsx";
+import CreditsSection from "@/components/sections/credits/index.tsx";
 import { OultimoframeQuery } from "../../../tina/__generated__/types.ts";
 
 export interface AboutPageBuilderProps {
@@ -53,6 +54,8 @@ const OUltimoFramePageBuilder: React.FC<AboutPageBuilderProps> = (props) => {
         videoUrl={data.oultimoframe.filmUrl}
         videoPosterUrl={data.oultimoframe.filmPosterUrl ?? ""}
       />
+
+      <CreditsSection rolesData={data.oultimoframe.roles} />
     </>
   );
 };
