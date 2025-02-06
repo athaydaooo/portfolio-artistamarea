@@ -62,53 +62,6 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974635/o%20ultimo%20frame/caivqqyvwbltjtspimzi.jpg
     alt: Cenário de gravação do curta
     aspectRatio: 16/9
-  - title: Elenco
-    body: |
-      **ATORES**
-
-      **ÍRIS **Heloísa de Oliveira Dias
-
-      **SOFIA **Nicole Moraes Borges
-
-      **JÚLIA **Joana Lopes de Sá
-
-      **LUCAS **João Victor Souza Pereira
-
-      **DIREÇÃO** 
-
-      Amanda Sara Guimarães Silva
-
-      **DIREÇÃO DE ARTE**
-
-      Maria Claudia Oliva de Almeida
-
-      **DIREÇÃO DE FOTOGRAFIA**
-
-      Giovana Simões Silva
-
-      **ROTEIRO**
-
-      Camila de Almeida Lopes
-
-      **PRODUÇÃO**
-
-      Maria Eduarda Dos Santos
-
-      **MONTAGEM**
-
-      Maria Claudia Oliva de Almeida
-
-      Tainá Moura dos Santos
-
-      **ÁUDIO**
-
-      Giulia Tamaki Medina
-
-      Tainá Moura dos Santos
-    imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1737074006/o%20ultimo%20frame/b2g08pfircadx22krwrw.jpg
-    alt: DDD
-    aspectRatio: 16/9
 filmUrl: >-
   https://res.cloudinary.com/dobazc4ii/video/upload/v1736976845/o%20ultimo%20frame/qcby5czill2dwbf9gpbd.mp4
 filmPosterUrl: >-
