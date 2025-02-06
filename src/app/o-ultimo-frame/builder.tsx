@@ -61,31 +61,3 @@ const OUltimoFramePageBuilder: React.FC<AboutPageBuilderProps> = (props) => {
 };
 
 export default OUltimoFramePageBuilder;
-
-/*
-
-      <div className="flex flex-col items-center h-screen">
-        <ImageSection
-          alt="Lorem ipsum1"
-          key="Lorem ipsum1"
-          details={{
-            title: "Lorem ipsum",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate luctus malesuada. Nam tempus diam odio, ut sollicitudin risus iaculis a. ",
-          }}
-          reverseOrder
-          aspectRatio={AspectRatio.ClassicLandscape}
-          url="/o-ultimo-frame/1.jpg"
-        />
-      </div>
-
-      <div className="flex flex-col items-center h-screen">
-        <VideoSection
-          key="video do curta"
-          reverseOrder
-          aspectRatio={AspectRatio.ModernLandscape}
-          videoUrl="/o-ultimo-frame/curta.mp4"
-        />
-      </div>
-
-*/
