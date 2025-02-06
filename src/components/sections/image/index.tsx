@@ -19,7 +19,7 @@ const ImageSection: React.FC<ImageSectionProps> = ({
   reverseOrder,
 }) => {
   return (
-    <section className="relative flex items-center justify-center h-auto w-full my-40">
+    <section className="relative flex items-center justify-center h-screen w-full">
       <ImageWithText
         alt={alt}
         details={details}
