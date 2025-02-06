@@ -52,7 +52,7 @@ const OUltimoFramePageBuilder: React.FC<AboutPageBuilderProps> = (props) => {
       <VideoSection
         aspectRatio={AspectRatio.ModernLandscape}
         videoUrl={data.oultimoframe.filmUrl}
-        isExplicit={data.oultimoframe.isExplicit}
+        isExplicit={data.oultimoframe.isExplicit || undefined}
       />
 
       <CreditsSection rolesData={data.oultimoframe.roles} />
