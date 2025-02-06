@@ -80,6 +80,64 @@ export const oUltimoFrameCollection = {
       required: true,
     },
     {
+      type: "object",
+      name: "roles",
+      label: "Papéis",
+      list: true,
+      ui: {
+        itemProps: (item) => {
+          return { label: item.title };
+        },
+        visualSelector: true,
+        min: 1,
+        max: 20,
+      },
+      fields: [
+        {
+          type: "string",
+          name: "title",
+          label: "Titulo",
+          isTitle: true,
+          required: true,
+        },
+        {
+          type: "boolean",
+          name: "hasSubtitle",
+          label: "Subtitulo",
+          required: true,
+        },
+        {
+          type: "object",
+          name: "members",
+          label: "Integrantes",
+          required: true,
+          list: true,
+          ui: {
+            itemProps: (item) => {
+              return { label: item.name };
+            },
+            visualSelector: true,
+            min: 1,
+            max: 20,
+          },
+          fields: [
+            {
+              type: "string",
+              name: "name",
+              label: "Nome",
+              required: true,
+            },
+            {
+              type: "string",
+              name: "subtitle",
+              label: "Subtitulo",
+            },
+          ] as TinaField[],
+        },
+      ] as TinaField[],
+      required: true,
+    },
+    {
       type: "image",
       name: "filmUrl",
       label: "O Ultimo Frame",
