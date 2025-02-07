@@ -68,12 +68,12 @@ roles:
   - title: ATORES
     hasSubtitle: true
     members:
-      - name: João Victor Souza Pereira
-        subtitle: LUCAS
-      - name: Joana Lopes de Sá
-        subtitle: JÚLIA
       - name: Heloísa de Oliveira Dias
         subtitle: ÍRIS
+      - name: Joana Lopes de Sá
+        subtitle: JÚLIA
+      - name: João Victor Souza Pereira
+        subtitle: LUCAS
       - name: Nicole Moraes Borges
         subtitle: SOFIA
   - title: DIREÇÃO
