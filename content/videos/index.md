@@ -14,7 +14,15 @@ galleryImages:
 title: index
 videos:
   - title: The Dalí Music
-    body: ''
+    body: >
+      The Dalí Music é um artista multifacetado no cenário da música
+      eletrônica. 
+
+
+      Idealizador do projeto UrbanSession, ele transforma espaços urbanos em
+      pistas vibrantes, seja nas ruas, praças, praias ou cenários inesperados,
+      The Dalí Music segue ampliando fronteiras e reafirmando seu papel como um
+      nome promissor da música eletrônica.
     videoUrl: 'https://youtu.be/GupqtILiKNw'
     alt: Aniversário Paulista 134 years old
     aspectRatio: 16/9
