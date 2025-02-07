@@ -104,8 +104,8 @@ roles:
   - title: ÁUDIO
     hasSubtitle: false
     members:
-      - name: Tainá Moura dos Santos
       - name: Giulia Tamaki Medina
+      - name: Tainá Moura dos Santos
 filmUrl: 'https://www.youtube.com/embed/_QA_qJiYkog?si=NwFnalAXphr8JnSu'
 ---
 
