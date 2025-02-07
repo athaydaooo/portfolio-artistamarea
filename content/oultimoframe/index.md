@@ -68,6 +68,8 @@ roles:
   - title: ATORES
     hasSubtitle: true
     members:
+      - {}
+      - name: Joana Lopes de Sá
       - name: Heloísa de Oliveira Dias
         subtitle: ÍRIS
       - name: Nicole Moraes Borges
