@@ -42,6 +42,11 @@ videos:
     alt: Dj Doutora tocando um set de Funk
     aspectRatio: 16/9
   - title: DJ Pedro Bala 0800
+    videoUrl: 'https://youtu.be/eTSyJXk9fqE'
+    isExplicit: true
+    alt: 'Sorocaba, melhor cidade pra se viver!'
+    aspectRatio: 16/9
+  - title: DJ Pedro Bala 0800
     body: >
       **DJ Pedro Bala 0800**, cuidador e residente do projeto **Balakato
       Records** que visa levar a cultura e musicalidade periférica da Baixada
