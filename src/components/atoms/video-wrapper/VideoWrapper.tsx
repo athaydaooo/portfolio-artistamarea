@@ -44,7 +44,7 @@ const VideoWrapper: React.FC<VideoWrapperProps> = ({
         <p>Invalid YouTube URL</p>
       )}
       {isExplicit && (
-        <p className="p-6 text-center">
+        <p className="py-4 w-full font-bold text-sm">
           Este vídeo não contém áudio devido a restrições de censura.
         </p>
       )}
