@@ -43,11 +43,11 @@ videos:
     aspectRatio: 16/9
   - title: DJ Pedro Bala 0800
     body: >
-      DJ Pedro Bala 0800 , cuidador e residente do projeto Balakato Records que
-      visa levar a cultura e musicalidade periférica da Baixada Santista e seus
-      artistas independentes para seu entorno. Pedro Bala é conhecido por soltar
-      o '' Rock '', o nome "Rock" aqui não tem relação com o gênero musical
-      rock, mas é uma gíria usada na cena do funk.
+      **DJ Pedro Bala 0800** , cuidador e residente do projeto **Balakato
+      Records** que visa levar a cultura e musicalidade periférica da Baixada
+      Santista e seus artistas independentes para seu entorno. Pedro Bala é
+      conhecido por soltar o '' **Rock** '', o nome "Rock" aqui não tem relação
+      com o gênero musical rock, mas é uma gíria usada na cena do funk.
 
 
       Com sua pegada ousada e autêntica, Pedro Bala continua a representar a
