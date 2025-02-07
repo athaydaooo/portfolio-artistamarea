@@ -15,10 +15,11 @@ title: index
 videos:
   - title: The Dalí Music
     body: >
-      The Dalí Music é um artista multifacetado no cenário da música eletrônica.
+      **The Dalí Music** é um artista multifacetado no cenário da música
+      eletrônica.
 
 
-      Idealizador do projeto UrbanSession, ele transforma espaços urbanos em
+      Idealizador do projeto **UrbanSession**, ele transforma espaços urbanos em
       pistas vibrantes, seja nas ruas, praças, praias ou cenários inesperados,
       The Dalí Music segue ampliando fronteiras e reafirmando seu papel como um
       nome promissor da música eletrônica.
