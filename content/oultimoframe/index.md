@@ -71,6 +71,7 @@ roles:
       - name: João Victor Souza Pereira
         subtitle: LUCAS
       - name: Joana Lopes de Sá
+        subtitle: JÚLIA
       - name: Heloísa de Oliveira Dias
         subtitle: ÍRIS
       - name: Nicole Moraes Borges
