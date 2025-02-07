@@ -37,9 +37,6 @@ videos:
       A energia de Doutora transforma cada apresentação em um espetáculo
       vibrante, consolidando seu nome como uma referência da cena alternativa da
       Baixada.
-
-
-      (vídeo sem áudio por motivos de censura)
     videoUrl: 'https://www.youtube.com/embed/wHogY213Nls?si=NmXLbAUN6J4j-XUU'
     isExplicit: true
     alt: Dj Doutora tocando um set de Funk
