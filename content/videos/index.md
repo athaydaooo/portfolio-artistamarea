@@ -13,6 +13,10 @@ galleryImages:
   - {}
 title: index
 videos:
+  - title: frrfr
+    videoUrl: 'https://youtu.be/GupqtILiKNw'
+    alt: frfrf
+    aspectRatio: 16/9
   - title: DJ Gabriel Oliveira
     body: >
       **DJ Gabriel Oliveira** mais conhecido como Doutora, é uma presença
