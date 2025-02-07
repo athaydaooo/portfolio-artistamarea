@@ -13,9 +13,10 @@ galleryImages:
   - {}
 title: index
 videos:
-  - title: frrfr
+  - title: The Dalí Music
+    body: ''
     videoUrl: 'https://youtu.be/GupqtILiKNw'
-    alt: frfrf
+    alt: Aniversário Paulista 134 years old
     aspectRatio: 16/9
   - title: DJ Gabriel Oliveira
     body: >
