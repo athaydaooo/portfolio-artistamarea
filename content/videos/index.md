@@ -43,7 +43,7 @@ videos:
     aspectRatio: 16/9
   - title: VINITHEK1D
     body: >
-      Com uma curadoria versátil e inovadora, **Vinithe1d **traz sets dinâmicos
+      Com uma curadoria versátil e inovadora, **Vinithek1d **traz sets dinâmicos
       que transitam entre bruxaria com o house, ritmada com techno, criando uma
       experiência única para o público.
 
