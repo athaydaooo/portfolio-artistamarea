@@ -41,19 +41,9 @@ videos:
     isExplicit: true
     alt: Dj Doutora tocando um set de Funk
     aspectRatio: 16/9
-  - title: DJ Pedro Bala 0800
-    body: >
-      **DJ Pedro Bala 0800** , cuidador e residente do projeto **Balakato
-      Records** que visa levar a cultura e musicalidade periférica da Baixada
-      Santista e seus artistas independentes para seu entorno. Pedro Bala é
-      conhecido por soltar o '' **Rock** '', o nome "Rock" aqui não tem relação
-      com o gênero musical rock, mas é uma gíria usada na cena do funk.
-
-
-      Com sua pegada ousada e autêntica, Pedro Bala continua a representar a
-      força da Baixada Santista e a destacar os artistas que estão criando,
-      moldando e redefinindo a música local.
-    videoUrl: 'https://youtu.be/eTSyJXk9fqE'
+  - title: VINITHEK1D
+    body: ''
+    videoUrl: 'https://youtu.be/Ut8IEIwy6XE'
     isExplicit: true
     alt: 'Sorocaba, melhor cidade pra se viver!'
     aspectRatio: 16/9
