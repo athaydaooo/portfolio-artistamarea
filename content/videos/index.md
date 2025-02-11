@@ -13,6 +13,13 @@ galleryImages:
   - {}
 title: index
 videos:
+  - title: VINITHEKID TESTE
+    body: |
+      LOREM **IPSUM**
+    videoUrl: 'https://www.youtube.com/embed/Ut8IEIwy6XE'
+    isExplicit: true
+    alt: TESTE
+    aspectRatio: 16/9
   - title: The Dalí Music
     body: >
       **The Dalí Music** é um artista multifacetado no cenário da música
