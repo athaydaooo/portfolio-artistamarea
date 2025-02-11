@@ -43,11 +43,13 @@ videos:
     aspectRatio: 16/9
   - title: VINITHEK1D
     body: >
-      Com uma curadoria versátil e inovadora, Vinithe1d traz sets dinâmicos que
-      transitam entre bruxaria com o house, ritmada com techno, criando uma
+      Com uma curadoria versátil e inovadora, **Vinithe1d **traz sets dinâmicos
+      que transitam entre bruxaria com o house, ritmada com techno, criando uma
       experiência única para o público.
 
-       Seu trabalho já ultrapassou fronteiras, rendendo colaborações com rádios e projetos internacionais nos Estados Unidos, França e Portugal.
+
+      Seu trabalho já ultrapassou fronteiras, rendendo colaborações com rádios e
+      projetos internacionais nos Estados Unidos, França e Portugal.
     videoUrl: 'https://youtu.be/Ut8IEIwy6XE'
     isExplicit: true
     alt: 'Sorocaba, melhor cidade pra se viver!'
