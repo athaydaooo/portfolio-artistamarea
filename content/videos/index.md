@@ -42,7 +42,14 @@ videos:
     alt: Dj Doutora tocando um set de Funk
     aspectRatio: 16/9
   - title: VINITHEK1D
-    body: ''
+    body: >
+      Com uma identidade sonora marcada pela diversidade, Vinithek1d evita
+      rótulos e explora diferentes vertentes da música eletrônica. Seus sets
+      transitam entre a intensidade do house e a pulsação do techno, sempre
+      buscando criar experiências imersivas e envolventes para o público. Essa
+      abordagem autêntica já lhe rendeu reconhecimento internacional, com
+      participações em projetos ligados a rádios dos Estados Unidos, França e
+      Portugal.
     videoUrl: 'https://youtu.be/Ut8IEIwy6XE'
     isExplicit: true
     alt: 'Sorocaba, melhor cidade pra se viver!'
