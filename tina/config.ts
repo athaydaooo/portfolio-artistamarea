@@ -3,6 +3,7 @@ import { aboutCollection } from "./collections/about.ts";
 import { videosCollection } from "./collections/videos.ts";
 import { oUltimoFrameCollection } from "./collections/oultimoframe.ts";
 import { homeCollection } from "./collections/home.ts";
+import { modelCollection } from "./collections/model.ts";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -36,6 +37,7 @@ export default defineConfig({
       videosCollection,
       oUltimoFrameCollection,
       homeCollection,
+      modelCollection,
     ],
   },
 });

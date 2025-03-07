@@ -5,10 +5,10 @@ import { useTina } from "tinacms/dist/react";
 import SingleColumnGallerySection from "@/components/sections/single-column-gallery/index.tsx";
 import { ImageData } from "@/types/image-data.ts";
 import AspectRatio from "@/types/aspect-ratio.ts";
-import { HomeQuery } from "../../../tina/__generated__/types.ts";
+import { ModelQuery } from "../../../tina/__generated__/types.ts";
 
 export interface AboutPageBuilderProps {
-  data: HomeQuery;
+  data: ModelQuery;
   variables: {
     relativePath: string;
   };
@@ -17,7 +17,7 @@ export interface AboutPageBuilderProps {
 
 const ModelPageBuilder: React.FC<AboutPageBuilderProps> = (props) => {
   const { data } = useTina(props);
-  const images = data.home.images.map((image) => {
+  const images = data.model.images.map((image) => {
     return {
       alt: image.alt,
       ratio: image.aspectRatio as AspectRatio,
