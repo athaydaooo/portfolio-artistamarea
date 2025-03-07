@@ -42,6 +42,7 @@ export default function RootLayout({
             <TopMenu
               sections={[
                 { name: "galeria", slug: "/" },
+                { name: "modelo", slug: "/model" },
                 { name: "videos", slug: "/videos" },
                 { name: "o último frame", slug: "/o-ultimo-frame" },
                 { name: "sobre mim", slug: "/about" },
