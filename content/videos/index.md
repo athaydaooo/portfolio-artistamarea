@@ -15,10 +15,11 @@ title: index
 videos:
   - title: The Dalí Music
     body: >
-      The Dalí Music é um artista multifacetado no cenário da música eletrônica.
+      **The Dalí Music** é um artista multifacetado no cenário da música
+      eletrônica.
 
 
-      Idealizador do projeto UrbanSession, ele transforma espaços urbanos em
+      Idealizador do projeto **UrbanSession**, ele transforma espaços urbanos em
       pistas vibrantes, seja nas ruas, praças, praias ou cenários inesperados,
       The Dalí Music segue ampliando fronteiras e reafirmando seu papel como um
       nome promissor da música eletrônica.
@@ -40,19 +41,16 @@ videos:
     isExplicit: true
     alt: Dj Doutora tocando um set de Funk
     aspectRatio: 16/9
-  - title: DJ Pedro Bala 0800
+  - title: VINITHEK1D
     body: >
-      DJ Pedro Bala 0800 , cuidador e residente do projeto Balakato Records que
-      visa levar a cultura e musicalidade periférica da Baixada Santista e seus
-      artistas independentes para seu entorno. Pedro Bala é conhecido por soltar
-      o '' Rock '', o nome "Rock" aqui não tem relação com o gênero musical
-      rock, mas é uma gíria usada na cena do funk.
+      Com uma curadoria versátil e inovadora, **Vinithek1d** traz sets dinâmicos
+      que transitam entre bruxaria com o house, ritmada com techno, criando uma
+      experiência única para o público.
 
 
-      Com sua pegada ousada e autêntica, Pedro Bala continua a representar a
-      força da Baixada Santista e a destacar os artistas que estão criando,
-      moldando e redefinindo a música local.
-    videoUrl: 'https://youtu.be/eTSyJXk9fqE'
+      Seu trabalho já ultrapassou fronteiras, rendendo colaborações com rádios e
+      projetos internacionais nos Estados Unidos, França e Portugal.
+    videoUrl: 'https://youtu.be/Ut8IEIwy6XE'
     isExplicit: true
     alt: 'Sorocaba, melhor cidade pra se viver!'
     aspectRatio: 16/9
