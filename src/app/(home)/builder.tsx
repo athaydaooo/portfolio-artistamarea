@@ -2,10 +2,9 @@
 
 import React from "react";
 import { useTina } from "tinacms/dist/react";
-import GallerySection, {
-  ImageData,
-} from "@/components/sections/gallery/index.tsx";
+import GallerySection from "@/components/sections/gallery/index.tsx";
 import AspectRatio from "@/types/aspect-ratio.ts";
+import { ImageData } from "@/types/image-data.ts";
 import { HomeQuery } from "../../../tina/__generated__/types.ts";
 
 export interface HomePageBuilderProps {

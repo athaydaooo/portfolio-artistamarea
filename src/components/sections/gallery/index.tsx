@@ -4,12 +4,7 @@ import React, { useState } from "react";
 import AspectRatio from "@/types/aspect-ratio.ts";
 import ImageWrapper from "@/components/atoms/image-wrapper/ImageWrapper.tsx";
 import clsx from "@/utils/clsx.ts";
-
-export interface ImageData {
-  src: string;
-  alt: string;
-  ratio: AspectRatio;
-}
+import { ImageData } from "@/types/image-data.ts";
 
 interface GallerySectionProps {
   images: ImageData[];

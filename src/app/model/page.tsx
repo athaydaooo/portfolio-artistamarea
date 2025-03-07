@@ -1,8 +1,8 @@
 import { client } from "../../../tina/__generated__/client.ts";
 import ModelBuilder from "./builder.tsx";
 
-export default async function OUltimoFrame() {
-  const modelData = await client.queries.oultimoframe({
+export default async function Model() {
+  const modelData = await client.queries.home({
     relativePath: "index.md",
   });
 
