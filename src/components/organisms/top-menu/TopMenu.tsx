@@ -15,13 +15,13 @@ const TopMenu: React.FC<TopMenuProps> = ({ sections }) => {
   };
 
   return (
-    <header className="relative top-0 left-0 w-full z-10 items-center bg-inherit ">
+    <header className="relative top-0 left-0 w-full z-10 items-center bg-inherit lg:h-[10vh]">
       <nav>
         <div className="flex flex-wrap items-center mx-auto pt-5 justify-center">
           {/* desktop and mobile logo */}
 
           {/* desktop navitems */}
-          <div className="hidden lg:block w-full lg:w-auto lg:max-h-full">
+          <div className="hidden lg:block w-full lg:w-auto lg:max-h-full ">
             <ul className="flex flex-col items-center mt-8 lg:mt-0 lg:flex-row lg:space-x-4 lg:text-md 2k:text-2xl  ">
               {sections.map((section, index) => {
                 if (index === Math.floor(sections.length / 2)) {
@@ -87,7 +87,7 @@ const TopMenu: React.FC<TopMenuProps> = ({ sections }) => {
           </button>
 
           <div
-            className={`lg:hidden overflow-hidden transition-all duration-500 ease-in-out ${isMenuOpen ? "max-h-40 opacity-100" : "max-h-0 opacity-0"} w-full `}
+            className={`lg:hidden overflow-hidden transition-all duration-500 ease-in-out ${isMenuOpen ? "max-h-60 opacity-100" : "max-h-0 opacity-0"} w-full `}
             id="navbar-hamburger"
           >
             <ul className="flex flex-col items-center mt-8 lg:mt-0 lg:flex-row lg:space-x-4 lg:text-xl">

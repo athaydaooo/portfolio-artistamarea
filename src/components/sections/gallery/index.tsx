@@ -30,7 +30,7 @@ const GallerySection: React.FC<GallerySectionProps> = ({ images }) => {
   const selectorAspectRatio = AspectRatio.ClassicLandscape;
 
   return (
-    <section className="relative flex flex-col items-center justify-center py-[10vh] lg:h-full">
+    <section className="relative flex flex-col items-center justify-center py-[10vh] lg:h-[90vh]">
       {/* desktop component */}
       <div className="hidden lg:grid grid-cols-auto grid-rows-auto">
         {/* vertical selector itens */}
