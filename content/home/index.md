@@ -26,6 +26,11 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1741357295/IMG_2891_kmnguc.jpg
     alt: Que trouxe meu amor
     aspectRatio: 4/3
+  - title: 'Tronco enigmático '
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1743435641/IMG_3119_tbyutk.jpg
+    alt: 'Árvore? Ravina? Pedras? Drone? Foto enigmática '
+    aspectRatio: 3/4
   - title: É preciso dar um jeito meu amigo...
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1743435643/IMG_3143_rvs7q2.jpg
@@ -58,7 +63,7 @@ images:
     aspectRatio: 16/9
   - title: 'DJ Matrobiso '
     imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974630/galeria/zs1jvyvxbhxzzoamh3y8.jpg
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1743435638/IMG_3095_axftvk.jpg
     alt: Mastrobiso jogando bundinha e dedo pro ar
     aspectRatio: 3/4
   - title: 'Chico dos Discos '
@@ -76,10 +81,5 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/d6dt6ytsucoxyofms6fb.jpg
     alt: 'Praia mais linda que já fui '
     aspectRatio: 4/3
-  - title: 'Tronco enigmático '
-    imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1743435641/IMG_3119_tbyutk.jpg
-    alt: 'Árvore? Ravina? Pedras? Drone? Foto enigmática '
-    aspectRatio: 3/4
 ---
 
