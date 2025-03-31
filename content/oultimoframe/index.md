@@ -64,6 +64,18 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974635/o%20ultimo%20frame/caivqqyvwbltjtspimzi.jpg
     alt: Cenário de gravação do curta
     aspectRatio: 16/9
+  - title: Do Set para o Cinema
+    body: >
+      ''O Último Frame'', teve a honra de ser exibido no Cine Roxy 5, em Santos,
+      em parceria com o projeto Santos Film Festival e a Universidade Católica
+      de Santos. Foi uma experiência incrível ver nosso trabalho ganhar vida na
+      tela grande com uma sala de cinema lotada. Poder prestigiar a apresentação
+      das mostras e compartilhar esse momento com família, amigos e docentes foi
+      incrivelmente mágico!
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1743438919/4d2025b9-e650-41df-ac72-ecce107b4f80_exowcw.png
+    alt: 'Plateia '
+    aspectRatio: 1/1
 roles:
   - title: ATORES
     hasSubtitle: true
