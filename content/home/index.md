@@ -1,6 +1,21 @@
 ---
 title: index
 images:
+  - title: Vaquinha de Documentário
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1743435647/IMG_3204_iog2ne.jpg
+    alt: 'Olhos '
+    aspectRatio: 4/3
+  - title: Passáro Noronhe-se
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/es3catepaaws13mbadpi.jpg
+    alt: 'Passarinho no ninho, nativo de Noronha'
+    aspectRatio: 4/3
+  - title: Abelha no meio do roxo perolado das lavandas
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974629/galeria/uwysvbt1nxzpb2hw8q38.jpg
+    alt: Abelha miniatura no meio de varios bud de maconha roxa
+    aspectRatio: 4/3
   - title: TheDalíMusic
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065621/galeria/IMG_2675_zccpto.jpg
@@ -16,11 +31,6 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065656/galeria/IMG_2681_u5ao5x.jpg
     alt: Dalí na kombi da UrbanSession
     aspectRatio: 3/4
-  - title: Vaquinha de Documentário
-    imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1743435647/IMG_3204_iog2ne.jpg
-    alt: 'Olhos '
-    aspectRatio: 4/3
   - title: 'DJ Mastrobiso '
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/bgb6sw99egwrfuwfl7ma.jpg
@@ -55,16 +65,6 @@ images:
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065662/galeria/IMG_2738-2_gfrxod.jpg
     alt: 'Chico se tu me quiseres, sou dessas mulheres'
-    aspectRatio: 4/3
-  - title: Abelha no meio do roxo perolado das lavandas
-    imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974629/galeria/uwysvbt1nxzpb2hw8q38.jpg
-    alt: Abelha miniatura no meio de varios bud de maconha roxa
-    aspectRatio: 4/3
-  - title: Passáro Noronhe-se
-    imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/es3catepaaws13mbadpi.jpg
-    alt: 'Passarinho no ninho, nativo de Noronha'
     aspectRatio: 4/3
   - title: Campo de Lavanda
     imageUrl: >-
