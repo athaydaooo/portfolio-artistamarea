@@ -58,7 +58,7 @@ images:
     aspectRatio: 3/4
   - title: Dalí com boné amarelo mostarda
     imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1737065656/galeria/IMG_2681_u5ao5x.jpg
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1743438246/IMG_2693_wg7tow.jpg
     alt: Dalí na kombi da UrbanSession
     aspectRatio: 3/4
   - title: TheDalíMusic
