@@ -20,7 +20,7 @@ images:
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1743435647/IMG_3204_iog2ne.jpg
     alt: 'Olhos '
-    aspectRatio: 16/9
+    aspectRatio: 4/3
   - title: 'DJ Mastrobiso '
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/bgb6sw99egwrfuwfl7ma.jpg
