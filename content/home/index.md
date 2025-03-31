@@ -6,11 +6,11 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065621/galeria/IMG_2675_zccpto.jpg
     alt: 'Dalí tocando '
     aspectRatio: 16/9
-  - title: Dalí Chaplin
+  - title: É preciso dar um jeito meu amigo...
     imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1737065626/galeria/IMG_2678-2_b1txko.jpg
-    alt: Dalí de cosplay de Charlie Chaplin
-    aspectRatio: 4/3
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1743435643/IMG_3143_rvs7q2.jpg
+    alt: Interior anos 50
+    aspectRatio: 16/9
   - title: Dalí com boné amarelo mostarda
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065656/galeria/IMG_2681_u5ao5x.jpg
