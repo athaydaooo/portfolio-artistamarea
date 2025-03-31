@@ -21,6 +21,11 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974642/galeria/j4sbmwmct4xyvbpzthss.jpg
     alt: Campo de Lavanda da cidade de Holambra
     aspectRatio: 4/3
+  - title: Beijar Flor
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1741357295/IMG_2891_kmnguc.jpg
+    alt: Que trouxe meu amor
+    aspectRatio: 4/3
   - title: É preciso dar um jeito meu amigo...
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1743435643/IMG_3143_rvs7q2.jpg
@@ -46,11 +51,6 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065656/galeria/IMG_2681_u5ao5x.jpg
     alt: Dalí na kombi da UrbanSession
     aspectRatio: 3/4
-  - title: Beijar Flor
-    imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1741357295/IMG_2891_kmnguc.jpg
-    alt: Que trouxe meu amor
-    aspectRatio: 4/3
   - title: TheDalíMusic
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065621/galeria/IMG_2675_zccpto.jpg
@@ -76,10 +76,10 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/d6dt6ytsucoxyofms6fb.jpg
     alt: 'Praia mais linda que já fui '
     aspectRatio: 4/3
-  - title: CHICO 1/3
+  - title: 'Tronco enigmático '
     imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1737065631/galeria/IMG_2742_p4gfo9.jpg
-    alt: Mulher cheia de marra passando na frente do chiquinho
-    aspectRatio: 4/3
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1743435641/IMG_3119_tbyutk.jpg
+    alt: 'Árvore? Ravina? Pedras? Drone? Foto enigmática '
+    aspectRatio: 3/4
 ---
 
