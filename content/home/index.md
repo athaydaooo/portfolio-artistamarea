@@ -60,7 +60,7 @@ images:
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1743438246/IMG_2693_wg7tow.jpg
     alt: Dalí na kombi da UrbanSession
-    aspectRatio: 3/4
+    aspectRatio: 4/3
   - title: TheDalíMusic
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065621/galeria/IMG_2675_zccpto.jpg
