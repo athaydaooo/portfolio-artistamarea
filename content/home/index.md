@@ -61,11 +61,11 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065621/galeria/IMG_2675_zccpto.jpg
     alt: 'Dalí tocando '
     aspectRatio: 16/9
-  - title: 'DJ Matrobiso '
+  - title: Jacú
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1743435638/IMG_3095_axftvk.jpg
-    alt: Mastrobiso jogando bundinha e dedo pro ar
-    aspectRatio: 3/4
+    alt: Caminhada
+    aspectRatio: 16/9
   - title: 'Chico dos Discos '
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065642/galeria/IMG_2746-2_mt0jzx.jpg
