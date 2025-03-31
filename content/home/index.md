@@ -41,6 +41,11 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1743435643/IMG_3143_rvs7q2.jpg
     alt: Interior anos 50
     aspectRatio: 16/9
+  - title: 'Chico dos Discos '
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1737065642/galeria/IMG_2746-2_mt0jzx.jpg
+    alt: Chico analisando o disco
+    aspectRatio: 4/3
   - title: CHICO 3/3
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065662/galeria/IMG_2738-2_gfrxod.jpg
@@ -66,11 +71,6 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065621/galeria/IMG_2675_zccpto.jpg
     alt: 'Dalí tocando '
     aspectRatio: 16/9
-  - title: 'Chico dos Discos '
-    imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1737065642/galeria/IMG_2746-2_mt0jzx.jpg
-    alt: Chico analisando o disco
-    aspectRatio: 4/3
   - title: Banda da Av.Paulista
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065652/galeria/IMG_2754-2_hi8ipt.jpg
