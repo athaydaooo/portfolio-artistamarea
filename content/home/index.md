@@ -21,6 +21,11 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974642/galeria/j4sbmwmct4xyvbpzthss.jpg
     alt: Campo de Lavanda da cidade de Holambra
     aspectRatio: 4/3
+  - title: Jacú
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1743435638/IMG_3095_axftvk.jpg
+    alt: Caminhada
+    aspectRatio: 16/9
   - title: Beijar Flor
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1741357295/IMG_2891_kmnguc.jpg
@@ -60,11 +65,6 @@ images:
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065621/galeria/IMG_2675_zccpto.jpg
     alt: 'Dalí tocando '
-    aspectRatio: 16/9
-  - title: Jacú
-    imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1743435638/IMG_3095_axftvk.jpg
-    alt: Caminhada
     aspectRatio: 16/9
   - title: 'Chico dos Discos '
     imageUrl: >-
