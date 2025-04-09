@@ -7,10 +7,13 @@ import AspectRatio from "@/types/aspect-ratio.ts";
 import { InputField } from "@/components/atoms/input-field/index.tsx";
 import { TextInputField } from "@/components/atoms/text-input-field/index.tsx";
 import { SubmitButton } from "@/components/atoms/submit-button/index.tsx";
+import { TinaMarkdown, TinaMarkdownContent } from "tinacms/dist/rich-text";
 
 interface ContactSectionProps {
-    rolesData: OultimoframeRoles[];
-    className?: string;
+    image: string;
+    title: string;
+    subtitle: string;
+    body: TinaMarkdownContent;
 }
 
 export enum FieldNames {
@@ -19,7 +22,7 @@ export enum FieldNames {
     message = "message",
 }
 
-const ContactSection: React.FC = () => {
+const ContactSection: React.FC<ContactSectionProps> = (props) => {
     const [name, setName] = React.useState("");
     const [email, setEmail] = React.useState("");
     const [message, setMessage] = React.useState("");
@@ -104,18 +107,17 @@ const ContactSection: React.FC = () => {
 
             <div className="flex flex-row items-center justify-center h-fit gap-8">
                 <ImageWrapper
-                    src="/galeria/capivaras.jpg"
+                    src={props.image}
                     alt="Capivaras"
                     className="hidden md:block h-[60vh]"
                     aspectRatio={AspectRatio.ClassicPortrait}
                     sizes="auto"
                 />
                 <div className="flex flex-col text-start w-[80vw] md:w-[30vw] gap-2 h-full">
-                    <p className="text-2xl">Se interessou pelo meu trabalho?</p>
-                    <h1 className="text-4xl font-bold">Fala Comigo!</h1>
+                    <p className="text-2xl">{props.title}</p>
+                    <h1 className="text-4xl font-bold">{props.subtitle}</h1>
                     <p className="text-md">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id
-                        quam sit amet turpis facilisis lacinia vel et ante.
+                        <TinaMarkdown content={props.body} />
                     </p>
                     <div className="flex flex-col">
                         <h1 className="text-sm font-bold">Nome</h1>
