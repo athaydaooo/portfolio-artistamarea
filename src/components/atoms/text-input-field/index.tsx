@@ -1,8 +1,8 @@
 "use client";
 
 import * as React from "react";
-import clsx from "../../../utils/clsx.ts";
 import { FieldNames } from "@/components/sections/contact/index.tsx";
+import clsx from "../../../utils/clsx.ts";
 
 interface TextInputFieldProps {
   name: FieldNames;
