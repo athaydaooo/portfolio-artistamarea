@@ -16,7 +16,7 @@ export const SubmitButton: React.FC<SubmitButtonProps> = ({
     <>
       <button
         id="btn"
-        className="w-fit h-fit flex justify-center items-center py-4 px-8 text-sm text-white bg-black font-bold"
+        className="w-fit h-fit flex justify-center items-center py-3 px-6 text-sm text-white bg-black font-bold"
         onClick={onClick}
         disabled={isDisabled}
       >

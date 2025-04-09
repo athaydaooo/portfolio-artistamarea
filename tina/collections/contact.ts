@@ -33,7 +33,7 @@ export const contactCollection = {
       name: "body",
       label: "Corpo",
       isBody: true,
-      required: true,
+      required: false,
     },
   ] as TinaField[],
 };

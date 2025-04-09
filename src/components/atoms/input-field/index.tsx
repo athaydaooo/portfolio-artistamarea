@@ -1,15 +1,15 @@
 "use client";
 
 import * as React from "react";
-import { FieldNames } from "@/components/sections/contact/index.tsx";
+import { ContactFieldNames } from "@/types/contact-field-names.ts";
 import clsx from "../../../utils/clsx.ts";
 
 interface InputFieldProps {
-  name: FieldNames;
+  name: ContactFieldNames;
   placeholder: string;
   value: string;
   onChange: (value: string) => void;
-  validateField: (field: FieldNames) => void;
+  validateField: (field: ContactFieldNames) => void;
   className?: string;
 }
 

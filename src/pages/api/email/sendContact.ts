@@ -32,9 +32,8 @@ export default async function handler(
 
     await emailjs.send(serviceId, templateId, templateParams, userId);
 
-    res.status(200).json({ message: "Email sent successfully" });
-  } catch (error) {
-    console.error("Error sending email:", error);
-    res.status(500).json({ message: "Failed to send email" });
+    return res.status(200).json({ message: "Email sent successfully" });
+  } catch {
+    return res.status(500).json({ message: "Failed to send email" });
   }
 }

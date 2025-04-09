@@ -9,7 +9,9 @@ import { SubmitButton } from "@/components/atoms/submit-button/index.tsx";
 import { TinaMarkdown, TinaMarkdownContent } from "tinacms/dist/rich-text";
 
 import "./style.css";
-import { getInvalidFieldClass } from "@/utils/get-invalid-field-class";
+import { getInvalidFieldClass } from "@/utils/get-invalid-field-class.ts";
+import { ContactFieldNames } from "@/types/contact-field-names.ts";
+import { forceReflow } from "@/utils/force-reflow.ts";
 
 interface ContactSectionProps {
   image: string;
@@ -18,40 +20,15 @@ interface ContactSectionProps {
   body: TinaMarkdownContent;
 }
 
-export enum FieldNames {
-  name = "name",
-  email = "email",
-  message = "message",
-}
-
 const ContactSection: React.FC<ContactSectionProps> = (props) => {
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [message, setMessage] = React.useState("");
 
-  const [invalidFields, setInvalidFields] = React.useState<FieldNames[]>([]);
-
-  const validateForm = (): boolean => {
-    const fields: FieldNames[] = [
-      FieldNames.name,
-      FieldNames.email,
-      FieldNames.message,
-    ];
-
-    const newInvalidFields: FieldNames[] = [];
-
-    fields.forEach((field) => {
-      if (!validateField(field)) {
-        newInvalidFields.push(field);
-      }
-    });
-
-    setInvalidFields(newInvalidFields); // Atualiza o estado com os campos inválidos encontrados
-
-    return newInvalidFields.length === 0; // Verifica a lista local ao invés do estado global
-  };
-
-  const validateField = (field: FieldNames): boolean => {
+  const [invalidFields, setInvalidFields] = React.useState<ContactFieldNames[]>(
+    [],
+  );
+  const validateField = (field: ContactFieldNames): boolean => {
     const nameRegex = /^[A-Za-z\s]+$/;
     const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
     const messageRegex = /.+/;
@@ -59,13 +36,13 @@ const ContactSection: React.FC<ContactSectionProps> = (props) => {
     let isValid = true;
 
     switch (field) {
-      case FieldNames.name:
+      case ContactFieldNames.name:
         isValid = nameRegex.test(name);
         break;
-      case FieldNames.email:
+      case ContactFieldNames.email:
         isValid = emailRegex.test(email);
         break;
-      case FieldNames.message:
+      case ContactFieldNames.message:
         isValid = messageRegex.test(message);
         break;
       default:
@@ -81,47 +58,61 @@ const ContactSection: React.FC<ContactSectionProps> = (props) => {
     return isValid;
   };
 
+  const validateForm = (): boolean => {
+    const fields: ContactFieldNames[] = [
+      ContactFieldNames.name,
+      ContactFieldNames.email,
+      ContactFieldNames.message,
+    ];
+
+    const newInvalidFields: ContactFieldNames[] = [];
+
+    fields.forEach((field) => {
+      if (!validateField(field)) {
+        newInvalidFields.push(field);
+      }
+    });
+
+    setInvalidFields(newInvalidFields); // Atualiza o estado com os campos inválidos encontrados
+
+    return newInvalidFields.length === 0; // Verifica a lista local ao invés do estado global
+  };
+
   const handleSubmit = async () => {
     if (!validateForm()) {
       const formButton = document.getElementById("formButton");
 
       if (formButton) {
         formButton.classList.remove("shake"); // Remove a classe
-        void formButton.offsetWidth; // Força um reflow para reiniciar a animação
+        forceReflow(formButton); // Força um reflow para reiniciar a animação
         formButton.classList.add("shake"); // Adiciona novamente para rodar a animação
       }
 
       return;
     }
 
-    try {
-      const response = await fetch("/api/email/sendContact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          name,
-          email,
-          message,
-        }),
-      });
+    const response = await fetch("/api/email/sendContact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name,
+        email,
+        message,
+      }),
+    });
 
-      if (!response.ok) {
-        throw new Error("Failed to send contact message");
-      }
-
-      const result = await response.json();
-      console.log("Message sent successfully:", result);
-
-      // reset the form fields
-      setName("");
-      setEmail("");
-      setMessage("");
-      setInvalidFields([]);
-    } catch (error) {
-      console.error("Error sending contact message:", error);
+    if (!response.ok) {
+      throw new Error("Failed to send contact message");
     }
+
+    await response.json();
+    // reset the form fields
+    setName("");
+    setEmail("");
+    setMessage("");
+    setInvalidFields([]);
   };
 
   return (
@@ -135,14 +126,19 @@ const ContactSection: React.FC<ContactSectionProps> = (props) => {
           sizes="auto"
         />
         <div className="flex flex-col text-start w-[80vw] md:w-[30vw] gap-2 h-full">
-          <p className="text-2xl">{props.title}</p>
-          <h1 className="text-4xl font-bold">{props.subtitle}</h1>
+          <p className="text-2xl lg:text-5xl 2k:text-6xl font-extralight">
+            {props.title}
+          </p>
+          <h1 className="text-xl">{props.subtitle}</h1>
           <TinaMarkdown content={props.body} />
           <div className="flex flex-col">
             <h1 className="text-sm font-bold">Nome</h1>
             <InputField
-              className={getInvalidFieldClass(invalidFields, FieldNames.name)}
-              name={FieldNames.name}
+              className={getInvalidFieldClass(
+                invalidFields,
+                ContactFieldNames.name,
+              )}
+              name={ContactFieldNames.name}
               placeholder="Digite seu nome"
               value={name}
               onChange={setName}
@@ -152,8 +148,11 @@ const ContactSection: React.FC<ContactSectionProps> = (props) => {
           <div className="flex flex-col">
             <h1 className="text-sm font-bold">Email</h1>
             <InputField
-              className={getInvalidFieldClass(invalidFields, FieldNames.email)}
-              name={FieldNames.email}
+              className={getInvalidFieldClass(
+                invalidFields,
+                ContactFieldNames.email,
+              )}
+              name={ContactFieldNames.email}
               placeholder="Digite seu email"
               value={email}
               onChange={setEmail}
@@ -165,9 +164,9 @@ const ContactSection: React.FC<ContactSectionProps> = (props) => {
             <TextInputField
               className={getInvalidFieldClass(
                 invalidFields,
-                FieldNames.message,
+                ContactFieldNames.message,
               )}
-              name={FieldNames.message}
+              name={ContactFieldNames.message}
               validateField={validateField}
               placeholder="Digite sua mensagem"
               value={message}

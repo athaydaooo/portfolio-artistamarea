@@ -1,8 +1,8 @@
-import { FieldNames } from "@/components/sections/contact";
+import { ContactFieldNames } from "@/types/contact-field-names.ts";
 
 export function getInvalidFieldClass(
-  invalidFields: FieldNames[],
-  fieldName: FieldNames,
+  invalidFields: ContactFieldNames[],
+  fieldName: ContactFieldNames,
 ): string {
   return invalidFields.includes(fieldName) ? "invalid-field" : "valid-field";
 }
