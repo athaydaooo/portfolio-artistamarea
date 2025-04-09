@@ -12,6 +12,7 @@
     "lint:fix": "next lint --fix"
   },
   "dependencies": {
+    "@emailjs/nodejs": "^5.0.2",
     "@eslint/create-config": "^1.4.0",
     "@next/codemod": "^15.0.3",
     "@tinacms/auth": "^1.0.10",

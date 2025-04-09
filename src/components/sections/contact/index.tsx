@@ -1,13 +1,15 @@
 // eslint-disable-next-line camelcase
 import React from "react";
-import clsx from "@/utils/clsx.ts";
-import { OultimoframeRoles } from "../../../../tina/__generated__/types.ts";
+
 import ImageWrapper from "@/components/atoms/image-wrapper/ImageWrapper.tsx";
 import AspectRatio from "@/types/aspect-ratio.ts";
 import { InputField } from "@/components/atoms/input-field/index.tsx";
 import { TextInputField } from "@/components/atoms/text-input-field/index.tsx";
 import { SubmitButton } from "@/components/atoms/submit-button/index.tsx";
 import { TinaMarkdown, TinaMarkdownContent } from "tinacms/dist/rich-text";
+
+import "./style.css";
+import { getInvalidFieldClass } from "@/utils/get-invalid-field-class";
 
 interface ContactSectionProps {
     image: string;
@@ -53,6 +55,7 @@ const ContactSection: React.FC<ContactSectionProps> = (props) => {
     const validateField = (field: FieldNames): boolean => {
         const nameRegex = /^[A-Za-z\s]+$/;
         const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+        const messageRegex = /.+/;
 
         let isValid = true;
 
@@ -62,6 +65,9 @@ const ContactSection: React.FC<ContactSectionProps> = (props) => {
                 break;
             case FieldNames.email:
                 isValid = emailRegex.test(email);
+                break;
+            case FieldNames.message:
+                isValid = messageRegex.test(message);
                 break;
             default:
                 return true;
@@ -89,17 +95,35 @@ const ContactSection: React.FC<ContactSectionProps> = (props) => {
             return;
         }
 
-        const res = await fetch("/api/submit/phone-form", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({
-                name,
-                email,
-                message,
-            }),
-        });
+        try {
+            const response = await fetch('/api/email/sendContact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    name,
+                    email,
+                    message,
+                }),
+            });
 
-        await res.json();
+            if (!response.ok) {
+                throw new Error('Failed to send contact message');
+            }
+
+            const result = await response.json();
+            console.log('Message sent successfully:', result);
+
+            // reset the form fields
+            setName('');
+            setEmail('');
+            setMessage('');
+            setInvalidFields([]);
+        } catch (error) {
+            console.error('Error sending contact message:', error);
+        }
+
     };
 
     return (
@@ -108,7 +132,7 @@ const ContactSection: React.FC<ContactSectionProps> = (props) => {
             <div className="flex flex-row items-center justify-center h-fit gap-8">
                 <ImageWrapper
                     src={props.image}
-                    alt="Capivaras"
+                    alt="Imagem de contato"
                     className="hidden md:block h-[60vh]"
                     aspectRatio={AspectRatio.ClassicPortrait}
                     sizes="auto"
@@ -116,20 +140,19 @@ const ContactSection: React.FC<ContactSectionProps> = (props) => {
                 <div className="flex flex-col text-start w-[80vw] md:w-[30vw] gap-2 h-full">
                     <p className="text-2xl">{props.title}</p>
                     <h1 className="text-4xl font-bold">{props.subtitle}</h1>
-                    <p className="text-md">
-                        <TinaMarkdown content={props.body} />
-                    </p>
+                    <TinaMarkdown content={props.body} />
                     <div className="flex flex-col">
                         <h1 className="text-sm font-bold">Nome</h1>
-                        <InputField name={FieldNames.name} placeholder="Digite seu nome" value={name} onChange={setName} validateField={validateField} />
+                        <InputField className={getInvalidFieldClass(invalidFields, FieldNames.name)} name={FieldNames.name} placeholder="Digite seu nome" value={name} onChange={setName} validateField={validateField} />
                     </div>
                     <div className="flex flex-col">
                         <h1 className="text-sm font-bold">Email</h1>
-                        <InputField name={FieldNames.email} placeholder="Digite seu email" value={email} onChange={setEmail} validateField={validateField} />
+                        <InputField className={getInvalidFieldClass(invalidFields, FieldNames.email)} name={FieldNames.email} placeholder="Digite seu email" value={email} onChange={setEmail} validateField={validateField} />
                     </div>
                     <div className="flex flex-col">
                         <h1 className="text-sm font-bold">Mensagem</h1>
                         <TextInputField
+                            className={getInvalidFieldClass(invalidFields, FieldNames.message)}
                             name={FieldNames.message}
                             validateField={validateField}
                             placeholder="Digite sua mensagem"
@@ -137,7 +160,10 @@ const ContactSection: React.FC<ContactSectionProps> = (props) => {
                             onChange={setMessage}
                         />
                     </div>
-                    <SubmitButton onClick={() => { handleSubmit() }} isDisabled={false} />
+                    <div id="formButton">
+                        <SubmitButton onClick={() => { handleSubmit() }} isDisabled={false} />
+                    </div>
+
                 </div>
             </div>
         </section>
