@@ -1,0 +1,46 @@
+button {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.check-box {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  position: absolute;
+  top: 0;
+  right: -40px;
+  opacity: 0;
+}
+
+.check-box svg {
+  width: 40px;
+  margin: 20px;
+}
+
+.active {
+  background: green;
+  transition: 1s;
+}
+
+.active .check-box {
+  right: 0;
+  opacity: 1;
+  transition: 1s;
+}
+
+.active p {
+  margin-right: 30px;
+  transition: 0.5s;
+}
+
+.active svg path {
+  stroke-dashoffset: 0;
+  transition: 1s;
+  transition-delay: 1s;
+}

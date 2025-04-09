@@ -21,7 +21,7 @@ const notoSerifGujarati = NotoSerifGujarati({
 
 export const metadata: Metadata = {
   title: "Artista Marea",
-  description: "Portifoio da artista Marea",
+  description: "Portifólio da Artista Marea",
   icons: {
     icon: "/favicon.ico",
   },
@@ -42,9 +42,11 @@ export default function RootLayout({
             <TopMenu
               sections={[
                 { name: "galeria", slug: "/" },
+                { name: "modelo", slug: "/model" },
                 { name: "videos", slug: "/videos" },
                 { name: "o último frame", slug: "/o-ultimo-frame" },
                 { name: "sobre mim", slug: "/about" },
+                { name: "contato", slug: "/contact" },
               ]}
             />
             {children}

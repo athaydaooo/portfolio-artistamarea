@@ -13,8 +13,8 @@ interface AboutSectionProps {
 
 const AboutSection: React.FC<AboutSectionProps> = (props) => {
   return (
-    <section className="relative flex items-center justify-center lg:h-full w-full">
-      <div className="relative grid grid-cols-1 lg:grid-cols-2 items-center justify-center h-full w-full">
+    <section className="relative flex items-center justify-center h-[90vh] w-full">
+      <div className="relative grid grid-cols-1 lg:grid-cols-2 items-center justify-center w-full">
         <div className="flex flex-col items-center">
           <ImageWrapper
             alt="maria-claudia"
