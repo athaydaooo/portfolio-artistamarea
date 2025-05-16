@@ -46,7 +46,7 @@ export default function RootLayout({
                 {
                   name: "filmografia",
                   items: [
-                    { name: "skasu", slug: "/skasu" },
+                    { name: "skasu", slug: "/skasu-cristo-e-oxala" },
                     { name: "dj sets", slug: "/videos" },
                     { name: "o ultimo frame", slug: "/o-ultimo-frame" },
                   ],
