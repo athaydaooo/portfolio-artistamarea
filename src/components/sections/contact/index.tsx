@@ -2,16 +2,16 @@
 import React from "react";
 
 import ImageWrapper from "@/components/atoms/image-wrapper/ImageWrapper.tsx";
-import AspectRatio from "@/types/aspect-ratio.ts";
 import { InputField } from "@/components/atoms/input-field/index.tsx";
-import { TextInputField } from "@/components/atoms/text-input-field/index.tsx";
 import { SubmitButton } from "@/components/atoms/submit-button/index.tsx";
+import { TextInputField } from "@/components/atoms/text-input-field/index.tsx";
+import AspectRatio from "@/types/aspect-ratio.ts";
 import { TinaMarkdown, TinaMarkdownContent } from "tinacms/dist/rich-text";
 
-import "./style.css";
-import { getInvalidFieldClass } from "@/utils/get-invalid-field-class.ts";
 import { ContactFieldNames } from "@/types/contact-field-names.ts";
 import { forceReflow } from "@/utils/force-reflow.ts";
+import { getInvalidFieldClass } from "@/utils/get-invalid-field-class.ts";
+import "./style.css";
 
 interface ContactSectionProps {
   image: string;
@@ -116,7 +116,7 @@ const ContactSection: React.FC<ContactSectionProps> = (props) => {
   };
 
   return (
-    <section className="flex flex-col items-center justify-center h-[95vh] lg:h-[90vh]">
+    <section className="flex flex-col items-center justify-center py-8 lg:py-0 lg:h-[100vh]">
       <div className="flex flex-row items-center justify-center h-fit gap-8">
         <ImageWrapper
           src={props.image}

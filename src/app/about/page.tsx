@@ -1,4 +1,5 @@
 import { client } from "../../../tina/__generated__/client.ts";
+import ContactBuilder from "../contact/builder.tsx";
 import AboutPageBuilder from "./builder.tsx";
 
 export default async function AboutPage() {
@@ -6,11 +7,14 @@ export default async function AboutPage() {
     relativePath: "index.md",
   });
 
+  const contactData = await client.queries.contact({
+    relativePath: "index.md",
+  });
+
   return (
     <>
-      <div className="flex flex-col items-center lg:h-screen">
-        <AboutPageBuilder {...aboutData} />
-      </div>
+      <AboutPageBuilder {...aboutData} />
+      <ContactBuilder {...contactData} />
     </>
   );
 }
