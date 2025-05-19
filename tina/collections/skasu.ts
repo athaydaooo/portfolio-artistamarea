@@ -123,6 +123,49 @@ export const skasuCollection = {
       required: true,
     },
     {
+      type: "object",
+      name: "sponsors",
+      label: "Patrocínios",
+      list: true,
+      ui: {
+        itemProps: (item) => {
+          return { label: item.title };
+        },
+        visualSelector: true,
+        min: 1,
+        max: 20,
+      },
+      fields: [
+        {
+          type: "string",
+          name: "title",
+          label: "Titulo",
+          isTitle: true,
+          required: true,
+        },
+        {
+          type: "image",
+          name: "imageUrl",
+          label: "Imagem",
+          required: true,
+        },
+        {
+          type: "string",
+          name: "alt",
+          label: "Texto Alternativo",
+          required: true,
+        },
+        {
+          type: "string",
+          name: "aspectRatio",
+          label: "Orientacao",
+          options: enumToOptions(AspectRatio),
+          required: true,
+        },
+      ] as TinaField[],
+      required: true,
+    },
+    {
       type: "string",
       name: "clipUrl",
       label: "Skasu Clip URL",

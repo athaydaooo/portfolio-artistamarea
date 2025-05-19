@@ -2,14 +2,19 @@ import ImageWrapper from "@/components/atoms/image-wrapper/ImageWrapper.tsx";
 import AspectRatio from "@/types/aspect-ratio.ts";
 import clsx from "@/utils/clsx.ts";
 import React from "react";
-import { SkasucristoeoxalaCredits } from "../../../../tina/__generated__/types.ts";
+import {
+  SkasucristoeoxalaCredits,
+  SkasucristoeoxalaSponsors,
+} from "../../../../tina/__generated__/types.ts";
 
 interface ImageCreditsSectionProps {
-  creditsData: SkasucristoeoxalaCredits[];
+  title: string;
+  creditsData: SkasucristoeoxalaCredits[] | SkasucristoeoxalaSponsors[];
   className?: string;
 }
 
 const ImageCreditsSection: React.FC<ImageCreditsSectionProps> = ({
+  title,
   creditsData,
   className,
 }) => {
@@ -24,7 +29,7 @@ const ImageCreditsSection: React.FC<ImageCreditsSectionProps> = ({
         "relative flex flex-col justify-center items-center gap-8 lg:gap-12 py-8 lg:h-[100vh] ",
       )}
     >
-      <h1 className="text-3xl lg:text-6xl text-center">Créditos</h1>
+      <h1 className="text-3xl lg:text-6xl text-center">{title}</h1>
       <div className="relative flex flex-col lg:flex-row items-center justify-center gap-8">
         {creditsData.map((role) => (
           <>

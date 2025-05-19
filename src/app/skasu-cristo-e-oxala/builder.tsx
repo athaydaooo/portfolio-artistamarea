@@ -57,7 +57,15 @@ const SkasuCristoEOxalaBuilder: React.FC<SkasuCristoEOxalaBuilderProps> = (
         isExplicit={data.skasucristoeoxala.isExplicit || undefined}
       />
 
-      <ImageCreditsSection creditsData={data.skasucristoeoxala.credits} />
+      <ImageCreditsSection
+        title="Créditos"
+        creditsData={data.skasucristoeoxala.credits}
+      />
+
+      <ImageCreditsSection
+        title="Patrocínio"
+        creditsData={data.skasucristoeoxala.sponsors}
+      />
     </>
   );
 };

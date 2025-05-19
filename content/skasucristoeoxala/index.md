@@ -3,7 +3,7 @@ title: index.md
 desktopHero: >-
   https://res.cloudinary.com/dobazc4ii/image/upload/v1747672446/IMG_1973_x4q31i.jpg
 mobileHero: >-
-  https://res.cloudinary.com/dobazc4ii/image/upload/v1743435641/IMG_3119_tbyutk.jpg
+  https://res.cloudinary.com/dobazc4ii/image/upload/v1747672212/1740076696924_l0sgkq.jpg
 images:
   - title: SKASU
     body: >
@@ -11,7 +11,7 @@ images:
       Vicente litoral de São Paulo, conhecido por sua fusão de mpb, reggae e
       rock. Com uma trajetória de mais de 20 anos, eles são reconhecidos por sua
       energia positiva e compromisso com a música autoral, criando um som
-      autêntico e vibrante. 
+      autêntico e vibrante.
 
 
       **SKASU** criou um estilo próprio, mais do que um som, uma vivência, uma
@@ -27,11 +27,11 @@ images:
       integrantes sobre o projeto. Sempre receptivos e abertos a colaborações
       criativas, os músicos aceitaram a proposta de imediato, dando início a uma
       produção marcada pela harmonia, **troca artística** e liberdade de
-      criação. 
+      criação.
 
 
-      No videoclipe Cristo e Oxalá, atuei como Diretora, Roteirista, Operadora
-      de Câmera e Editora de Vídeo.
+      No videoclipe *Cristo e Oxalá*, atuei como **Diretora**, **Roteirista**,
+      **Operadora de Câmera** e **Editora de Vídeo**.
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1747673645/semcamila_eu489y.jpg
     alt: História da Criação do Clipe
@@ -40,17 +40,23 @@ credits:
   - title: 'Letícia Ruano '
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1747671526/Logo_-_Let%C3%ADcia_Ruano_-_Fundo_transparente_-_White_osbiox.png
-    alt: 'Logo '
+    alt: Produção Leticia Ruano
     aspectRatio: 1/1
   - title: Arca Raw
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1747671597/6fdba60c-04ee-44a9-b062-8919eaa1df5d_nuq1ad.png
-    alt: Logo
+    alt: Produção e Fotografia Arca Raw
     aspectRatio: 1/1
   - title: Artista Marea
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1747671783/Captura_de_tela_2025-05-19_132244_jiq3bd.png
     alt: Logo
+    aspectRatio: 1/1
+sponsors:
+  - title: Casa laya
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1747671533/Logo_4_W_1_y3xjjp.png
+    alt: Patrocinio Casa Laya
     aspectRatio: 1/1
 clipUrl: 'https://www.youtube.com/watch?v=CYDMeO61io4'
 ---
