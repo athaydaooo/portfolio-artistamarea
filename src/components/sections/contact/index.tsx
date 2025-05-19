@@ -125,7 +125,7 @@ const ContactSection: React.FC<ContactSectionProps> = (props) => {
           aspectRatio={AspectRatio.ClassicPortrait}
           sizes="auto"
         />
-        <div className="flex flex-col text-start w-[80vw] md:w-[30vw] gap-2 h-full">
+        <div className="flex flex-col text-start w-[80vw] md:w-[30vw] gap-2 h-auto">
           <p className="text-2xl lg:text-5xl 2k:text-6xl font-extralight">
             {props.title}
           </p>
