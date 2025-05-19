@@ -21,7 +21,7 @@ const VideoSection: React.FC<VideoSectionProps> = ({
   isExplicit,
 }) => {
   return (
-    <section className="relative flex flex-col items-center justify-center h-screen w-full">
+    <section className="relative flex flex-col items-center justify-center py-8 lg:py-0 lg:h-screen w-full">
       <VideoWithText
         details={details}
         videoUrl={videoUrl}

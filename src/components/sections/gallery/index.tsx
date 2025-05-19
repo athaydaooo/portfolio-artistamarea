@@ -1,10 +1,10 @@
 "use client";
 
-import React, { useState } from "react";
-import AspectRatio from "@/types/aspect-ratio.ts";
 import ImageWrapper from "@/components/atoms/image-wrapper/ImageWrapper.tsx";
-import clsx from "@/utils/clsx.ts";
+import AspectRatio from "@/types/aspect-ratio.ts";
 import { ImageData } from "@/types/image-data.ts";
+import clsx from "@/utils/clsx.ts";
+import React, { useEffect, useRef, useState } from "react";
 
 interface GallerySectionProps {
   images: ImageData[];
@@ -28,6 +28,36 @@ const GallerySection: React.FC<GallerySectionProps> = ({ images }) => {
   const selectorMinHeightClass = `man-h-[40px]`;
 
   const selectorAspectRatio = AspectRatio.ClassicLandscape;
+
+  const modalRef = useRef(null);
+
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent): void {
+      if (event.target === modalRef.current) {
+        setCapturedImage(null);
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [setCapturedImage]);
+
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setCapturedImage(null);
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  });
 
   return (
     <section className="relative flex flex-col items-center justify-center py-[10vh] lg:h-[90vh]">
@@ -118,7 +148,10 @@ const GallerySection: React.FC<GallerySectionProps> = ({ images }) => {
 
       {/* full image viewer */}
       {capturedImage && (
-        <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-10">
+        <div
+          className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-10"
+          ref={modalRef}
+        >
           <button
             className="absolute top-2 right-2 text-2xl text-gray-400"
             onMouseDownCapture={() => setCapturedImage(null)}

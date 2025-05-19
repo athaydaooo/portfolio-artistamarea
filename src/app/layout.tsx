@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import "./style.css";
 import {
-  Noto_Serif_Gujarati as NotoSerifGujarati,
   Noto_Serif as NotoSerif,
+  Noto_Serif_Gujarati as NotoSerifGujarati,
 } from "next/font/google";
+import "./style.css";
 
-import React from "react";
 import TopMenu from "@/components/organisms/top-menu/TopMenu.tsx";
 import { ThemeProvider } from "@/components/providers/ThemeProvider.tsx";
 import FooterSection from "@/components/sections/footer/index.tsx";
+import React from "react";
 
 const notoSerif = NotoSerif({
   weight: "300",
@@ -21,7 +21,7 @@ const notoSerifGujarati = NotoSerifGujarati({
 
 export const metadata: Metadata = {
   title: "Artista Marea",
-  description: "Portifólio da Artista Marea",
+  description: "Portfólio da Artista Marea",
   icons: {
     icon: "/favicon.ico",
   },
@@ -43,10 +43,15 @@ export default function RootLayout({
               sections={[
                 { name: "galeria", slug: "/" },
                 { name: "modelo", slug: "/model" },
-                { name: "videos", slug: "/videos" },
-                { name: "o último frame", slug: "/o-ultimo-frame" },
+                {
+                  name: "filmografia",
+                  items: [
+                    { name: "skasu", slug: "/skasu-cristo-e-oxala" },
+                    { name: "dj sets", slug: "/videos" },
+                    { name: "o Último frame", slug: "/o-ultimo-frame" },
+                  ],
+                },
                 { name: "sobre mim", slug: "/about" },
-                { name: "contato", slug: "/contact" },
               ]}
             />
             {children}
