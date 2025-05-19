@@ -31,15 +31,15 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1741357295/IMG_2891_kmnguc.jpg
     alt: Que trouxe meu amor
     aspectRatio: 4/3
-  - title: 'Tronco enigmático '
+  - title: Atobá na Laje de Santos
     imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1743435641/IMG_3119_tbyutk.jpg
-    alt: 'Árvore? Ravina? Pedras? Drone? Foto enigmática '
-    aspectRatio: 3/4
-  - title: É preciso dar um jeito meu amigo...
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1747670887/IMG_3716_inrcuu.jpg
+    alt: Atobás e Petréis
+    aspectRatio: 16/9
+  - title: Golfinho
     imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1743435643/IMG_3143_rvs7q2.jpg
-    alt: Interior anos 50
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1747671244/IMG_3808_fmlant.jpg
+    alt: 'Golfinho pulando na Laje de Santos '
     aspectRatio: 16/9
   - title: 'Chico dos Discos '
     imageUrl: >-
