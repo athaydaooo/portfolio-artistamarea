@@ -30,7 +30,10 @@ const ImageCreditsSection: React.FC<ImageCreditsSectionProps> = ({
       )}
     >
       <h1 className="text-3xl lg:text-6xl text-center">{title}</h1>
-      <div className="relative flex flex-col lg:flex-row items-center justify-center gap-8">
+      <div
+        className="relative flex flex-col lg:flex-row items-center justify-center gap-8"
+        key={`image-credits-${title}`}
+      >
         {creditsData.map((role) => (
           <>
             <ImageWrapper
