@@ -34,7 +34,7 @@ images:
   - title: Atobá na Laje de Santos
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1747670887/IMG_3716_inrcuu.jpg
-    alt: Atobás e Petréis
+    alt: Atobás pousados e sobrevoando sobre a Laje de Santos.
     aspectRatio: 16/9
   - title: Golfinho
     imageUrl: >-
