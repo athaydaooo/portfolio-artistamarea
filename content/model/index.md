@@ -26,7 +26,7 @@ images:
   - title: Silhueta
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1744218440/IMG_8323_nwcga1.jpg
-    alt: Contra a luz
+    alt: Silhueta contra a luz
     aspectRatio: 3/4
   - title: Biblioteca
     imageUrl: >-
