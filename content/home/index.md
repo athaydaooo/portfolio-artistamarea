@@ -6,10 +6,10 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1743435647/IMG_3204_iog2ne.jpg
     alt: 'Olho de um animal bovino, branco.'
     aspectRatio: 4/3
-  - title: Passáro Noronhe-se
+  - title: 'Atobá no Ninho '
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/es3catepaaws13mbadpi.jpg
-    alt: 'Passarinho no ninho, nativo de Noronha'
+    alt: 'Ave Atobá no ninho com seu filhote em Fernando de Noronha. '
     aspectRatio: 4/3
   - title: Abelha no meio do roxo perolado das lavandas
     imageUrl: >-
