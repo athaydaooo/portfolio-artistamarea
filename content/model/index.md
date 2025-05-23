@@ -36,7 +36,7 @@ images:
       no carrinho de devolução de livros que diz ''Após o uso do livro, favor
       coloca-lo nesse carrinho.'' Foto crítica com alto contraste.
     aspectRatio: 16/9
-  - title: power please
+  - title: Sentada de frente PB
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1744218443/IMG_8222_ozszuc.jpg
     alt: >-
