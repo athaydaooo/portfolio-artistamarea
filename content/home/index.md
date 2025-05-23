@@ -76,10 +76,12 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065621/galeria/IMG_2675_zccpto.jpg
     alt: Dalí tocando na kombi UrbansSession
     aspectRatio: 16/9
-  - title: Banda da Av.Paulista
+  - title: Banca da Av.Paulista
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065652/galeria/IMG_2754-2_hi8ipt.jpg
-    alt: 'Paisagem brasileira, com muitos detalhes da cultura brasileiros.'
+    alt: >-
+      Paisagem brasileira, com muitos detalhes da cultura brasileiros. Uma banca
+      de jornal no meio da Av. Paulista p&b para maior crítica. 
     aspectRatio: 16/9
   - title: 'Praia do Porto, Noronha PE'
     imageUrl: >-
