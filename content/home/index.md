@@ -46,10 +46,12 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065642/galeria/IMG_2746-2_mt0jzx.jpg
     alt: Vendedor ambulante de discos analisando um disco na Av. Paulista.
     aspectRatio: 4/3
-  - title: CHICO 3/3
+  - title: CHICO 2/2
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065662/galeria/IMG_2738-2_gfrxod.jpg
-    alt: 'Chico se tu me quiseres, sou dessas mulheres'
+    alt: >-
+      Vendedor ambulante de discos na Av. Paulista mostrando seus discos
+      preferidos numa imagem p&b.. 
     aspectRatio: 4/3
   - title: CHICO 2/3
     imageUrl: >-
