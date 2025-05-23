@@ -41,10 +41,10 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1747671244/IMG_3808_fmlant.jpg
     alt: Golfinho nadando na Laje de Santos.
     aspectRatio: 16/9
-  - title: 'Chico dos Discos '
+  - title: 'Vendedor Ambulante - Chico dos Discos '
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065642/galeria/IMG_2746-2_mt0jzx.jpg
-    alt: Chico analisando o disco
+    alt: Vendedor ambulante de discos analisando um disco na Av. Paulista.
     aspectRatio: 4/3
   - title: CHICO 3/3
     imageUrl: >-
