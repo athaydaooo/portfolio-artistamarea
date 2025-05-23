@@ -53,10 +53,10 @@ images:
       Vendedor ambulante de discos na Av. Paulista mostrando seus discos
       preferidos numa imagem p&b.. 
     aspectRatio: 4/3
-  - title: CHICO 2/3
+  - title: CHICO 2/1
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065636/galeria/IMG_2743_oyhtjx.jpg
-    alt: 'Chico sério '
+    alt: Vendedor ambulante de discos na Av. Paulista.
     aspectRatio: 4/3
   - title: 'Lucas Athayde '
     imageUrl: >-
