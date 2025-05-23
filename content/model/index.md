@@ -4,7 +4,7 @@ images:
   - title: FK
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1744218442/_MG_9923_ftweyq.jpg
-    alt: Bota a palma da não no chão
+    alt: Camiseta Fuck Wear Preta. Foto artística com a mão no chão.
     aspectRatio: 3/4
   - title: Empresária
     imageUrl: >-
