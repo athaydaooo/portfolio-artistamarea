@@ -74,7 +74,7 @@ images:
   - title: TheDalíMusic
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065621/galeria/IMG_2675_zccpto.jpg
-    alt: 'Dalí tocando '
+    alt: Dalí tocando na kombi UrbansSession
     aspectRatio: 16/9
   - title: Banda da Av.Paulista
     imageUrl: >-
