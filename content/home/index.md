@@ -1,10 +1,10 @@
 ---
 title: index
 images:
-  - title: Vaquinha de Documentário
+  - title: Olhar Bovino
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1743435647/IMG_3204_iog2ne.jpg
-    alt: 'Olhos '
+    alt: 'Olho de um animal bovino, branco.'
     aspectRatio: 4/3
   - title: Passáro Noronhe-se
     imageUrl: >-
