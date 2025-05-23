@@ -31,7 +31,10 @@ images:
   - title: Biblioteca
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1744218434/E1454E7D-267A-4BAB-AF14-5C6FA413423A_ufswcf.jpg
-    alt: Foto reflexiva
+    alt: >-
+      Dentro de uma biblioteca, sentada com as pernas cruzadas e lendo um livro
+      no carrinho de devolução de livros que diz ''Após o uso do livro, favor
+      coloca-lo nesse carrinho.'' Foto crítica com alto contraste.
     aspectRatio: 16/9
   - title: power please
     imageUrl: >-
