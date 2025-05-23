@@ -69,7 +69,7 @@ images:
   - title: Dalí com boné amarelo mostarda
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1743438246/IMG_2693_wg7tow.jpg
-    alt: Dalí na kombi da UrbanSession
+    alt: DJ The Dalí Music durante seu set na kombi da UrbanSession
     aspectRatio: 4/3
   - title: TheDalíMusic
     imageUrl: >-
