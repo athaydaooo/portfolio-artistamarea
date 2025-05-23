@@ -14,7 +14,7 @@ images:
   - title: Abelha no meio do roxo perolado das lavandas
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974629/galeria/uwysvbt1nxzpb2hw8q38.jpg
-    alt: Abelha miniatura no meio de varios bud de maconha roxa
+    alt: Abelha pousada em uma Lavanda ao redor de um Campo de Lavanda.
     aspectRatio: 4/3
   - title: Campo de Lavanda
     imageUrl: >-
