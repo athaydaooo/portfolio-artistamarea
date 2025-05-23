@@ -62,7 +62,7 @@ images:
       cinema e suas infinitas possibilidades.
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974635/o%20ultimo%20frame/caivqqyvwbltjtspimzi.jpg
-    alt: Cenário de gravação do curta
+    alt: Câmera CyberShot encima do roteiro.
     aspectRatio: 16/9
   - title: Do Set para o Cinema
     body: >
