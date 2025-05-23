@@ -24,7 +24,7 @@ images:
   - title: Jacú
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1743435638/IMG_3095_axftvk.jpg
-    alt: Caminhada
+    alt: Jacú no Interior andando com uma horta na paisagem.
     aspectRatio: 16/9
   - title: Beijar Flor
     imageUrl: >-
