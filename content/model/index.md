@@ -39,7 +39,9 @@ images:
   - title: power please
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1744218443/IMG_8222_ozszuc.jpg
-    alt: empoderadah
+    alt: >-
+      Retrato P&B, sentada de frente com uma mão no rosto, com o blazer apenas
+      por cima.
     aspectRatio: 3/4
   - title: Escorada
     imageUrl: >-
