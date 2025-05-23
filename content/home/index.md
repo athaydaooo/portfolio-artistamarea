@@ -26,10 +26,10 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1743435638/IMG_3095_axftvk.jpg
     alt: Jacú no Interior andando com uma horta na paisagem.
     aspectRatio: 16/9
-  - title: Beijar Flor
+  - title: Beijar Flor na chuva
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1741357295/IMG_2891_kmnguc.jpg
-    alt: Que trouxe meu amor
+    alt: Beija-Flor voando no meio da chuva.
     aspectRatio: 4/3
   - title: Atobá na Laje de Santos
     imageUrl: >-
