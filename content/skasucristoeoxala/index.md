@@ -34,7 +34,7 @@ images:
       **Operadora de Câmera** e **Editora de Vídeo**.
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1747673645/semcamila_eu489y.jpg
-    alt: História da Criação do Clipe
+    alt: ArtistaMarea operando câmera durante o clipe.
     aspectRatio: 16/9
 credits:
   - title: 'Letícia Ruano '
