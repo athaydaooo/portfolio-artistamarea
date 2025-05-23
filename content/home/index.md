@@ -58,10 +58,13 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065636/galeria/IMG_2743_oyhtjx.jpg
     alt: Vendedor ambulante de discos na Av. Paulista.
     aspectRatio: 4/3
-  - title: 'Lucas Athayde '
+  - title: Antigo México
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974629/galeria/fzsvmzt3qc6me5jjd39x.jpg
-    alt: 'Athaydao veste Adidas e Lacoste ao lado do tio Nacho '
+    alt: >-
+      Retrato com a proposta do Antigo México, o modelo com expressão séria,
+      segura uma maleta no deserto com um cacto com chapéu mexicano e com um
+      sorriso.
     aspectRatio: 3/4
   - title: Dalí com boné amarelo mostarda
     imageUrl: >-
