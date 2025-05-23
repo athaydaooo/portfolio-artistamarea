@@ -19,7 +19,7 @@ images:
   - title: Campo de Lavanda
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974642/galeria/j4sbmwmct4xyvbpzthss.jpg
-    alt: Campo de Lavanda da cidade de Holambra
+    alt: Campo de Lavanda da cidade de Holambra.
     aspectRatio: 4/3
   - title: Jacú
     imageUrl: >-
