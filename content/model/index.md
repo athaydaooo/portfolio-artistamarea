@@ -4,7 +4,7 @@ images:
   - title: F__K WEAR
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1744218442/_MG_9923_ftweyq.jpg
-    alt: Camiseta Fuck Wear Preta. Foto artística com a mão no chão.
+    alt: Camiseta Foak Wear Preta. Foto artística com a mão no chão.
     aspectRatio: 3/4
   - title: Empresária
     imageUrl: >-
