@@ -48,10 +48,10 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1744218440/DSC_0319-41_wbzfcw.jpg
     alt: 'Foto com foco em preto, com óculos preto e indo retirar o óculos'
     aspectRatio: 3/4
-  - title: 'Desfila e desfila '
+  - title: Desfilando com Casaco Verde
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1744218435/_MG_0183_f6fu8j.jpg
-    alt: luz na passarela
+    alt: Desfilado com casaco verde no fundo branco.FOAK WEAR
     aspectRatio: 9/16
 ---
 
