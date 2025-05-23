@@ -46,7 +46,7 @@ images:
   - title: Escorada
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1744218440/DSC_0319-41_wbzfcw.jpg
-    alt: Megan fox da foak
+    alt: 'Foto com foco em preto, com óculos preto e indo retirar o óculos'
     aspectRatio: 3/4
   - title: 'Desfila e desfila '
     imageUrl: >-
