@@ -86,7 +86,9 @@ images:
   - title: 'Praia do Porto, Noronha PE'
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/d6dt6ytsucoxyofms6fb.jpg
-    alt: 'Praia mais linda que já fui '
+    alt: >-
+      Praia do Porto, Noronha PE. Belíssima praia com vista para o Porto de
+      Fernando de Noronha. Biodiversidade marinha ríquissima.
     aspectRatio: 4/3
 ---
 
