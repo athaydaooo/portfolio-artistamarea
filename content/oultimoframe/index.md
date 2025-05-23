@@ -27,7 +27,7 @@ images:
       (2021).*
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974636/o%20ultimo%20frame/nfxg3uw3fzja9taxsyk5.jpg
-    alt: Camera cybershot em cima do script do curta
+    alt: Cenário de O Último Frame
     aspectRatio: 16/9
   - title: Processo criativo
     body: >
