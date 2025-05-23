@@ -16,10 +16,12 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1744218445/IMG_8302_tkmxru.jpg
     alt: Detalhe na lateral do rosto
     aspectRatio: 16/9
-  - title: faz pose faz
+  - title: Olhando para o lado.
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1744218441/IMG_8301_jt8dmd.jpg
-    alt: sentada olhando pra mim
+    alt: >-
+      Sentada de lado, olhando para a câmera, perfil. Mãos na cabeça com os
+      cotovelos no joelho.
     aspectRatio: 4/3
   - title: Silhueta
     imageUrl: >-
