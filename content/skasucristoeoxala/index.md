@@ -18,7 +18,7 @@ images:
       mistura de litoral, resistência, amizade e alegria.
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1747672453/Imagem_do_WhatsApp_de_2025-05-19_%C3%A0_s_13.30.50_d11ad04e_sd3mnv.jpg
-    alt: TesteT
+    alt: Banda SKASU reunida.
     aspectRatio: 16/9
   - title: Cristo e Oxalá
     body: >
