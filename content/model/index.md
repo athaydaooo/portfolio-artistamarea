@@ -6,10 +6,10 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1744218442/_MG_9923_ftweyq.jpg
     alt: Camiseta Foak Wear Preta. Foto artística com a mão no chão.
     aspectRatio: 3/4
-  - title: Empresária
+  - title: Perfil artístico.
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1744218444/IMG_8225_dtkzu5.jpg
-    alt: Classe e close
+    alt: Um pouco caída para o lado com a mão no rosto. Blazer e camiseta social.
     aspectRatio: 16/9
   - title: Primeiro plano lateral
     imageUrl: >-
