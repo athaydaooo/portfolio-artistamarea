@@ -36,10 +36,10 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1747670887/IMG_3716_inrcuu.jpg
     alt: Atobás pousados e sobrevoando sobre a Laje de Santos.
     aspectRatio: 16/9
-  - title: Golfinho
+  - title: Golfinho a mar aberto.
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1747671244/IMG_3808_fmlant.jpg
-    alt: 'Golfinho pulando na Laje de Santos '
+    alt: Golfinho nadando na Laje de Santos.
     aspectRatio: 16/9
   - title: 'Chico dos Discos '
     imageUrl: >-
