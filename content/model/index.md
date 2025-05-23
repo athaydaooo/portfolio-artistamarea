@@ -1,7 +1,7 @@
 ---
 title: index
 images:
-  - title: FK
+  - title: F__K WEAR
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1744218442/_MG_9923_ftweyq.jpg
     alt: Camiseta Fuck Wear Preta. Foto artística com a mão no chão.
