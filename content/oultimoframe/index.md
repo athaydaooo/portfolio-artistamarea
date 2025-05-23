@@ -74,7 +74,7 @@ images:
       incrivelmente mágico!
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1743438919/4d2025b9-e650-41df-ac72-ecce107b4f80_exowcw.png
-    alt: 'Plateia '
+    alt: Plateia no Cine Roxy 5
     aspectRatio: 1/1
 roles:
   - title: ATORES
