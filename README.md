@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfólio Artista Marea
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-15.0.2-black?logo=next.js)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.1-06B6D4?logo=tailwind-css)
+![TinaCMS](https://img.shields.io/badge/TinaCMS-2.6.0-EC4815)
 
-First, run the development server:
+Portfólio profissional desenvolvido com **Next.js**, **Tailwind CSS** e **TinaCMS**, seguindo os princípios de **Atomic Design** para uma arquitetura de componentes modular e escalável.
 
+## ✨ Recursos Principais
+
+- **Gerenciamento de Conteúdo Visual** com TinaCMS
+- **Design Responsivo** com Tailwind CSS
+- **Arquitetura Atomic** para componentes reutilizáveis
+- **Animações Fluidas** com GSAP
+- **Otimizado para SEO** e performance
+- **Integração com Cloudinary** para gestão de mídia
+- **Formulários funcionais** com EmailJS
+
+## 🚀 Começando
+
+1. Clone o repositório:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/athaydaooo/portfolio-artistamarea.git
+cd portfolio-artistamarea
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instale as dependências:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Configure as variáveis de ambiente:
+```bash
+cp .env.example .env
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Inicie o servidor de desenvolvimento:
+```bash
+npm run dev
+```
 
-## Learn More
+Acesse o painel de administração em `/admin` para gerenciar o conteúdo.
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Estrutura do Projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+src/
+├── components/      # Componentes Atomic Design
+│   ├── atoms/
+│   ├── molecules/
+│   ├── organisms/
+│   └── templates/
+├── pages/           # Rotas da aplicação
+├── styles/          # Estilos globais
+├── lib/             # Utilitários e helpers
+└── tina/            # Configuração do CMS
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📦 Dependências Principais
 
-## Deploy on Vercel
+- **Next.js 15** - Framework React
+- **Tailwind CSS 3** - Framework CSS utilitário
+- **TinaCMS 2** - CMS headless visual
+- **GSAP 3** - Biblioteca de animações
+- **EmailJS** - Envio de formulários
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔧 Scripts Disponíveis
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Comando         | Descrição                          |
+|-----------------|------------------------------------|
+| `npm run dev`   | Inicia servidor de desenvolvimento |
+| `npm run build` | Cria build de produção             |
+| `npm run start` | Inicia servidor de produção        |
+| `npm run lint`  | Verifica qualidade de código       |
+| `npm test`      | Executa testes unitários           |
+
+## 🌟 Próximos Passos
+
+- Implementar modo escuro automático
+- Adicionar suporte a múltiplos idiomas
+- Otimizar carregamento de imagens
+- Expandir seção de blog
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
