@@ -81,12 +81,10 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1752107008/IMG_0218_xvivva.jpg
     alt: Duas meninas brincando no pula-pula.
     aspectRatio: 3/4
-  - title: 'Praia do Porto, Noronha PE'
+  - title: Arquiteta Ana acompanhando a obra.
     imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/d6dt6ytsucoxyofms6fb.jpg
-    alt: >-
-      Praia do Porto, Noronha PE. Belíssima praia com vista para o Porto de
-      Fernando de Noronha. Biodiversidade marinha ríquissima.
-    aspectRatio: 4/3
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1752107003/IMG_4559_h0qz2o.jpg
+    alt: Ana andando no meio da obra
+    aspectRatio: 3/4
 ---
 
