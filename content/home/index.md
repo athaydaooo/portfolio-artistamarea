@@ -82,7 +82,7 @@ images:
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1752107008/IMG_0218_xvivva.jpg
     alt: Duas meninas brincando no pula-pula.
-    aspectRatio: 9/16
+    aspectRatio: 3/4
   - title: 'Praia do Porto, Noronha PE'
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/d6dt6ytsucoxyofms6fb.jpg
