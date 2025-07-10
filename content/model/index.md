@@ -16,13 +16,6 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1744218442/DSC_0232-1_ch9sxc.jpg
     alt: Classic Portrait Abstract
     aspectRatio: 3/4
-  - title: Olhando para o lado.
-    imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1744218441/IMG_8301_jt8dmd.jpg
-    alt: >-
-      Sentada de lado, olhando para a câmera, perfil. Mãos na cabeça com os
-      cotovelos no joelho.
-    aspectRatio: 4/3
   - title: Silhueta
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1744218440/IMG_8323_nwcga1.jpg
@@ -53,5 +46,12 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1744218435/_MG_0183_f6fu8j.jpg
     alt: Desfilado com casaco verde no fundo branco.FOAK WEAR
     aspectRatio: 9/16
+  - title: Olhando para o lado.
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1744218441/IMG_8301_jt8dmd.jpg
+    alt: >-
+      Sentada de lado, olhando para a câmera, perfil. Mãos na cabeça com os
+      cotovelos no joelho.
+    aspectRatio: 4/3
 ---
 
