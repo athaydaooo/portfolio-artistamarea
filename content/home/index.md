@@ -21,10 +21,12 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974642/galeria/j4sbmwmct4xyvbpzthss.jpg
     alt: Campo de Lavanda da cidade de Holambra.
     aspectRatio: 4/3
-  - title: Jacú
+  - title: Parque Estadual Laje de Santos
     imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1743435638/IMG_3095_axftvk.jpg
-    alt: Jacú no Interior andando com uma horta na paisagem.
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1752107004/IMG_3765_woy08d.jpg
+    alt: >-
+      Laje de Santos por completa, sem a presença dos Calhaus. Mar azulado
+      calmo, poucas nuvens, céu azul.
     aspectRatio: 16/9
   - title: Beijar Flor na chuva
     imageUrl: >-
