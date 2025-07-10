@@ -38,11 +38,11 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1747670887/IMG_3716_inrcuu.jpg
     alt: Atobás pousados e sobrevoando sobre a Laje de Santos.
     aspectRatio: 16/9
-  - title: Golfinho a mar aberto.
+  - title: Atobás em árvores.
     imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1747671244/IMG_3808_fmlant.jpg
-    alt: Golfinho nadando na Laje de Santos.
-    aspectRatio: 16/9
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/sn1dg2ohgoeizfqdvf2o.jpg
+    alt: Atobás em árvore de Noronha
+    aspectRatio: 4/3
   - title: 'Vendedor Ambulante - Chico dos Discos '
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065642/galeria/IMG_2746-2_mt0jzx.jpg
@@ -52,6 +52,11 @@ images:
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1752107009/IMG_4079_dknlzo.jpg
     alt: 'Arquiteta Ana Beatriz Malaquias, posando no fundo terracota '
+    aspectRatio: 3/4
+  - title: Arquiteta Ana acompanhando a obra.
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1752107003/IMG_4559_h0qz2o.jpg
+    alt: Ana andando no meio da obra
     aspectRatio: 3/4
   - title: CHICO 2/1
     imageUrl: >-
@@ -80,11 +85,6 @@ images:
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1752107008/IMG_0218_xvivva.jpg
     alt: Duas meninas brincando no pula-pula.
-    aspectRatio: 3/4
-  - title: Arquiteta Ana acompanhando a obra.
-    imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1752107003/IMG_4559_h0qz2o.jpg
-    alt: Ana andando no meio da obra
     aspectRatio: 3/4
 ---
 
