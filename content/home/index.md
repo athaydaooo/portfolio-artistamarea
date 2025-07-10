@@ -21,6 +21,11 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974642/galeria/j4sbmwmct4xyvbpzthss.jpg
     alt: Campo de Lavanda da cidade de Holambra.
     aspectRatio: 4/3
+  - title: Beijar Flor na chuva
+    imageUrl: >-
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1741357295/IMG_2891_kmnguc.jpg
+    alt: Beija-Flor voando no meio da chuva.
+    aspectRatio: 4/3
   - title: Parque Estadual Laje de Santos
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1752107004/IMG_3765_woy08d.jpg
@@ -28,11 +33,6 @@ images:
       Laje de Santos por completa, sem a presença dos Calhaus. Mar azulado
       calmo, poucas nuvens, céu azul.
     aspectRatio: 16/9
-  - title: Beijar Flor na chuva
-    imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1741357295/IMG_2891_kmnguc.jpg
-    alt: Beija-Flor voando no meio da chuva.
-    aspectRatio: 4/3
   - title: Atobá na Laje de Santos
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1747670887/IMG_3716_inrcuu.jpg
@@ -73,11 +73,11 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1743438246/IMG_2693_wg7tow.jpg
     alt: DJ The Dalí Music durante seu set na kombi da UrbanSession
     aspectRatio: 4/3
-  - title: TheDalíMusic
+  - title: Giravinil no palco do Projeto Albatroz.
     imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1737065621/galeria/IMG_2675_zccpto.jpg
-    alt: Dalí tocando na kombi UrbansSession
-    aspectRatio: 16/9
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1752107010/IMG_0439_nmrpjm.jpg
+    alt: Giravinil trocando o disco durante o set
+    aspectRatio: 4/3
   - title: Banca da Av.Paulista
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1737065652/galeria/IMG_2754-2_hi8ipt.jpg
