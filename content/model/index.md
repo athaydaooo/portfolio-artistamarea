@@ -11,11 +11,11 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1744218444/IMG_8225_dtkzu5.jpg
     alt: Um pouco caída para o lado com a mão no rosto. Blazer e camiseta social.
     aspectRatio: 16/9
-  - title: Primeiro plano lateral
+  - title: Abstrata
     imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1744218445/IMG_8302_tkmxru.jpg
-    alt: Detalhe na lateral do rosto
-    aspectRatio: 16/9
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1744218442/DSC_0232-1_ch9sxc.jpg
+    alt: Classic Portrait Abstract
+    aspectRatio: 3/4
   - title: Olhando para o lado.
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1744218441/IMG_8301_jt8dmd.jpg
