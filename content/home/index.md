@@ -78,13 +78,11 @@ images:
       https://res.cloudinary.com/dobazc4ii/image/upload/v1752107010/IMG_0439_nmrpjm.jpg
     alt: Giravinil trocando o disco durante o set
     aspectRatio: 4/3
-  - title: Banca da Av.Paulista
+  - title: Polaroid Pula-Pula
     imageUrl: >-
-      https://res.cloudinary.com/dobazc4ii/image/upload/v1737065652/galeria/IMG_2754-2_hi8ipt.jpg
-    alt: >-
-      Paisagem brasileira, com muitos detalhes da cultura brasileiros. Uma banca
-      de jornal no meio da Av. Paulista p&b para maior crítica. 
-    aspectRatio: 16/9
+      https://res.cloudinary.com/dobazc4ii/image/upload/v1752107008/IMG_0218_xvivva.jpg
+    alt: Duas meninas brincando no pula-pula.
+    aspectRatio: 3/4
   - title: 'Praia do Porto, Noronha PE'
     imageUrl: >-
       https://res.cloudinary.com/dobazc4ii/image/upload/v1736974632/galeria/d6dt6ytsucoxyofms6fb.jpg
